@@ -4,6 +4,8 @@
 
 A small, lightweight, feature-lacking calculator written in C++.
 
+No GUI, only CLI.
+
 Want new features/collab with me? Hit me up on Discord! donut#2008
 
 (If you're mad that this is so simple, remember that this is still in alpha lol)
