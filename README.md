@@ -1,7 +1,5 @@
 **Simple calculator v0.1 beta**
 
-
-
 A small, lightweight, feature-lacking calculator written in C++.
 
 No GUI, only CLI.
