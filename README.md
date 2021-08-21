@@ -1,4 +1,4 @@
-**Simple calculator v0.1 beta**
+**Simple calculator**
 
 A small, lightweight, feature-lacking calculator written in C++.
 
