@@ -1,4 +1,4 @@
-<h1 style="text-align:center";>Simple calculator</h1>
+<h1 style="text-align:center";>Simple calculator        <img src="Calculator/icon.png"></h1>
 
 
 A small, lightweight, feature-lacking CLI calculator written in C++
