@@ -1,8 +1,10 @@
-**Simple calculator**
+<h1 style="text-align:center;">Simple calculator</h1>
+
 
 A small, lightweight, feature-lacking calculator written in C++.
 
 No GUI, only CLI.
+
 
 Want new features/collab with me? Hit me up on Telegram! @donut2008
 
