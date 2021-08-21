@@ -1,9 +1,7 @@
 <h1 style="text-align:center";>Simple calculator</h1>
 
 
-A small, lightweight, feature-lacking calculator written in C++.
-
-No GUI, only CLI.
+A small, lightweight, feature-lacking CLI calculator written in C++
 
 
 Want new features/collab with me? 
