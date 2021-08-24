@@ -4,9 +4,9 @@
 using namespace std;
 int main()
 {
-	int ch, a, b, sum = 0, prd = 0, quo = 0, rem = 0, res = 0;
-	cout << "Simple calculator v0.2.1 beta\n\n";
-	cout << "\nNote about this calculator: Currently only supports operations like a+b, a-b, a*b etc.\n\n";
+	int ch, a, b, sum = 0, prd = 0, quo = 0, rem = 0, res = 0, fact = 1, fbct = 1;
+	cout << "Simple calculator v0.3 beta\n\n";
+	cout << "\nThis calculator only supports operations in a/b format.\n\n";
 INPUT:cout << "Enter two numbers: ";
 	cin >> a;
 	if (!cin)
@@ -24,7 +24,7 @@ INPUT:cout << "Enter two numbers: ";
 		cout << "Please enter two valid numbers.\n\n";
 		goto INPUT;
 	}
-	cout << "\n1. Add\n2. Subtract\n3. Quotient\n4. Remainder\n5. Product\n6. Square root\n7. Cube root\n8. Exponent (a^b)\n";
+	cout << "\n1. Add\n2. Subtract\n3. Quotient\n4. Remainder\n5. Product\n6. Square root\n7. Cube root\n8. Exponent (a^b)\n9. Factorial\n";
 LOOP:cout << "\nEnter your choice: ";
 	cin >> ch;
 	if (ch == 1)
@@ -55,7 +55,7 @@ LOOP:cout << "\nEnter your choice: ";
 	else if (ch == 6)
 	{
 		cout << "Square root of " << a << " is " << sqrt(a) << endl;
-		cout << "Square root of " << b << " is " << sqrt(b);
+		cout << "Square root of " << b << " is " << sqrt(b) << endl << endl;
 	}
 	else if (ch == 7)
 	{
@@ -63,8 +63,34 @@ LOOP:cout << "\nEnter your choice: ";
 		cout << "Cube root of " << b << " is " << cbrt(b) << endl << endl;
 	}
 	else if (ch == 8)
-	{
 		cout << "Result = " << pow(a, b) << endl << endl;
+	else if (ch == 9)
+	{
+		if (a < 0 && b < 0)
+			cout << "Factorials for negative numbers don't exist!";
+		else if (a > 0 && b < 0)
+		{
+			for (int ia = 1; ia <= a; ia++)
+				fact = fact * ia;
+			cout << "Factorial of " << a << " = " << fact << endl;
+			cout << "Factorial for " << b << " doesn't exist because it is a negative number." << endl << endl;
+		}
+		else if (a < 0 && b>0)
+		{
+			for (int ib = 1; ib <= b; ib++)
+				fbct = fbct * ib;
+			cout << "Factorial of " << b << " = " << fbct << endl;
+			cout << "Factorial for " << a << " doesn't exist because it is a negative number." << endl << endl;
+		}
+		else
+		{
+			for (int ia = 1; ia <= a; ia++)
+				fact = fact * ia;
+			for (int ib = 1; ib <= b; ib++)
+				fbct = fbct * ib;
+			cout << "Factorial of " << a << " = " << fact << endl;
+			cout << "Factorial of " << b << " = " << fbct << endl << endl;
+		}
 	}
 	else
 	{
