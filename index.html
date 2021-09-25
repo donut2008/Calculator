@@ -27,8 +27,19 @@ text-align: center;
 border: 0px;  
 width: 1912px;  
 height: 270px;  
-padding-top: 400px;  
-}  
+padding-top: 400px;
+position: relative;
+}
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+}
 #btn{  
 font-size: 20px;  
 }  
@@ -85,3 +96,4 @@ font-size: 20px;
 </div>
 </body>
 </html>
+
