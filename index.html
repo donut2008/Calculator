@@ -7,7 +7,7 @@
 	  text-align: center;
       font-size: 50px;
 	}
-      @font-face { font-family: Segoe UI Light;}
+      @font-face { font-family: Segoe UI; src: url('assets\seguib.ttf') } 
       h1 {
          font-family: Segoe UI;
     }
@@ -23,11 +23,22 @@
 </div>
 <style>
 .container{  
-text-align: center; 
-width: relative;  
-height: relative;  
-padding-top: 400px;
+text-align: center;  
+border: 0px;  
+width: 1912px;  
+height: 270px;  
+padding-top: 400px;  
 position: relative;
+}
+.child {
+  width: 50px;
+  height: 50px;
+  background-color: none;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
 }
 #btn{  
 font-size: 20px;  
@@ -43,8 +54,8 @@ font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
 }
-.button1 {background-color: #4CAF50; border-radius: 10px; font-family: Segoe UI;}
-.button2 {background-color: #008CBA; border-radius: 10px; font-family: Segoe UI;}
+.button1 {background-color: #4CAF50; border-radius: 10px; font-family: Segoe UI; src: url('assets\segui.ttf');}
+.button2 {background-color: #008CBA; border-radius: 10px; font-family: Segoe UI; src: url('assets\segui.ttf');}
 .button1:hover
     {
         background-image: none;
@@ -67,13 +78,15 @@ font-size: 20px;
 </style>
 <div class="container">
 	<a href="https://github.com/donut2008/Calculator/releases/download/v0.4_build.250921-1948/v0.4_build.250921-1948.zip"><button class="button button1" id="shd">Download latest build (v4.0 build 250921-1942)</button></a>
+    <p>    </p>
 	<a href="https://github.com/donut2008/Calculator/releases"><button class="button button2" id="shd">All releases</button></a>
 </div>
 <style>
     #fnt{
     font-size: 16px;
-    font-family: Segoe UI;
+    font-family: Segoe UI Light;
     color: white;
+    src: url('assets\segui.ttf');
     }
 </style>
 <div class="footer" id="fnt">
