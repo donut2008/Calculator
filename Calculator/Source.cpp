@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int ch, a, b, sum = 0, prd = 0, quo = 0, rem = 0, res = 0;
-	cout << "Calculator v0.4 build 250921-1942\n\n";
+	cout << "Calculator v0.4 build 250921-1948\n\n";
 	cout << "\nThis calculator only supports operations in a/b format.\n\n";
 INPUT:cout << "Enter two numbers: ";
 	cin >> a;
@@ -64,7 +64,7 @@ LOOP:cout << "\nEnter your choice: ";
 	}
 	else if (ch == 8)
 	{
-		cout << "Result = " << pow(a, b);
+		cout << "Result = " << pow(a, b) << endl << endl;
 	}
 	else
 	{
