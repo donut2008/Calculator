@@ -1,13 +1,6 @@
-**Simple calculator**
+**Calculator**
 
-A small, lightweight, feature-lacking calculator written in C++.
+Calculator written in C# with WinUI 2.7 controls. Enjoy!
 
-No GUI, only CLI.
-
-Want new features/collab with me? Hit me up on Telegram! @donut2008
-
-(If you're mad that this is so simple, remember that this is still in alpha)
-
-I'm still new to C++ programming, so making this was quite a task. I'd definitely like some helpers :)
-
-This calculator is exclusively for Windows.
+Current stable build: 0.6.5_171021-1652
+Current canary build: 0.6.5_171021-1652
