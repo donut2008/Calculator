@@ -38255,75 +38255,41 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
-	// Windows.UI.Xaml.Controls.IFontIconFactory
-	public unsafe static class IFontIconFactory__Impl
+	// Windows.UI.Xaml.Controls.ISymbolIcon
+	public unsafe static class ISymbolIcon__Impl
 	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IFontIconFactory'
+		// StubClass for 'Windows.UI.Xaml.Controls.ISymbolIcon'
 		public static partial class Stubs
 		{
-			public static global::System.IntPtr CreateInstance(
-						global::System.__ComObject __this, 
-						global::System.IntPtr baseInterface, 
-						out global::System.IntPtr innerInterface)
+			// Signature, Windows.UI.Xaml.Controls.ISymbolIcon.get_Symbol, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Windows_UI_Xaml_Controls_Symbol__Windows_UI_Xaml_Controls__Symbol, 
+			public static global::Windows.UI.Xaml.Controls.Symbol get_Symbol(global::System.__ComObject __this)
 			{
-				global::System.IntPtr __ret = global::__Interop.ForwardComStubs.Stub_5<global::Windows.UI.Xaml.Controls.IFontIconFactory>(
+				// Setup
+				global::Windows.UI.Xaml.Controls.Symbol unsafe_value__retval;
+				global::Windows.UI.Xaml.Controls.Symbol value__retval;
+				int unsafe___hr;
+				// Marshalling
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
 									__this, 
-									baseInterface, 
-									out innerInterface, 
-									6
+									typeof(global::Windows.UI.Xaml.Controls.ISymbolIcon).TypeHandle, 
+									6, 
+									&(unsafe_value__retval)
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.Controls.IFontIcon
-	public unsafe static class IFontIcon__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.Controls.IFontIcon'
-		public static partial class Stubs
-		{
-			public static string get_Glyph(global::System.__ComObject __this)
-			{
-				string __ret = global::__Interop.ForwardComStubs.Stub_1<global::Windows.UI.Xaml.Controls.IFontIcon>(
-									__this, 
-									6
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
+				value__retval = unsafe_value__retval;
+				// Return
+				return value__retval;
 			}
 
-			public static void put_Glyph(
+			public static void put_Symbol(
 						global::System.__ComObject __this, 
-						string value)
+						global::Windows.UI.Xaml.Controls.Symbol value)
 			{
-				global::__Interop.ForwardComStubs.Stub_36<global::Windows.UI.Xaml.Controls.IFontIcon>(
+				global::__Interop.ForwardComStubs.Stub_23<global::Windows.UI.Xaml.Controls.ISymbolIcon>(
 									__this, 
-									value, 
+									((int)value), 
 									7
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			}
-
-			public static global::Windows.UI.Xaml.Media.FontFamily get_FontFamily(global::System.__ComObject __this)
-			{
-				global::Windows.UI.Xaml.Media.FontFamily __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.UI.Xaml.Controls.IFontIcon, global::Windows.UI.Xaml.Media.FontFamily>(
-									__this, 
-									10
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				return __ret;
-			}
-
-			public static void put_FontFamily(
-						global::System.__ComObject __this, 
-						global::Windows.UI.Xaml.Media.FontFamily value)
-			{
-				global::__Interop.ForwardComStubs.Stub_6<global::Windows.UI.Xaml.Controls.IFontIcon, global::Windows.UI.Xaml.Media.FontFamily>(
-									__this, 
-									value, 
-									11
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}

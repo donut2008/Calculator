@@ -15,9 +15,14 @@
                 <Frame x:FieldModifier="public" x:Name="ContentFrame"/>
             </Grid>
             <muxc:NavigationView.MenuItems>
-                <muxc:NavigationViewItem Content="Calculator" Tag="calc" IsSelected="True">
+                <muxc:NavigationViewItem Content="Standard" Tag="calc" IsSelected="True">
                     <muxc:NavigationViewItem.Icon>
-                        <FontIcon FontFamily="{StaticResource SymbolThemeFontFamily}" Glyph="&#xE8EF;"/>
+                        <SymbolIcon Symbol="Calculator"/>
+                    </muxc:NavigationViewItem.Icon>
+                </muxc:NavigationViewItem>
+                <muxc:NavigationViewItem Content="History" Tag="histpage" IsSelected="False">
+                    <muxc:NavigationViewItem.Icon>
+                        <SymbolIcon Symbol="Clock"/>
                     </muxc:NavigationViewItem.Icon>
                 </muxc:NavigationViewItem>
             </muxc:NavigationView.MenuItems>

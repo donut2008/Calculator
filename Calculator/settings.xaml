@@ -21,7 +21,7 @@
                 <Run FontStyle="Italic">More features coming soon!</Run>
             </TextBlock>
             <TextBlock Margin="8,8,8,8">
-                <Run>Version 0.6 stable build 171021-1652</Run>
+                <Run>Version 0.7.5 stable build 171021-1652</Run>
             </TextBlock>
         </StackPanel>
     </Grid>

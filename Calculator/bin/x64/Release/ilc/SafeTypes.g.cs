@@ -12920,102 +12920,42 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IFontIcon))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.ISymbolIcon))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe class FontIcon : global::Windows.UI.Xaml.Controls.IconElement, global::Windows.UI.Xaml.Controls.IFontIcon
+	public unsafe sealed class SymbolIcon : global::Windows.UI.Xaml.Controls.IconElement, global::Windows.UI.Xaml.Controls.ISymbolIcon
 	{
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		public FontIcon() : 
+		public SymbolIcon() : 
 				base(default(global::System.IntPtr))
 		{
 			global::System.IntPtr retval;
-			retval = __Factory_Windows_UI_Xaml_Controls__IFontIconFactory_CreateInstance("Windows.UI.Xaml.Controls.FontIcon");
+			retval = global::System.Runtime.InteropServices.McgMarshal.ActivateInstance("Windows.UI.Xaml.Controls.SymbolIcon");
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref retval);
 			this.__AttachAndRelease(retval);
 		}
 
-		global::System.IntPtr __Factory_Windows_UI_Xaml_Controls__IFontIconFactory_CreateInstance(string typeName)
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Symbol")]
+		public global::Windows.UI.Xaml.Controls.Symbol get_Symbol()
 		{
-			global::System.IntPtr innerInspectable;
-			global::System.IntPtr outerInspectable = default(global::System.IntPtr);
-			if (global::System.Runtime.InteropServices.McgMarshal.IsOfType(
-								this, 
-								typeof(global::Windows.UI.Xaml.Controls.FontIcon).TypeHandle
-							))
-			{
-				global::System.IntPtr __pRetVal_NoAggregation;
-				__pRetVal_NoAggregation = global::Windows.UI.Xaml.Controls.IFontIconFactory__Impl.Stubs.CreateInstance(
-									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
-														typeName, 
-														typeof(global::Windows.UI.Xaml.Controls.IFontIconFactory).TypeHandle
-													), 
-									outerInspectable, 
-									out innerInspectable
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(innerInspectable);
-				global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal_NoAggregation);
-				return __pRetVal_NoAggregation;
-			}
-			else
-			{
-				outerInspectable = global::System.Runtime.InteropServices.McgMarshal.GetOuterIInspectableForManagedObject(this);
-				global::System.IntPtr __pRetVal_WithAggregation;
-				__pRetVal_WithAggregation = global::Windows.UI.Xaml.Controls.IFontIconFactory__Impl.Stubs.CreateInstance(
-									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
-														typeName, 
-														typeof(global::Windows.UI.Xaml.Controls.IFontIconFactory).TypeHandle
-													), 
-									outerInspectable, 
-									out innerInspectable
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(outerInspectable);
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(__pRetVal_WithAggregation);
-				return innerInspectable;
-			}
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Glyph")]
-		public virtual string get_Glyph()
-		{
-			string __retVal = global::Windows.UI.Xaml.Controls.IFontIcon__Impl.Stubs.get_Glyph(this);
+			global::Windows.UI.Xaml.Controls.Symbol __retVal = global::Windows.UI.Xaml.Controls.ISymbolIcon__Impl.Stubs.get_Symbol(this);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			return __retVal;
 		}
 
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Glyph")]
-		public virtual void put_Glyph(string value)
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Symbol")]
+		public void put_Symbol(global::Windows.UI.Xaml.Controls.Symbol value)
 		{
-			global::Windows.UI.Xaml.Controls.IFontIcon__Impl.Stubs.put_Glyph(
+			global::Windows.UI.Xaml.Controls.ISymbolIcon__Impl.Stubs.put_Symbol(
 								this, 
 								value
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 		}
 
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "FontFamily")]
-		public virtual global::Windows.UI.Xaml.Media.FontFamily get_FontFamily()
-		{
-			global::Windows.UI.Xaml.Media.FontFamily __retVal = global::Windows.UI.Xaml.Controls.IFontIcon__Impl.Stubs.get_FontFamily(this);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			return __retVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "FontFamily")]
-		public virtual void put_FontFamily(global::Windows.UI.Xaml.Media.FontFamily value)
-		{
-			global::Windows.UI.Xaml.Controls.IFontIcon__Impl.Stubs.put_FontFamily(
-								this, 
-								value
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-		}
-
-		public FontIcon(global::System.IntPtr dummy) : 
+		public SymbolIcon(global::System.IntPtr dummy) : 
 				base(dummy)
 		{
 		}
@@ -14027,28 +13967,13 @@ namespace Windows.UI.Xaml.Controls
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IFontIconFactory
+	public unsafe interface ISymbolIcon
 	{
-		global::System.IntPtr CreateInstance(
-					global::System.IntPtr baseInterface, 
-					out global::System.IntPtr innerInterface);
-	}
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Symbol")]
+		global::Windows.UI.Xaml.Controls.Symbol get_Symbol();
 
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IFontIcon
-	{
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Glyph")]
-		string get_Glyph();
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Glyph")]
-		void put_Glyph(string value);
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "FontFamily")]
-		global::Windows.UI.Xaml.Media.FontFamily get_FontFamily();
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "FontFamily")]
-		void put_FontFamily(global::Windows.UI.Xaml.Media.FontFamily value);
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Symbol")]
+		void put_Symbol(global::Windows.UI.Xaml.Controls.Symbol value);
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -14126,6 +14051,210 @@ namespace Windows.UI.Xaml.Controls
 		bool Navigate(
 					global::System.Type sourcePageType, 
 					object parameter);
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum Symbol
+	{
+		Previous = 57600,
+		Next = 57601,
+		Play = 57602,
+		Pause = 57603,
+		Edit = 57604,
+		Save = 57605,
+		Clear = 57606,
+		Delete = 57607,
+		Remove = 57608,
+		Add = 57609,
+		Cancel = 57610,
+		Accept = 57611,
+		More = 57612,
+		Redo = 57613,
+		Undo = 57614,
+		Home = 57615,
+		Up = 57616,
+		Forward = 57617,
+		Back = 57618,
+		Favorite = 57619,
+		Camera = 57620,
+		Setting = 57621,
+		Video = 57622,
+		Sync = 57623,
+		Download = 57624,
+		Mail = 57625,
+		Find = 57626,
+		Help = 57627,
+		Upload = 57628,
+		Emoji = 57629,
+		TwoPage = 57630,
+		LeaveChat = 57631,
+		MailForward = 57632,
+		Clock = 57633,
+		Send = 57634,
+		Crop = 57635,
+		RotateCamera = 57636,
+		People = 57637,
+		OpenPane = 57638,
+		ClosePane = 57639,
+		World = 57640,
+		Flag = 57641,
+		PreviewLink = 57642,
+		Globe = 57643,
+		Trim = 57644,
+		AttachCamera = 57645,
+		ZoomIn = 57646,
+		Bookmarks = 57647,
+		Document = 57648,
+		ProtectedDocument = 57649,
+		Page = 57650,
+		Bullets = 57651,
+		Comment = 57652,
+		MailFilled = 57653,
+		ContactInfo = 57654,
+		HangUp = 57655,
+		ViewAll = 57656,
+		MapPin = 57657,
+		Phone = 57658,
+		VideoChat = 57659,
+		Switch = 57660,
+		Contact = 57661,
+		Rename = 57662,
+		Pin = 57665,
+		MusicInfo = 57666,
+		Go = 57667,
+		Keyboard = 57668,
+		DockLeft = 57669,
+		DockRight = 57670,
+		DockBottom = 57671,
+		Remote = 57672,
+		Refresh = 57673,
+		Rotate = 57674,
+		Shuffle = 57675,
+		List = 57676,
+		Shop = 57677,
+		SelectAll = 57678,
+		Orientation = 57679,
+		Import = 57680,
+		ImportAll = 57681,
+		BrowsePhotos = 57685,
+		WebCam = 57686,
+		Pictures = 57688,
+		SaveLocal = 57689,
+		Caption = 57690,
+		Stop = 57691,
+		ShowResults = 57692,
+		Volume = 57693,
+		Repair = 57694,
+		Message = 57695,
+		Page2 = 57696,
+		CalendarDay = 57697,
+		CalendarWeek = 57698,
+		Calendar = 57699,
+		Character = 57700,
+		MailReplyAll = 57701,
+		Read = 57702,
+		Link = 57703,
+		Account = 57704,
+		ShowBcc = 57705,
+		HideBcc = 57706,
+		Cut = 57707,
+		Attach = 57708,
+		Paste = 57709,
+		Filter = 57710,
+		Copy = 57711,
+		Emoji2 = 57712,
+		Important = 57713,
+		MailReply = 57714,
+		SlideShow = 57715,
+		Sort = 57716,
+		Manage = 57720,
+		AllApps = 57721,
+		DisconnectDrive = 57722,
+		MapDrive = 57723,
+		NewWindow = 57724,
+		OpenWith = 57725,
+		ContactPresence = 57729,
+		Priority = 57730,
+		GoToToday = 57732,
+		Font = 57733,
+		FontColor = 57734,
+		Contact2 = 57735,
+		Folder = 57736,
+		Audio = 57737,
+		Placeholder = 57738,
+		View = 57739,
+		SetLockScreen = 57740,
+		SetTile = 57741,
+		ClosedCaption = 57744,
+		StopSlideShow = 57745,
+		Permissions = 57746,
+		Highlight = 57747,
+		DisableUpdates = 57748,
+		UnFavorite = 57749,
+		UnPin = 57750,
+		OpenLocal = 57751,
+		Mute = 57752,
+		Italic = 57753,
+		Underline = 57754,
+		Bold = 57755,
+		MoveToFolder = 57756,
+		LikeDislike = 57757,
+		Dislike = 57758,
+		Like = 57759,
+		AlignRight = 57760,
+		AlignCenter = 57761,
+		AlignLeft = 57762,
+		Zoom = 57763,
+		ZoomOut = 57764,
+		OpenFile = 57765,
+		OtherUser = 57766,
+		Admin = 57767,
+		Street = 57795,
+		Map = 57796,
+		ClearSelection = 57797,
+		FontDecrease = 57798,
+		FontIncrease = 57799,
+		FontSize = 57800,
+		CellPhone = 57801,
+		ReShare = 57802,
+		Tag = 57803,
+		RepeatOne = 57804,
+		RepeatAll = 57805,
+		OutlineStar = 57806,
+		SolidStar = 57807,
+		Calculator = 57808,
+		Directions = 57809,
+		Target = 57810,
+		Library = 57811,
+		PhoneBook = 57812,
+		Memo = 57813,
+		Microphone = 57814,
+		PostUpdate = 57815,
+		BackToWindow = 57816,
+		FullScreen = 57817,
+		NewFolder = 57818,
+		CalendarReply = 57819,
+		UnSyncFolder = 57821,
+		ReportHacked = 57822,
+		SyncFolder = 57823,
+		BlockContact = 57824,
+		SwitchApps = 57825,
+		AddFriend = 57826,
+		TouchPointer = 57827,
+		GoToStart = 57828,
+		ZeroBars = 57829,
+		OneBar = 57830,
+		TwoBars = 57831,
+		ThreeBars = 57832,
+		FourBars = 57833,
+		Scan = 58004,
+		Preview = 58005,
+		GlobalNavigationButton = 59136,
+		Share = 59181,
+		Print = 59209,
+		XboxOneConsole = 59792,
 	}
 }
 

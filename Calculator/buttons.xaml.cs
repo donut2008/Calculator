@@ -34,35 +34,41 @@ namespace App1
             this.NavigationCacheMode = NavigationCacheMode.Enabled;
             result.Text = "0";
         }
-
-        private void OperationMethod()
+        public void OperationMethod()
         {
             switch (Operation)
             {
+
+                case '/':
+                    {
+                        PreviousValue /= double.Parse(result.Text);
+                        History.history.hist.Text += PreviousValue + " / " + result.Text + " = " + (PreviousValue + double.Parse(result.Text)) + "\r\n\r\n";
+                        break;
+                    }
+
+                case '*':
+                    {
+                        PreviousValue *= double.Parse(result.Text);
+                        History.history.hist.Text += PreviousValue + " * " + result.Text + " = " + (PreviousValue + double.Parse(result.Text)) + "\r\n\r\n";
+                        break;
+                    }
                 case '+':
                     {
                         PreviousValue += double.Parse(result.Text);
+                        History.history.hist.Text += PreviousValue + " + " + result.Text + " = " + (PreviousValue + double.Parse(result.Text)) + "\r\n\r\n";
                         break;
                     }
                 case '-':
                     {
                         PreviousValue -= double.Parse(result.Text);
-                        break;
-                    }
-                case '*':
-                    {
-                        PreviousValue *= double.Parse(result.Text);
-                        break;
-                    }
-                case '/':
-                    {
-                        PreviousValue /= double.Parse(result.Text);
+                        History.history.hist.Text += PreviousValue + " - " + result.Text + " = " + (PreviousValue + double.Parse(result.Text)) + "\r\n\r\n";
                         break;
                     }
                 case '2':
                     {
                         double square = Math.Pow(double.Parse(result.Text), 2);
                         PreviousValue = square;
+                        History.history.hist.Text += PreviousValue + "² = " + result.Text + "\r\n\r\n";
                         result.Text = PreviousValue.ToString();
                         status = false;
                         break;
@@ -71,6 +77,7 @@ namespace App1
                     {
                         double cube = Math.Pow(double.Parse(result.Text), 3);
                         PreviousValue = cube;
+                        History.history.hist.Text += PreviousValue + "³ = " + result.Text + "\r\n\r\n";
                         result.Text = PreviousValue.ToString();
                         status = false;
                         break;
@@ -79,6 +86,7 @@ namespace App1
                     {
                         double sqrt = Math.Sqrt(double.Parse(result.Text));
                         PreviousValue = sqrt;
+                        History.history.hist.Text += "√" + PreviousValue + " = " + result.Text + "\r\n\r\n";
                         result.Text = PreviousValue.ToString();
                         status = false;
                         break;
@@ -87,6 +95,25 @@ namespace App1
                     {
                         double cbrt = Math.Pow(double.Parse(result.Text), 1.0 / 3.0);
                         PreviousValue = cbrt;
+                        History.history.hist.Text += "∛" + PreviousValue + " = " + result.Text + "\r\n\r\n";
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                case 'l':
+                    {
+                        double log10 = Math.Log10(double.Parse(result.Text));
+                        History.history.hist.Text += "Log(" + result.Text + ") = " + log10 + "\r\n\r\n";
+                        PreviousValue = log10;
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                case 'n':
+                    {
+                        double LN = Math.Log(double.Parse(result.Text));
+                        History.history.hist.Text += "LN(" + result.Text + ") = " + LN + "\r\n\r\n";
+                        PreviousValue = LN;
                         result.Text = PreviousValue.ToString();
                         status = false;
                         break;
@@ -94,7 +121,7 @@ namespace App1
             }
         }
 
-        private void btn0_Click(object sender, RoutedEventArgs e)
+        public void btn0_Click(object sender, RoutedEventArgs e)
         {
             if (status == true)
                 result.Text += btn0.Content;
@@ -102,12 +129,12 @@ namespace App1
                 result.Text = btn0.Content.ToString();
         }
 
-        private void btnPlusMinus_Click(object sender, RoutedEventArgs e)
+        public void btnPlusMinus_Click(object sender, RoutedEventArgs e)
         {
             result.Text = (-1.0 * double.Parse(result.Text)).ToString();
         }
 
-        private void btnDec_Click(object sender, RoutedEventArgs e)
+        public void btnDec_Click(object sender, RoutedEventArgs e)
         {
             if (dot == false)
             {
@@ -117,7 +144,7 @@ namespace App1
             }
         }
 
-        private void btnEq_Click(object sender, RoutedEventArgs e)
+        public void btnEq_Click(object sender, RoutedEventArgs e)
         {
             if (Operation != '\0')
             {
@@ -130,7 +157,7 @@ namespace App1
             Operation = '\0';
         }
 
-        private void btn1_Click(object sender, RoutedEventArgs e)
+        public void btn1_Click(object sender, RoutedEventArgs e)
         {
             if (status == true)
                 result.Text += btn1.Content;
@@ -141,7 +168,7 @@ namespace App1
             }
         }
 
-        private void btn2_Click(object sender, RoutedEventArgs e)
+        public void btn2_Click(object sender, RoutedEventArgs e)
         {
             if (status == true)
                 result.Text += btn2.Content;
@@ -152,7 +179,7 @@ namespace App1
             }
         }
 
-        private void btn3_Click(object sender, RoutedEventArgs e)
+        public void btn3_Click(object sender, RoutedEventArgs e)
         {
             if (status == true)
                 result.Text += btn3.Content;
@@ -163,7 +190,7 @@ namespace App1
             }
         }
 
-        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        public void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             if (!FirstTime)
             {
@@ -181,7 +208,7 @@ namespace App1
             result.Text = "0";
         }
 
-        private void btn4_Click(object sender, RoutedEventArgs e)
+        public void btn4_Click(object sender, RoutedEventArgs e)
         {
             if (status == true)
                 result.Text += btn4.Content;
@@ -192,7 +219,7 @@ namespace App1
             }
         }
 
-        private void btn5_Click(object sender, RoutedEventArgs e)
+        public void btn5_Click(object sender, RoutedEventArgs e)
         {
             if (status == true)
                 result.Text += btn5.Content;
@@ -203,7 +230,7 @@ namespace App1
             }
         }
 
-        private void btn6_Click(object sender, RoutedEventArgs e)
+        public void btn6_Click(object sender, RoutedEventArgs e)
         {
             if (status == true)
                 result.Text += btn6.Content;
@@ -214,7 +241,7 @@ namespace App1
             }
         }
 
-        private void btnSub_Click(object sender, RoutedEventArgs e)
+        public void btnSub_Click(object sender, RoutedEventArgs e)
         {
             if (!FirstTime)
             {
@@ -232,7 +259,7 @@ namespace App1
             result.Text = "0";
         }
 
-        private void btn7_Click(object sender, RoutedEventArgs e)
+        public void btn7_Click(object sender, RoutedEventArgs e)
         {
             if (status == true)
                 result.Text += btn7.Content;
@@ -243,7 +270,7 @@ namespace App1
             }
         }
 
-        private void btn8_Click(object sender, RoutedEventArgs e)
+        public void btn8_Click(object sender, RoutedEventArgs e)
         {
             if (status == true)
                 result.Text += btn8.Content;
@@ -254,7 +281,7 @@ namespace App1
             }
         }
 
-        private void btn9_Click(object sender, RoutedEventArgs e)
+        public void btn9_Click(object sender, RoutedEventArgs e)
         {
             if (status == true)
                 result.Text += btn9.Content;
@@ -265,7 +292,7 @@ namespace App1
             }
         }
 
-        private void btnMul_Click(object sender, RoutedEventArgs e)
+        public void btnMul_Click(object sender, RoutedEventArgs e)
         {
             if (!FirstTime)
             {
@@ -283,19 +310,19 @@ namespace App1
             result.Text = "0";
         }
 
-        private void btnSqrt_Click(object sender, RoutedEventArgs e)
+        public void btnSqrt_Click(object sender, RoutedEventArgs e)
         {
             Operation = 'q';
             OperationMethod();
         }
 
-        private void btnCbrt_Click(object sender, RoutedEventArgs e)
+        public void btnCbrt_Click(object sender, RoutedEventArgs e)
         {
             Operation = 'c';
             OperationMethod();
         }
 
-        private void btnClear_Click(object sender, RoutedEventArgs e)
+        public void btnClear_Click(object sender, RoutedEventArgs e)
         {
             result.Text = 0.ToString();
             var1 = 0.0;
@@ -303,7 +330,7 @@ namespace App1
             PreviousValue = 0.0;
         }
 
-        private void btnDiv_Click(object sender, RoutedEventArgs e)
+        public void btnDiv_Click(object sender, RoutedEventArgs e)
         {
             if (!FirstTime)
             {
@@ -321,24 +348,24 @@ namespace App1
             result.Text = "0";
         }
 
-        private void btnSq_Click(object sender, RoutedEventArgs e)
+        public void btnSq_Click(object sender, RoutedEventArgs e)
         {
             Operation = '2';
             OperationMethod();
         }
 
-        private void btnCb_Click(object sender, RoutedEventArgs e)
+        public void btnCb_Click(object sender, RoutedEventArgs e)
         {
             Operation = '3';
             OperationMethod();
         }
 
-        private void btnClearEntry_Click(object sender, RoutedEventArgs e)
+        public void btnClearEntry_Click(object sender, RoutedEventArgs e)
         {
             result.Text = "0";
         }
 
-        private void btnBackspace_Click(object sender, RoutedEventArgs e)
+        public void btnBackspace_Click(object sender, RoutedEventArgs e)
         {
             if (result.Text != "0")
             {
@@ -351,6 +378,12 @@ namespace App1
                 result.Text = "0";
                 status = false;
             }
+        }
+
+        public void btnLog_Click(object sender, RoutedEventArgs e)
+        {
+            Operation = 'l';
+            OperationMethod();
         }
     }
 
