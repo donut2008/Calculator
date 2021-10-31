@@ -4,9 +4,9 @@ Calculator written in C# with WinUI 2.7 controls. Enjoy!
 
 Current stable build: 0.6.5_171021-1652
 
-Current beta build:
+Current beta build: 0.7.5_211031-2059
 
-Current internal build: 0.8.1927_rl-canary
+Current internal build: halloween
 
 ## Build instructions
 
@@ -21,6 +21,12 @@ Current internal build: 0.8.1927_rl-canary
 - After everything is installed, the installer might ask you to reboot your computer. Reboot if needed
 - Open the App1.sln file
 - Press F7 to build, and F5 to start with debugging/Ctrl+F5 to start without debugging.
+
+## I can't find the beta build in Releases!
+
+- Change the branch to "Beta"
+- Download the source code
+- Build it using the build instructions
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
