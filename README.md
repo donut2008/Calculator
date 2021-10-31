@@ -4,7 +4,7 @@ Calculator written in C# with WinUI 2.7 controls. Enjoy!
 
 Current stable build: 0.6.5_171021-1652
 
-Current beta build: 0.7.5_halloween
+Current beta build: 0.7.5_halloween (IMPORTANT: Instructions to get beta releases are given down below)
 
 Current internal build: halloween
 
