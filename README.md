@@ -6,7 +6,7 @@ Current stable build: 0.6.5_171021-1652
 
 Current beta build: 0.7.5_halloween (IMPORTANT: Instructions to get beta releases are given down below)
 
-Current internal build: halloween
+Current internal build: 0.9_211101-1342
 
 ## Build instructions
 
