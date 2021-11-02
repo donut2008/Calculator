@@ -7,22 +7,22 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
-    muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
-
+    muxc:BackdropMaterial.ApplyToRootOrPageBackground="True"
+    RequestedTheme="Default">
     <Grid>
         <StackPanel>
-            <TextBlock x:Name="settingstext" FontFamily="Segoe UI" Margin="8,8,8,8" TextWrapping="WrapWholeWords">
-                <Run FontWeight="Bold" FontSize="32">About</Run><LineBreak/><LineBreak/></TextBlock>
-            <TextBlock Margin="8,8,8,8">
-                <Run FontSize="16">Calculator written in C# by donut2008</Run><LineBreak/>
-            </TextBlock>
-            <HyperlinkButton x:Name="github" Content="View donut2008 on GitHub" NavigateUri="https://github.com/donut2008"/>
-            <TextBlock Margin="8,8,8,8">
-                <Run FontStyle="Italic">More features coming soon!</Run>
-            </TextBlock>
-            <TextBlock Margin="8,8,8,8">
-                <Run>Version 0.6 stable build 171021-1652</Run>
-            </TextBlock>
+            <TextBlock x:FieldModifier="public" x:Name="header" FontFamily="Segoe UI" TextWrapping="WrapWholeWords" FontWeight="SemiBold" FontSize="32" Margin="10,10,10,0"><Run>About</Run><LineBreak/></TextBlock>
+            <Border CornerRadius="8" Margin="8" Background="{ThemeResource ExpanderHeaderBackground}" BorderThickness="{ThemeResource ExpanderHeaderBorderThickness}" BorderBrush="{ThemeResource ExpanderHeaderBorderBrush}" HorizontalAlignment="Stretch">
+                <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="10,10,10,10">
+                    <TextBlock x:FieldModifier="public" x:Name="credits" FontSize="16"><Run>Calculator written in C# by donut2008</Run></TextBlock>
+                    <TextBlock x:FieldModifier="public" x:Name="version" FontSize="12">Version 1 stable build 211102-1420</TextBlock>
+                    <HyperlinkButton x:FieldModifier="public" x:Name="github" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator">
+                        <HyperlinkButton.Content>
+                            <TextBlock Text="View this project on GitHub"/>
+                        </HyperlinkButton.Content>
+                    </HyperlinkButton>
+                </StackPanel>
+            </Border>
         </StackPanel>
     </Grid>
 </Page>

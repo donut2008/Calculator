@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>G:\Visual Studio\App1\bin\x64\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>4C89AB031CB933F5D817108508A34BC6833EFDCB83E6EF6333444ED9176BC0F7</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>4262BC40D67EA5AABDC6DB733E77B5FBC8A86039BA6BC73B19018E315DAD6733</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>donut2008.Calculator_0.6.5.0_x64__k6z0qg9vd0mq8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>donut2008.Calculator_k6z0qg9vd0mq8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>donut2008.Calculator</RegisteredPackageID>
@@ -30,21 +30,21 @@
     <AppXManifest Include="G:\Visual Studio\App1\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-10-17T11:30:51.199</Modified>
+      <Modified>2021-11-02T08:51:07.894</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\App1.dll">
       <PackagePath>App1.dll</PackagePath>
-      <Modified>2021-10-17T11:30:51.010</Modified>
+      <Modified>2021-11-02T08:51:07.690</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2021-10-17T11:30:51.180</Modified>
+      <Modified>2021-11-02T08:51:07.878</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\App1.pdb">
       <PackagePath>App1.pdb</PackagePath>
-      <Modified>2021-10-17T11:30:51.179</Modified>
+      <Modified>2021-11-02T08:51:07.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
@@ -306,7 +306,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-10-17T11:30:33.599</Modified>
+      <Modified>2021-11-02T08:50:49.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
