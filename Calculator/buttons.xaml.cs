@@ -34,6 +34,15 @@ namespace App1
             this.NavigationCacheMode = NavigationCacheMode.Enabled;
             result.Text = "0";
         }
+        public int factorial(int x)
+        {
+            int i = 1;
+            for (int s = 1; s <= x; s++)
+            {
+                i = i * s;
+            }
+            return i;
+        }
         public void OperationMethod()
         {
             switch (Operation)
@@ -42,33 +51,28 @@ namespace App1
                 case '/':
                     {
                         PreviousValue /= double.Parse(result.Text);
-                        History.history.hist.Text += PreviousValue + " / " + result.Text + " = " + (PreviousValue + double.Parse(result.Text)) + "\r\n\r\n";
                         break;
                     }
 
                 case '*':
                     {
                         PreviousValue *= double.Parse(result.Text);
-                        History.history.hist.Text += PreviousValue + " * " + result.Text + " = " + (PreviousValue + double.Parse(result.Text)) + "\r\n\r\n";
                         break;
                     }
                 case '+':
                     {
                         PreviousValue += double.Parse(result.Text);
-                        History.history.hist.Text += PreviousValue + " + " + result.Text + " = " + (PreviousValue + double.Parse(result.Text)) + "\r\n\r\n";
                         break;
                     }
                 case '-':
                     {
                         PreviousValue -= double.Parse(result.Text);
-                        History.history.hist.Text += PreviousValue + " - " + result.Text + " = " + (PreviousValue + double.Parse(result.Text)) + "\r\n\r\n";
                         break;
                     }
                 case '2':
                     {
                         double square = Math.Pow(double.Parse(result.Text), 2);
                         PreviousValue = square;
-                        History.history.hist.Text += PreviousValue + "² = " + result.Text + "\r\n\r\n";
                         result.Text = PreviousValue.ToString();
                         status = false;
                         break;
@@ -77,7 +81,6 @@ namespace App1
                     {
                         double cube = Math.Pow(double.Parse(result.Text), 3);
                         PreviousValue = cube;
-                        History.history.hist.Text += PreviousValue + "³ = " + result.Text + "\r\n\r\n";
                         result.Text = PreviousValue.ToString();
                         status = false;
                         break;
@@ -86,16 +89,14 @@ namespace App1
                     {
                         double sqrt = Math.Sqrt(double.Parse(result.Text));
                         PreviousValue = sqrt;
-                        History.history.hist.Text += "√" + PreviousValue + " = " + result.Text + "\r\n\r\n";
                         result.Text = PreviousValue.ToString();
                         status = false;
                         break;
                     }
-                case 'c':
+                case 'b':
                     {
                         double cbrt = Math.Pow(double.Parse(result.Text), 1.0 / 3.0);
                         PreviousValue = cbrt;
-                        History.history.hist.Text += "∛" + PreviousValue + " = " + result.Text + "\r\n\r\n";
                         result.Text = PreviousValue.ToString();
                         status = false;
                         break;
@@ -103,7 +104,6 @@ namespace App1
                 case 'l':
                     {
                         double log10 = Math.Log10(double.Parse(result.Text));
-                        History.history.hist.Text += "Log(" + result.Text + ") = " + log10 + "\r\n\r\n";
                         PreviousValue = log10;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -112,10 +112,102 @@ namespace App1
                 case 'n':
                     {
                         double LN = Math.Log(double.Parse(result.Text));
-                        History.history.hist.Text += "LN(" + result.Text + ") = " + LN + "\r\n\r\n";
                         PreviousValue = LN;
                         result.Text = PreviousValue.ToString();
                         status = false;
+                        break;
+                    }
+                case 'S':
+                    {
+                        double Sin = Math.Sin(double.Parse(result.Text));
+                        PreviousValue = Sin;
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                case 'C':
+                    {
+                        double Cos = Math.Cos(double.Parse(result.Text));
+                        PreviousValue = Cos;
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                case 'T':
+                    {
+                        double Tan = Math.Tan(double.Parse(result.Text));
+                        PreviousValue = Tan;
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                case 's':
+                    {
+                        double SinInv = Math.Asin(double.Parse(result.Text));
+                        PreviousValue = SinInv;
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                case 'c':
+                    {
+                        double CosInv = Math.Acos(double.Parse(result.Text));
+                        PreviousValue = CosInv;
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                case 't':
+                    {
+                        double TanInv = Math.Acos(double.Parse(result.Text));
+                        PreviousValue = TanInv;
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                case 'r':
+                    {
+                        int var1, var2;
+                        var1 = factorial(Convert.ToInt32(PreviousValue));
+                        var2 = factorial(Convert.ToInt32(PreviousValue) - Convert.ToInt32(result.Text));
+                        PreviousValue = double.Parse(Convert.ToString(var1 / var2));
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                case 'R':
+                    {
+                        int var1, var2, var3;
+                        var1 = factorial(Convert.ToInt32(PreviousValue));
+                        var2 = factorial(Convert.ToInt32(PreviousValue) - Convert.ToInt32(result.Text));
+                        var3 = factorial(Convert.ToInt32(result.Text));
+                        PreviousValue = double.Parse(Convert.ToString(var1 / (var3 * var2)));
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                case 'o':
+                    {
+                        double inverse = 1.0 / double.Parse(result.Text);
+                        PreviousValue = inverse;
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                case 'f':
+                    {
+                        double Fact = 1;
+                        for (int i = 1; i <= Convert.ToInt32(result.Text); i++)
+                        {
+                            Fact = Fact * i;
+                        }
+                        PreviousValue = Fact;
+                        result.Text = PreviousValue.ToString();
+                        status = false;
+                        break;
+                    }
+                default:
+                    {
                         break;
                     }
             }
@@ -142,19 +234,6 @@ namespace App1
                 dot = true;
                 status = true;
             }
-        }
-
-        public void btnEq_Click(object sender, RoutedEventArgs e)
-        {
-            if (Operation != '\0')
-            {
-                OperationMethod();
-                result.Text = PreviousValue.ToString();
-                PreviousValue = 0.0;
-            }
-            status = false;
-            FirstTime = true;
-            Operation = '\0';
         }
 
         public void btn1_Click(object sender, RoutedEventArgs e)
@@ -318,7 +397,7 @@ namespace App1
 
         public void btnCbrt_Click(object sender, RoutedEventArgs e)
         {
-            Operation = 'c';
+            Operation = 'b';
             OperationMethod();
         }
 
@@ -385,7 +464,108 @@ namespace App1
             Operation = 'l';
             OperationMethod();
         }
+        
+        public void btnLN_Click(object sender, RoutedEventArgs e)
+        {
+            Operation = 'n';
+            OperationMethod();
+        }
+
+        public void btnSin_Click(object sender, RoutedEventArgs e)
+        {
+            Operation = 'S';
+            OperationMethod();
+        }
+
+        public void btnCos_Click(object sender, RoutedEventArgs e)
+        {
+            Operation = 'C';
+            OperationMethod();
+        }
+        
+        public void btnTan_Click(object sender, RoutedEventArgs e)
+        {
+            Operation = 'T';
+            OperationMethod();
+        }
+
+        public void btnSinInv_Click(object sender, RoutedEventArgs e)
+        {
+            Operation = 's';
+            OperationMethod();
+        }
+
+        public void btnCosInv_Click(object sender, RoutedEventArgs e)
+        {
+            Operation = 'c';
+            OperationMethod();
+        }
+
+        public void btnTanInv_Click(object sender, RoutedEventArgs e)
+        {
+            Operation = 't';
+            OperationMethod();
+        }
+
+        public void btnFact_Click(object sender, RoutedEventArgs e)
+        {
+            Operation = 'f';
+            OperationMethod();
+        }
+
+        public void btnNPR_Click(object sender, RoutedEventArgs e)
+        {
+            if(!FirstTime)
+            {
+                OperationMethod();
+                Operation = 'r';
+                status = false;
+            }
+            else
+            {
+                PreviousValue = double.Parse(result.Text);
+                Operation = 'r';
+                status = false;
+                FirstTime = false;
+            }
+            result.Text = "0";
+        }
+
+        private void btnNCR_Click(object sender, RoutedEventArgs e)
+        {
+            if (!FirstTime)
+            {
+                OperationMethod();
+                Operation = 'R';
+                status = false;
+            }
+            else
+            {
+                PreviousValue = double.Parse(result.Text);
+                Operation = 'R';
+                status = false;
+                FirstTime = false;
+            }
+            result.Text = "0";
+        }
+
+        private void btn1X_Click(object sender, RoutedEventArgs e)
+        {
+            Operation = 'o';
+            OperationMethod();
+        }
+
+        private void btnEq_Click(object sender, RoutedEventArgs e)
+        {
+            if (Operation != '\0')
+            {
+                OperationMethod();
+                result.Text = PreviousValue.ToString();
+                PreviousValue = 0.0;
+            }
+            status = false;
+            FirstTime = true;
+            Operation = '\0';
+        }
     }
-
 }
-

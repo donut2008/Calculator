@@ -131,9 +131,6 @@
     <Compile Include="buttons.xaml.cs">
       <DependentUpon>buttons.xaml</DependentUpon>
     </Compile>
-    <Compile Include="history.xaml.cs">
-      <DependentUpon>history.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -207,10 +204,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="buttons.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="history.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

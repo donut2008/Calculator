@@ -582,9 +582,4 @@ G:\Visual Studio\App1\obj\x64\Release\ilc\in\Assets\Wide310x150Logo.scale-100.pn
 G:\Visual Studio\App1\obj\x64\Release\ilc\in\Assets\Wide310x150Logo.scale-125.png
 G:\Visual Studio\App1\obj\x64\Release\ilc\in\Assets\Wide310x150Logo.scale-150.png
 G:\Visual Studio\App1\obj\x64\Release\ilc\in\Assets\Wide310x150Logo.scale-400.png
-G:\Visual Studio\App1\obj\x64\Release\history.g.i.cs
-G:\Visual Studio\App1\obj\x64\Release\history.g.cs
-G:\Visual Studio\App1\obj\x64\Release\history.xaml
-G:\Visual Studio\App1\obj\x64\Release\history.xbf
-G:\Visual Studio\App1\bin\x64\Release\history.xbf
 G:\Visual Studio\App1\obj\x64\Release\App1.csproj.CopyComplete

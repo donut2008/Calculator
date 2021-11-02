@@ -44,9 +44,6 @@ namespace App1
                     case "calc":
                         ContentFrame.Navigate(typeof(buttons), null);
                         break;
-                    case "histpage":
-                        ContentFrame.Navigate(typeof(History), null);
-                        break;
                     default:
                         break;
                 }
