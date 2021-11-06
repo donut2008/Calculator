@@ -1,1 +1,1 @@
-G:\Visual Studio\App1\App1.csproj;x64
+C:\Users\anjis\Documents\GitHub\Calculator\Calculator\App1.csproj;x64

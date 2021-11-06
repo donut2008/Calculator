@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e4sLOnAaD0pUCB4y66Srfm1dXZdkxGArmjSwRzjqW8maFIpzJpCWH4M5kGlVtYbxIGT6LL9NkJ5NJKFQl+9c2A==",
+  "dgSpecHash": "4guP29G3UsceffVMslKi8WLC0Hjm5MaIsOmMfXsz/ybWBUQbVb2xY/CQX6Dizle6P8jEeh8WS2Li2rpqWpBL+A==",
   "success": true,
-  "projectFilePath": "G:\\Visual Studio\\App1\\App1.csproj",
+  "projectFilePath": "C:\\Users\\anjis\\Documents\\GitHub\\Calculator\\Calculator\\App1.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

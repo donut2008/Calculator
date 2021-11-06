@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
+using Windows.UI;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,6 +29,18 @@ namespace App1
         public settings()
         {
             this.InitializeComponent();
+        }
+        public void LightChecked(object sender, RoutedEventArgs e)
+        {
+            (Window.Current.Content as FrameworkElement).RequestedTheme = ElementTheme.Light;
+        }
+        public void DarkChecked(object sender, RoutedEventArgs e)
+        {
+            (Window.Current.Content as FrameworkElement).RequestedTheme = ElementTheme.Dark;
+        }
+        public void DefaultChecked(object sender, RoutedEventArgs e)
+        {
+            (Window.Current.Content as FrameworkElement).RequestedTheme = ElementTheme.Default;
         }
     }
 }

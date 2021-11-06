@@ -10,237 +10,237 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>f1a8c5f7-fc79-444a-9bab-4a255a914f1b</PackageIdentityName>
     <PackageIdentityPublisher>CN=donut</PackageIdentityPublisher>
-    <IntermediateOutputPath>G:\Visual Studio\App1\obj\x64\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>G:\Visual Studio\App1\bin\x64\Release\AppX</LayoutDir>
+    <LayoutDir>C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="G:\Visual Studio\App1\bin\x64\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\App1.dll">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.dll">
       <PackagePath>App1.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\App1.exe">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.exe">
       <PackagePath>App1.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\App1.pdb">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.pdb">
       <PackagePath>App1.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\BadgeLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\BadgeLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\BadgeLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\BadgeLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\BadgeLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\Visual Studio\App1\bin\x64\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">

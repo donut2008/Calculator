@@ -10,7 +10,6 @@
     <RootType FullName="Microsoft.UI.Xaml.Controls.XamlControlsResources" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Content" />
-      <RootProperty Name="RequestedTheme" />
     </RootType>
     <RootType FullName="Microsoft.UI.Xaml.Controls.BackdropMaterial">
       <RootMethod Name="GetApplyToRootOrPageBackground" />
@@ -20,6 +19,7 @@
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
+      <RootProperty Name="Margin" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
@@ -46,6 +46,7 @@
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Inlines" />
+      <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Margin" />
@@ -86,6 +87,14 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
     </RootType>
+    <RootType FullName="Microsoft.UI.Xaml.Controls.Expander">
+      <RootProperty Name="CornerRadius" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="Header" />
+      <RootProperty Name="Content" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Border">
       <RootProperty Name="CornerRadius" />
       <RootProperty Name="Margin" />
@@ -101,7 +110,11 @@
       <RootProperty Name="NavigateUri" />
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Documents.Run" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
+      <RootProperty Name="Tag" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="Checked" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="App1.settings" />
   </Roots.RootTypes>

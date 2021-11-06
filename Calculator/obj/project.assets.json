@@ -8293,11 +8293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Visual Studio\\App1\\App1.csproj",
+      "projectUniqueName": "C:\\Users\\anjis\\Documents\\GitHub\\Calculator\\Calculator\\App1.csproj",
       "projectName": "App1",
-      "projectPath": "G:\\Visual Studio\\App1\\App1.csproj",
+      "projectPath": "C:\\Users\\anjis\\Documents\\GitHub\\Calculator\\Calculator\\App1.csproj",
       "packagesPath": "C:\\Users\\anjis\\.nuget\\packages\\",
-      "outputPath": "G:\\Visual Studio\\App1\\obj\\",
+      "outputPath": "C:\\Users\\anjis\\Documents\\GitHub\\Calculator\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
