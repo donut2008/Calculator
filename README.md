@@ -2,11 +2,11 @@
 
 Calculator written in C# with WinUI 2.7 controls. Enjoy!
 
-Current stable build: 1.0_211102-1420
+Current stable build: 2.0_211104-1312
 
-Current beta build: 1.0_211102-1415 (IMPORTANT: Instructions to get beta releases are given down below)
+Current beta build: 3.0_211106-1957
 
-Current internal build: 1.2_211102-1409
+Current internal build: 3.0_211108-1144
 
 ## Build instructions
 
