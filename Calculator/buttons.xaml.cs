@@ -18,7 +18,7 @@ using Windows.UI.Xaml.Navigation;
 namespace App1
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// main app page
     /// </summary>
     public sealed partial class buttons : Page
     {

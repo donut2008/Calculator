@@ -18,13 +18,25 @@ using Windows.UI.Xaml.Navigation;
 namespace App1
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// settings page
     /// </summary>
     public sealed partial class settings : Page
     {
         public settings()
         {
             this.InitializeComponent();
+        }
+        public void LightChecked(object sender, RoutedEventArgs e)
+        {
+            (Window.Current.Content as FrameworkElement).RequestedTheme = ElementTheme.Light;
+        }
+        public void DarkChecked(object sender, RoutedEventArgs e)
+        {
+            (Window.Current.Content as FrameworkElement).RequestedTheme = ElementTheme.Dark;
+        }
+        public void DefaultChecked(object sender, RoutedEventArgs e)
+        {
+            (Window.Current.Content as FrameworkElement).RequestedTheme = ElementTheme.Default;
         }
     }
 }

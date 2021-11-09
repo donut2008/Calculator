@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="donut2008.Calculator" Publisher="CN=donut" Version="0.6.5.0" ProcessorArchitecture="x86" />
+  <Identity Name="donut2008.Calculator" Publisher="CN=donut" Version="3.0.0.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="f1a8c5f7-fc79-444a-9bab-4a255a914f1b" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>App1</DisplayName>
@@ -27,10 +27,11 @@
   <Applications>
     <Application Id="App" Executable="App1.exe" EntryPoint="Calculator.App">
       <uap:VisualElements DisplayName="Calculator" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="GUI calculator written in C# and developed by donut (https://github.com/donut2008)" BackgroundColor="transparent">
-        <uap:DefaultTile ShortName="Calculator" Square71x71Logo="Assets\SmallTile.png" Wide310x150Logo="Assets\Wide310x150Logo.png">
+        <uap:DefaultTile ShortName="Calculator" Square71x71Logo="Assets\SmallTile.png" Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
             <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
@@ -40,12 +41,12 @@
   </Applications>
   <build:Metadata>
     <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
-    <build:Item Name="VisualStudio" Version="16.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2019" />
-    <build:Item Name="OperatingSystem" Version="10.0.19041.1 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.31727.243" />
+    <build:Item Name="VisualStudio" Version="17.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2022" />
+    <build:Item Name="OperatingSystem" Version="10.0.22000.1 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.0.31903.234" />
     <build:Item Name="ProjectGUID" Value="{5BD2C320-F90B-4D80-B539-78B03BDECC78}" />
-    <build:Item Name="ilc.exe" Version="2.2.29722.00 built by: PROJECTNREL" />
+    <build:Item Name="ilc.exe" Version="2.2.30601.02 built by: PROJECTNREL" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.19041.685" />
     <build:Item Name="OptimizingToolset" Value="ilc.exe" />
     <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True" />

@@ -6,7 +6,7 @@
     <autoResourcePackage qualifier="DXFeatureLevel" />
     <omitSchemaFromResourcePacks />
   </packaging>
-  <index root="\" startIndexAt="G:\Visual Studio\App1\bin\x86\Release\ilc\resources.pri">
+  <index root="\" startIndexAt="C:\Users\anjis\source\repos\App1\bin\x86\Release\ilc\resources.pri">
     <default>
       <qualifier name="Language" value="en-US" />
       <qualifier name="Contrast" value="standard" />

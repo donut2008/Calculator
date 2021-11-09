@@ -7,21 +7,34 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
-    muxc:BackdropMaterial.ApplyToRootOrPageBackground="True"
-    RequestedTheme="Default">
+    muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
     <Grid>
         <StackPanel>
-            <TextBlock x:FieldModifier="public" x:Name="header" FontFamily="Segoe UI" TextWrapping="WrapWholeWords" FontWeight="SemiBold" FontSize="32" Margin="10,10,10,0"><Run>About</Run><LineBreak/></TextBlock>
+            <TextBlock x:FieldModifier="public" x:Name="header" FontFamily="Segoe UI" TextWrapping="WrapWholeWords" FontWeight="SemiBold" FontSize="32" Margin="10,10,10,0">About<LineBreak/></TextBlock>
+            <muxc:Expander CornerRadius="8" Margin="8" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
+                <muxc:Expander.Header>
+                    <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="0,10,10,10">
+                        <TextBlock x:FieldModifier="public" FontSize="16">App theme</TextBlock>
+                        <TextBlock x:FieldModifier="public" Foreground="{ThemeResource SystemBaseMediumColor}" FontSize="12">Select theme to display</TextBlock>
+                    </StackPanel>
+                </muxc:Expander.Header>
+                <muxc:Expander.Content>
+                    <StackPanel>
+                        <RadioButton Tag="Light" Checked="LightChecked" Content="Light"/>
+                        <RadioButton Tag="Dark" Checked="DarkChecked" Content="Dark"/>
+                        <RadioButton Tag="SysDef" Checked="DefaultChecked" Content="System default"/>
+                    </StackPanel>
+                </muxc:Expander.Content>
+            </muxc:Expander>
             <Border CornerRadius="8" Margin="8" Background="{ThemeResource ExpanderHeaderBackground}" BorderThickness="{ThemeResource ExpanderHeaderBorderThickness}" BorderBrush="{ThemeResource ExpanderHeaderBorderBrush}" HorizontalAlignment="Stretch">
-                <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="10,10,10,10">
-                    <TextBlock x:FieldModifier="public" x:Name="credits" FontSize="16"><Run>Calculator written in C# by donut2008</Run></TextBlock>
-                    <TextBlock x:FieldModifier="public" x:Name="version" FontSize="12">Version 1 stable build 211102-1420</TextBlock>
-                    <HyperlinkButton x:FieldModifier="public" x:Name="github" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator">
-                        <HyperlinkButton.Content>
-                            <TextBlock Text="View this project on GitHub"/>
-                        </HyperlinkButton.Content>
-                    </HyperlinkButton>
-                </StackPanel>
+                <Grid>
+                    <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="10,10,10,10">
+                        <TextBlock x:FieldModifier="public" x:Name="credits" FontSize="16">Calculator written in C# by donut2008</TextBlock>
+                        <TextBlock x:FieldModifier="public" x:Name="version" FontSize="12">Version 3 stable build 211109-1951</TextBlock>
+                        <TextBlock FontSize="16" FontWeight="Bold">Icon credit goes to Microsoft, I am NOT the creator of the app icon.</TextBlock>
+                    </StackPanel>
+                    <HyperlinkButton x:FieldModifier="public" x:Name="github" Margin="10,10,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator" Content="View this project on GitHub"/>
+                </Grid>
             </Border>
         </StackPanel>
     </Grid>

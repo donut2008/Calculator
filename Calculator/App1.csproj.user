@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Source>G:\Visual Studio\App1\calculator icon.png</Source>
-    <SmallTileSource>G:\Visual Studio\App1\calculator icon.png</SmallTileSource>
-    <MediumTileSource>G:\Visual Studio\App1\calculator icon.png</MediumTileSource>
-    <WideTileSource>G:\Visual Studio\App1\calculator icon.png</WideTileSource>
-    <LargeTileSource>G:\Visual Studio\App1\calculator icon.png</LargeTileSource>
-    <AppIconSource>G:\Visual Studio\App1\calculator icon.png</AppIconSource>
-    <SplashScreenSource>G:\Visual Studio\App1\calculator icon.png</SplashScreenSource>
-    <PackageLogoSource>G:\Visual Studio\App1\calculator icon.png</PackageLogoSource>
-    <BadgeLogoSource>G:\Visual Studio\App1\calculator icon.png</BadgeLogoSource>
+    <Source>C:\Users\anjis\Downloads\Windows Calculator Proto 3.png</Source>
+    <SmallTileSource>C:\Users\anjis\Downloads\Windows Calculator Proto 3.png</SmallTileSource>
+    <MediumTileSource>C:\Users\anjis\Downloads\Windows Calculator Proto 3.png</MediumTileSource>
+    <WideTileSource>C:\Users\anjis\Downloads\Windows Calculator Proto 3.png</WideTileSource>
+    <LargeTileSource>C:\Users\anjis\Downloads\Windows Calculator Proto 3.png</LargeTileSource>
+    <AppIconSource>C:\Users\anjis\Downloads\Windows Calculator Proto 3.png</AppIconSource>
+    <SplashScreenSource>C:\Users\anjis\Downloads\Windows Calculator Proto 3.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\anjis\Downloads\Windows Calculator Proto 3.png</PackageLogoSource>
+    <BadgeLogoSource>C:\Users\anjis\Downloads\Windows Calculator Proto 3.png</BadgeLogoSource>
     <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
     <AppxShowAllApps>False</AppxShowAllApps>
     <AppxBuildConfigurationSelection>x86|x64</AppxBuildConfigurationSelection>
