@@ -10,30 +10,30 @@
     muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
     <Grid>
         <StackPanel>
-            <TextBlock x:ConnectionId='2' x:FieldModifier="public" x:Name="header" FontFamily="Segoe UI" TextWrapping="WrapWholeWords" FontWeight="SemiBold" FontSize="32" Margin="10,10,10,0">About<LineBreak/></TextBlock>
+            <TextBlock x:ConnectionId='2' x:FieldModifier="public" x:Name="header" FontFamily="Segoe UI Variable Display" FontWeight="Bold" TextWrapping="WrapWholeWords" FontSize="32" Margin="10,10,10,0">Settings<LineBreak/></TextBlock>
             <muxc:Expander CornerRadius="8" Margin="8" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
                 <muxc:Expander.Header>
                     <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="0,10,10,10">
-                        <TextBlock x:FieldModifier="public" FontSize="16">App theme</TextBlock>
-                        <TextBlock x:FieldModifier="public" Foreground="{ThemeResource SystemBaseMediumColor}" FontSize="12">Select theme to display</TextBlock>
+                        <TextBlock x:FieldModifier="public" FontFamily="Segoe UI Variable Display" FontSize="16">App theme</TextBlock>
+                        <TextBlock x:FieldModifier="public" FontFamily="Segoe UI Variable Display" Foreground="{ThemeResource SystemBaseMediumColor}" FontSize="12">Select theme to display</TextBlock>
                     </StackPanel>
                 </muxc:Expander.Header>
                 <muxc:Expander.Content>
                     <StackPanel>
-                        <RadioButton x:ConnectionId='6' Tag="Light"                        Content="Light"/>
-                        <RadioButton x:ConnectionId='7' Tag="Dark"                       Content="Dark"/>
-                        <RadioButton x:ConnectionId='8' Tag="SysDef"                          Content="System default"/>
+                        <RadioButton x:ConnectionId='6' FontFamily="Segoe UI Variable Display" Tag="Light"                        Content="Light"/>
+                        <RadioButton x:ConnectionId='7' FontFamily="Segoe UI Variable Display" Tag="Dark"                       Content="Dark"/>
+                        <RadioButton x:ConnectionId='8' FontFamily="Segoe UI Variable Display" Tag="SysDef"                          Content="System default"/>
                     </StackPanel>
                 </muxc:Expander.Content>
             </muxc:Expander>
             <Border CornerRadius="8" Margin="8" Background="{ThemeResource ExpanderHeaderBackground}" BorderThickness="{ThemeResource ExpanderHeaderBorderThickness}" BorderBrush="{ThemeResource ExpanderHeaderBorderBrush}" HorizontalAlignment="Stretch">
                 <Grid>
-                    <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="10,10,10,10">
-                        <TextBlock x:ConnectionId='4' x:FieldModifier="public" x:Name="credits" FontSize="16">Calculator written in C# by donut2008</TextBlock>
-                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" x:Name="version" FontSize="12">Version 3 stable build 211109-1951</TextBlock>
-                        <TextBlock FontSize="16" FontWeight="Bold">Icon credit goes to Microsoft, I am NOT the creator of the app icon.</TextBlock>
+                    <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="16,10,10,10">
+                        <TextBlock x:ConnectionId='4' x:FieldModifier="public" x:Name="credits" FontFamily="Segoe UI Variable Display" FontSize="16">Calculator written in C# by donut2008</TextBlock>
+                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI Variable Display" FontSize="12">Version 4 stable build 211111-1333</TextBlock>
+                        <TextBlock FontFamily="Segoe UI Variable Display" FontSize="16" FontWeight="Bold">Icon credit goes to Microsoft, I am NOT the creator of the app icon.</TextBlock>
                     </StackPanel>
-                    <HyperlinkButton x:ConnectionId='3' x:FieldModifier="public" x:Name="github" Margin="10,10,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator" Content="View this project on GitHub"/>
+                    <HyperlinkButton x:ConnectionId='3' x:FieldModifier="public" x:Name="github" FontFamily="Segoe UI Variable Display" Margin="10,10,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator" Content="View this project on GitHub"/>
                 </Grid>
             </Border>
         </StackPanel>

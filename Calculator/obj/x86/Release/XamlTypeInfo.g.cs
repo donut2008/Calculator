@@ -223,7 +223,7 @@ namespace App1.App1_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[45];
+            _typeNameTable = new string[46];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Windows.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -264,13 +264,14 @@ namespace App1.App1_XamlTypeInfo
             _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.ExpandDirection";
             _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings";
             _typeNameTable[39] = "App1.settings";
-            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.IconSource";
-            _typeNameTable[41] = "Windows.UI.Xaml.Media.Brush";
-            _typeNameTable[42] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
-            _typeNameTable[43] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
-            _typeNameTable[44] = "Int32";
+            _typeNameTable[40] = "App1.temperature";
+            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[42] = "Windows.UI.Xaml.Media.Brush";
+            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[44] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[45] = "Int32";
 
-            _typeTable = new global::System.Type[45];
+            _typeTable = new global::System.Type[46];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -311,11 +312,12 @@ namespace App1.App1_XamlTypeInfo
             _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.ExpandDirection);
             _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings);
             _typeTable[39] = typeof(global::App1.settings);
-            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
-            _typeTable[41] = typeof(global::Windows.UI.Xaml.Media.Brush);
-            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
-            _typeTable[43] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
-            _typeTable[44] = typeof(global::System.Int32);
+            _typeTable[40] = typeof(global::App1.temperature);
+            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[42] = typeof(global::Windows.UI.Xaml.Media.Brush);
+            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[44] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[45] = typeof(global::System.Int32);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -359,7 +361,8 @@ namespace App1.App1_XamlTypeInfo
         private object Activate_35_MainPage() { return new global::App1.MainPage(); }
         private object Activate_36_Expander() { return new global::Microsoft.UI.Xaml.Controls.Expander(); }
         private object Activate_39_settings() { return new global::App1.settings(); }
-        private object Activate_42_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private object Activate_40_temperature() { return new global::App1.temperature(); }
+        private object Activate_43_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -373,7 +376,7 @@ namespace App1.App1_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_43_IList(object instance, object item)
+        private void VectorAdd_44_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -666,20 +669,27 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 40:   //  Microsoft.UI.Xaml.Controls.IconSource
+            case 40:   //  App1.temperature
+                userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_40_temperature;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 41:   //  Microsoft.UI.Xaml.Controls.IconSource
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.AddMemberName("Foreground");
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
-            case 41:   //  Windows.UI.Xaml.Media.Brush
+            case 42:   //  Windows.UI.Xaml.Media.Brush
                 xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 42:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+            case 43:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_42_TreeViewNode;
+                userType.Activator = Activate_43_TreeViewNode;
                 userType.AddMemberName("IsExpanded");
                 userType.AddMemberName("HasUnrealizedChildren");
                 userType.AddMemberName("Content");
@@ -691,14 +701,14 @@ namespace App1.App1_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 43:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+            case 44:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
                 userType = new global::App1.App1_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_43_IList;
+                userType.CollectionAdd = VectorAdd_44_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 44:   //  Int32
+            case 45:   //  Int32
                 xamlType = new global::App1.App1_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }

@@ -44,6 +44,9 @@ namespace App1
                     case "calc":
                         ContentFrame.Navigate(typeof(buttons), null);
                         break;
+                    case "temp":
+                        ContentFrame.Navigate(typeof(temperature), null);
+                        break;
                     default:
                         break;
                 }

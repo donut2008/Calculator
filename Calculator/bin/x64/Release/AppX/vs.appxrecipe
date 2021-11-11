@@ -30,21 +30,21 @@
     <AppXManifest Include="C:\Users\anjis\source\repos\App1\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-09T14:30:34.626</Modified>
+      <Modified>2021-11-11T08:03:54.331</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\anjis\source\repos\App1\bin\x64\Release\ilc\App1.dll">
       <PackagePath>App1.dll</PackagePath>
-      <Modified>2021-11-09T14:30:34.473</Modified>
+      <Modified>2021-11-11T08:03:54.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\source\repos\App1\bin\x64\Release\ilc\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2021-11-09T14:30:34.615</Modified>
+      <Modified>2021-11-11T08:03:54.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\source\repos\App1\bin\x64\Release\ilc\App1.pdb">
       <PackagePath>App1.pdb</PackagePath>
-      <Modified>2021-11-09T14:30:34.614</Modified>
+      <Modified>2021-11-11T08:03:54.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\source\repos\App1\bin\x64\Release\ilc\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
@@ -331,7 +331,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\source\repos\App1\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-11-09T14:30:01.228</Modified>
+      <Modified>2021-11-11T08:03:32.599</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>

@@ -1,1 +1,1 @@
-H:\Calculator Releases\3.0-stable_211109-1951\App1_3.0.0.0_Test\App1_3.0.0.0_x86_x64.msixbundle
+H:\Calculator Releases\3.0-stable_211109-1951\App1_4.0.0.0_Test\App1_4.0.0.0_x86_x64.msixbundle

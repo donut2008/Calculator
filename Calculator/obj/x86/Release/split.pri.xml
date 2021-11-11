@@ -32,6 +32,11 @@
 					<Base64Value>[Embedded Binary Data]</Base64Value>
 				</Candidate>
 			</NamedResource>
+			<NamedResource name="temperature.xbf" uri="ms-resource://donut2008.Calculator/Files/temperature.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
 			<ResourceMapSubtree name="Assets">
 				<NamedResource name="BadgeLogo.png" uri="ms-resource://donut2008.Calculator/Files/Assets/BadgeLogo.png">
 					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
