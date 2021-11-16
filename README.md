@@ -14,7 +14,7 @@ Current internal build: 5.0_211116-1633
 
 - **[FOR BETA RELEASES ONLY]** Change the branch to "beta" from "main"
 
-- ![image](https://user-images.githubusercontent.com/76439683/141974315-74753a10-7b02-4aa7-a22c-e0c4a4690281.png)
+![image](https://user-images.githubusercontent.com/76439683/141974315-74753a10-7b02-4aa7-a22c-e0c4a4690281.png)
 
 - Download the source code as ZIP
 
