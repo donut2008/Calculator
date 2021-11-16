@@ -2,15 +2,19 @@
 
 Calculator written in C# with WinUI 2.7 controls. Enjoy!
 
-Current stable build: 2.0_211104-1312
+Current stable build: 4.0_211111-1333
 
 Current beta build: 3.0_211106-1957
 
 ![How to get beta releases](https://github.com/donut2008/Calculator/blob/main/README.md#build-instructions)
 
-Current internal build: 3.0_211108-1144
+Current internal build: 5.0_211116-1633
 
 ## Build instructions
+
+- **[FOR BETA RELEASES ONLY]** Change the branch to "beta" from "main"
+
+- ![image](https://user-images.githubusercontent.com/76439683/141974315-74753a10-7b02-4aa7-a22c-e0c4a4690281.png)
 
 - Download the source code as ZIP
 
