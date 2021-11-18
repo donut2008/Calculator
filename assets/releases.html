@@ -147,13 +147,13 @@ padding-right: 350px;
 
 .dropdown-content1 a:hover {background-color: #616161; transition: 0.3s; transform: translateY(0);}
 
-.dropdown:focus .dropdown-content {display: block; text-align: center; transform: translateY(0);}
-
-.dropdown:focus .dropdown-content1 {display: block; text-align: center; transform: translateY(0);}
-
 .dropdown:hover .dropbtn {transition: 0.3s;}
 
+.show {display: block; text-align: center; transition: 0.3s;}
+
 .dropdown:hover .dropbtn1 {transition: 0.3s;}
+
+.show {display: block; text-align: center; transition: 0.3s;}
 
 #chfnt {
   font-size: 18px;
@@ -168,6 +168,23 @@ padding-right: 350px;
   color: white;
 }
 </style>
+<script>
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
 <div class="container">
 <font color="white" id="fnt">Release 4.0 stable build 211111-1333</font>
 <p></p>
