@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HttpSendStreamedMessageStart" xml:space="preserve">
+    <value>Http Send streamed message started.</value>
+  </data>
+  <data name="CloseTimeout" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="HttpContextBeforeProcessAuthentication" xml:space="preserve">
+    <value>Start authentication for message dispatching</value>
+  </data>
+  <data name="WebSocketConnectionAborted" xml:space="preserve">
+    <value>WebSocketId:{0} connection is aborted.</value>
+  </data>
+  <data name="ServiceChannelCallStart" xml:space="preserve">
+    <value>ServiceChannelCall started.</value>
+  </data>
+  <data name="SignatureVerificationSuccess" xml:space="preserve">
+    <value>Signature verification succeeded</value>
+  </data>
+  <data name="ErrorHandlerInvoked" xml:space="preserve">
+    <value>The Dispatcher invoked an ErrorHandler of type  '{0}' with an exception of type '{2}'.  ErrorHandled == '{1}'.</value>
+  </data>
+  <data name="MtomMessageDecodingStart" xml:space="preserve">
+    <value>MtomMessageEncoder started decoding  the message.</value>
+  </data>
+  <data name="ReceiveTimeout" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="EncryptedDataProcessingStart" xml:space="preserve">
+    <value>Encrypted data processing started.</value>
+  </data>
+  <data name="ChannelFactoryCreated" xml:space="preserve">
+    <value>ChannelFactory created .</value>
+  </data>
+  <data name="ConnectionReaderSendFault" xml:space="preserve">
+    <value>Connection reader sending fault '{0}'. </value>
+  </data>
+  <data name="MessageInspectorBeforeSendInvoked" xml:space="preserve">
+    <value>The Dispatcher invoked 'BeforeSendRequest' on a MessageInspector of type '{0}'.</value>
+  </data>
+  <data name="HttpMessageReceiveFailed" xml:space="preserve">
+    <value>Http Message receive failed.</value>
+  </data>
+  <data name="SecurityNegotiationStart" xml:space="preserve">
+    <value>Security negotiation started.</value>
+  </data>
+  <data name="OpenTimeout" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="HttpMessageReceiveStart" xml:space="preserve">
+    <value>Message received from http transport.</value>
+  </data>
+  <data name="SignatureVerificationStart" xml:space="preserve">
+    <value>Signature verification started.</value>
+  </data>
+  <data name="EncryptedDataProcessingSuccess" xml:space="preserve">
+    <value>Encrypted data processing succeeded.</value>
+  </data>
+  <data name="ServiceChannelBeginCallStart" xml:space="preserve">
+    <value>ServiceChannel asynchronous calls started.</value>
+  </data>
+  <data name="ClientFormatterSerializeRequestStop" xml:space="preserve">
+    <value>Client completed serialization of the request message.</value>
+  </data>
+  <data name="ListenerOpenStart" xml:space="preserve">
+    <value>Listener opening for '{0}'.</value>
+  </data>
+  <data name="WebSocketCloseSent" xml:space="preserve">
+    <value>WebSocketId:{0} sending close message to '{1}' with close status '{2}'.</value>
+  </data>
+  <data name="HttpAuthFailed" xml:space="preserve">
+    <value>Http authentication failed.</value>
+  </data>
+  <data name="BinaryMessageEncodingStart" xml:space="preserve">
+    <value>BinaryMessageEncoder started encoding the message.</value>
+  </data>
+  <data name="MessageWrittenAsynchronouslyByEncoder" xml:space="preserve">
+    <value>A message was written asynchronously by the encoder.</value>
+  </data>
+  <data name="MessageLogWarning" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="SecurityImpersonationSuccess" xml:space="preserve">
+    <value>Security impersonation succeeded.</value>
+  </data>
+  <data name="SecurityTokenProviderOpened" xml:space="preserve">
+    <value>SecurityTokenProvider opening completed.</value>
+  </data>
+  <data name="SocketWriteStart" xml:space="preserve">
+    <value>SocketId:{0} writing '{1}' bytes to '{2}'.</value>
+  </data>
+  <data name="SocketConnectionAbort" xml:space="preserve">
+    <value>SocketId:{0} is aborting.</value>
+  </data>
+  <data name="HttpPipelineProcessInboundRequestStop" xml:space="preserve">
+    <value>Http message handler completed processing an inbound request.</value>
+  </data>
+  <data name="ClientFormatterSerializeRequestStart" xml:space="preserve">
+    <value>Client request serialization started.</value>
+  </data>
+  <data name="LeaseTimeout" xml:space="preserve">
+    <value>{0} Connection pool key: {1}</value>
+  </data>
+  <data name="WebSocketConnectionRequestSendStop" xml:space="preserve">
+    <value>WebSocketId:{0} connection request sent.</value>
+  </data>
+  <data name="HttpPipelineProcessInboundRequestStart" xml:space="preserve">
+    <value>Http message handler started processing the inbound request.</value>
+  </data>
+  <data name="WebSocketUseVersionFromClientWebSocketFactory" xml:space="preserve">
+    <value>Using the WebSocketVersion from a client WebSocket factory of type '{0}'.</value>
+  </data>
+  <data name="ChannelReceiveStart" xml:space="preserve">
+    <value>ChannelHandlerId:{0} - Message receive loop started.</value>
+  </data>
+  <data name="SocketAsyncReadStop" xml:space="preserve">
+    <value>SocketId:{0} read '{1}' bytes read from '{2}'.</value>
+  </data>
+  <data name="SslOnInitiateUpgrade" xml:space="preserve">
+    <value>SslOnAcceptUpgradeStart</value>
+  </data>
+  <data name="HttpSendMessageStart" xml:space="preserve">
+    <value>Http Send Request Start.</value>
+  </data>
+  <data name="DispatchFormatterSerializeReplyStart" xml:space="preserve">
+    <value>Dispatcher started serialization of the reply message.</value>
+  </data>
+  <data name="ClientOperationPrepared" xml:space="preserve">
+    <value>The Client is executing Action '{0}' associated with the '{1}' contract. The message will be sent to '{2}'.</value>
+  </data>
+  <data name="DispatchMessageStop" xml:space="preserve">
+    <value>Message dispatching completed</value>
+  </data>
+  <data name="WrappedKeyDecryptionSuccess" xml:space="preserve">
+    <value>Wrapped key decryption succeeded.</value>
+  </data>
+  <data name="ClientFormatterDeserializeReplyStart" xml:space="preserve">
+    <value>Client started deserializing the reply message.</value>
+  </data>
+  <data name="TcpConnectionTimedOut" xml:space="preserve">
+    <value>SocketId:{0} to remote address {1} timed out.</value>
+  </data>
+  <data name="SessionPreambleUnderstood" xml:space="preserve">
+    <value>Session preamble for '{0}' understood.</value>
+  </data>
+  <data name="SocketAccepted" xml:space="preserve">
+    <value>ListenerId:{0} accepted SocketId:{1}.</value>
+  </data>
+  <data name="ServiceHostFaulted" xml:space="preserve">
+    <value>Service host faulted.</value>
+  </data>
+  <data name="SendTimeout" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="HttpGetContextStart" xml:space="preserve">
+    <value>HttpGetContext start.</value>
+  </data>
+  <data name="ReadPoolMiss" xml:space="preserve">
+    <value>Created new '{0}'</value>
+  </data>
+  <data name="NamedPipeCreated" xml:space="preserve">
+    <value>NamedPipe '{0}' created.</value>
+  </data>
+  <data name="SharedListenerProxyRegisterStop" xml:space="preserve">
+    <value>SharedListenerProxy Register Stop.</value>
+  </data>
+  <data name="DispatchMessageStart" xml:space="preserve">
+    <value>Message dispatching started.</value>
+  </data>
+  <data name="WebSocketCreateClientWebSocketWithFactory" xml:space="preserve">
+    <value>Creating the client WebSocket with a factory of type '{0}'.</value>
+  </data>
+  <data name="HttpChannelRequestAborted" xml:space="preserve">
+    <value>Http channel request aborted.</value>
+  </data>
+  <data name="SecurityNegotiationStop" xml:space="preserve">
+    <value>Security negotiation completed.</value>
+  </data>
+  <data name="HttpPipelineBeginProcessInboundRequestStart" xml:space="preserve">
+    <value>Http message handler started processing the inbound request asynchronously.</value>
+  </data>
+  <data name="BufferedAsyncWriteStart" xml:space="preserve">
+    <value>BufferId:{0} completed writing '{1}' bytes to underlying stream.</value>
+  </data>
+  <data name="MessageReceivedByTransport" xml:space="preserve">
+    <value>The transport received a message from '{0}'.</value>
+  </data>
+  <data name="TextMessageEncodingStart" xml:space="preserve">
+    <value>TextMessageEncoder started encoding the message.</value>
+  </data>
+  <data name="MaxPendingConnectionsExceeded" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="OutgoingMessageSecured" xml:space="preserve">
+    <value>Outgoing message has been secured.</value>
+  </data>
+  <data name="OperationCompleted" xml:space="preserve">
+    <value>An OperationInvoker completed the call to the '{0}' method.  The method call duration was '{1}' ms.</value>
+  </data>
+  <data name="HttpPipelineProcessResponseStart" xml:space="preserve">
+    <value>Http message handler started processing the response.</value>
+  </data>
+  <data name="DispatchFormatterDeserializeRequestStop" xml:space="preserve">
+    <value>Dispatcher completed deserialization the request message.</value>
+  </data>
+  <data name="SslOnAcceptUpgrade" xml:space="preserve">
+    <value>SslOnAcceptUpgradeStop</value>
+  </data>
+  <data name="ServiceException" xml:space="preserve">
+    <value>There was an unhandled exception of type '{1}' during message processing.  Full Exception Details: {0}.</value>
+  </data>
+  <data name="MessageLogEventSizeExceeded" xml:space="preserve">
+    <value>Message could not be logged as it exceeds the ETW event size</value>
+  </data>
+  <data name="SuspendSignpostEvent" xml:space="preserve">
+    <value>Activity boundary.</value>
+  </data>
+  <data name="SharedListenerProxyRegisterFailed" xml:space="preserve">
+    <value>SharedListenerProxy register failed with status '{0}'.</value>
+  </data>
+  <data name="SecurityImpersonationFailure" xml:space="preserve">
+    <value>Security impersonation failed.</value>
+  </data>
+  <data name="InactivityTimeout" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="DispatchFailed" xml:space="preserve">
+    <value>The '{0}' operation was dispatched with errors.</value>
+  </data>
+  <data name="MessageSentToTransport" xml:space="preserve">
+    <value>The Dispatcher sent a message to the transport. Correlation ID == '{0}'.</value>
+  </data>
+  <data name="ConnectionPoolMiss" xml:space="preserve">
+    <value>Pool for {0} has no available connection and {1} busy connections.</value>
+  </data>
+  <data name="GetServiceInstanceStop" xml:space="preserve">
+    <value>Service instance retrieved.</value>
+  </data>
+  <data name="WebSocketAsyncWriteStop" xml:space="preserve">
+    <value>WebSocketId:{0} asynchronous write stop.</value>
+  </data>
+  <data name="WebSocketAsyncReadStop" xml:space="preserve">
+    <value>WebSocketId:{0} read '{1}' bytes from '{2}'.</value>
+  </data>
+  <data name="TransactionScopeCreate" xml:space="preserve">
+    <value>TransactionScope is being created with LocalIdentifier:'{0}' and DistributedIdentifier:'{1}'.</value>
+  </data>
+  <data name="ClientMessageInspectorBeforeSendInvoked" xml:space="preserve">
+    <value>The Dispatcher invoked 'BeforeSendRequest' on a ClientMessageInspector of type  '{0}'.</value>
+  </data>
+  <data name="ClientBaseUsingLocalChannelFactory" xml:space="preserve">
+    <value>Not using channel factory from cache, i.e. caching disabled for instance.</value>
+  </data>
+  <data name="ClientChannelOpenStop" xml:space="preserve">
+    <value>ServiceChannel Open Stop.</value>
+  </data>
+  <data name="DispatchFormatterDeserializeRequestStart" xml:space="preserve">
+    <value>Dispatcher started deserialization the request message.</value>
+  </data>
+  <data name="IdleTimeout" xml:space="preserve">
+    <value>{0} Connection pool key: {1}</value>
+  </data>
+  <data name="StreamedMessageWrittenByEncoder" xml:space="preserve">
+    <value>A streamed message was written by the encoder.</value>
+  </data>
+  <data name="PipeConnectionAcceptStop" xml:space="preserve">
+    <value>Pipe connection accepted.</value>
+  </data>
+  <data name="SessionIdleTimeout" xml:space="preserve">
+    <value>Session aborting for idle channel to uri:'{0}'.</value>
+  </data>
+  <data name="MessageReadByEncoder" xml:space="preserve">
+    <value>A message with size '{0}' bytes was read by the encoder.</value>
+  </data>
+  <data name="ReceiveContextAbandonFailed" xml:space="preserve">
+    <value>Failed to Abandon {0}.</value>
+  </data>
+  <data name="DispatchSuccessful" xml:space="preserve">
+    <value>The '{0}' operation was dispatched successfully.</value>
+  </data>
+  <data name="ServiceHostOpenStart" xml:space="preserve">
+    <value>ServiceHost Open started.</value>
+  </data>
+  <data name="HttpChannelResponseAborted" xml:space="preserve">
+    <value>Http channel response aborted.</value>
+  </data>
+  <data name="ChannelInitializationTimeout" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="DispatchFormatterSerializeReplyStop" xml:space="preserve">
+    <value>Dispatcher completed serialization of the reply message.</value>
+  </data>
+  <data name="ClientFormatterDeserializeReplyStop" xml:space="preserve">
+    <value>Client completed deserializing the reply message.</value>
+  </data>
+  <data name="ClientBaseChannelFactoryAgedOutofCache" xml:space="preserve">
+    <value>A channel factory has been aged out of the cache because the cache has reached its limit of '{0}'.</value>
+  </data>
+  <data name="SecurityIdentityVerificationFailure" xml:space="preserve">
+    <value>Security verification failed.</value>
+  </data>
+  <data name="TcpConnectionResetError" xml:space="preserve">
+    <value>SocketId:{0} to remote address {1} had a connection reset error.</value>
+  </data>
+  <data name="MaxRetryCyclesExceeded" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ServerMaxPooledConnectionsQuotaReached" xml:space="preserve">
+    <value>Server max pooled connections quota reached.</value>
+  </data>
+  <data name="MtomMessageEncodingStart" xml:space="preserve">
+    <value>MtomMessageEncoder started encoding the message.</value>
+  </data>
+  <data name="MessageThrottleAtSeventyPercent" xml:space="preserve">
+    <value>The '{0}' throttle limit of '{1}' is at 70%%.</value>
+  </data>
+  <data name="ServiceChannelOpenStop" xml:space="preserve">
+    <value>ServiceChannelOpen completed.</value>
+  </data>
+  <data name="MessageReceivedFromTransport" xml:space="preserve">
+    <value>The Dispatcher received a message from the transport. Correlation ID == '{0}'.</value>
+  </data>
+  <data name="SecuritySessionRatio" xml:space="preserve">
+    <value>Security session ratio: {0}/{1}</value>
+  </data>
+  <data name="SequenceAcknowledgementSent" xml:space="preserve">
+    <value>SessionId:{0} acknowledgement sent.</value>
+  </data>
+  <data name="HttpPipelineFaulted" xml:space="preserve">
+    <value>Http message handler is faulted.</value>
+  </data>
+  <data name="ReceiveRetryCountReached" xml:space="preserve">
+    <value>Receive retry count reached on MSMQ message with id '{0}'</value>
+  </data>
+  <data name="PortSharingDuplicatedSocket" xml:space="preserve">
+    <value>Socket duplicated for {0}.</value>
+  </data>
+  <data name="ServiceChannelOpenStart" xml:space="preserve">
+    <value>ServiceChannelOpen started.</value>
+  </data>
+  <data name="SharedListenerProxyRegisterStart" xml:space="preserve">
+    <value>SharedListenerProxy registration started for uri '{0}'.</value>
+  </data>
+  <data name="MessageWrittenByEncoder" xml:space="preserve">
+    <value>A message with size '{0}' bytes was written by the encoder.</value>
+  </data>
+  <data name="EstablishConnectionStop" xml:space="preserve">
+    <value>Connection established.</value>
+  </data>
+  <data name="BinaryMessageDecodingStart" xml:space="preserve">
+    <value>BinaryMessageEncoder started decoding the message.</value>
+  </data>
+  <data name="ClientSendPreambleStop" xml:space="preserve">
+    <value>Client sending preamble stop.</value>
+  </data>
+  <data name="ConcurrentSessionsRatio" xml:space="preserve">
+    <value>Concurrent sessions ratio: {0}/{1}</value>
+  </data>
+  <data name="BufferedAsyncWriteStop" xml:space="preserve">
+    <value>A message was written asynchronously by the encoder.</value>
+  </data>
+  <data name="ConnectionPoolPreambleFailed" xml:space="preserve">
+    <value>ConnectionPoolPreambleFailed.</value>
+  </data>
+  <data name="SocketAsyncWriteStart" xml:space="preserve">
+    <value>SocketId:{0} writing '{1}' bytes to '{2}'.</value>
+  </data>
+  <data name="NegotiateTokenAuthenticatorStateCacheExceeded" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ChannelReceiveStop" xml:space="preserve">
+    <value>ChannelHandlerId:{0} - Message receive loop stopped.</value>
+  </data>
+  <data name="WebSocketConnectionDeclined" xml:space="preserve">
+    <value>WebSocket connection declined with status code '{0}'</value>
+  </data>
+  <data name="MaxRetryCyclesExceededMsmq" xml:space="preserve">
+    <value>Max retry cycles exceeded on MSMQ message with id '{0}'</value>
+  </data>
+  <data name="PipeSharedMemoryCreated" xml:space="preserve">
+    <value>Pipe shared memory created at '{0}' .</value>
+  </data>
+  <data name="WindowsStreamSecurityOnInitiateUpgrade" xml:space="preserve">
+    <value>WindowsStreamSecurity initiating security upgrade.</value>
+  </data>
+  <data name="NegotiateTokenAuthenticatorStateCacheRatio" xml:space="preserve">
+    <value>Negotiate token authenticator state cache ratio: {0}/{1}</value>
+  </data>
+  <data name="ConcurrentInstancesRatio" xml:space="preserve">
+    <value>Concurrent instances ratio: {0}/{1}</value>
+  </data>
+  <data name="SecurityIdentityVerificationSuccess" xml:space="preserve">
+    <value>Security verification succeeded.</value>
+  </data>
+  <data name="ResumeSignpostEvent" xml:space="preserve">
+    <value>Activity boundary.</value>
+  </data>
+  <data name="ClientMessageInspectorAfterReceiveInvoked" xml:space="preserve">
+    <value>The Dispatcher invoked 'AfterReceiveReply' on a ClientMessageInspector of type '{0}'.</value>
+  </data>
+  <data name="WebSocketConnectionAccepted" xml:space="preserve">
+    <value>WebSocketId:{0} connection accepted.</value>
+  </data>
+  <data name="StartSignpostEvent" xml:space="preserve">
+    <value>Activity boundary.</value>
+  </data>
+  <data name="EstablishConnectionStart" xml:space="preserve">
+    <value>Connection establishment started for {0}.</value>
+  </data>
+  <data name="WrappedKeyDecryptionStart" xml:space="preserve">
+    <value>Wrapped key decryption started.</value>
+  </data>
+  <data name="MessageInspectorAfterReceiveInvoked" xml:space="preserve">
+    <value>The Dispatcher invoked 'AfterReceiveReply' on a MessageInspector of type '{0}'.</value>
+  </data>
+  <data name="WritePoolMiss" xml:space="preserve">
+    <value>Created new '{0}'</value>
+  </data>
+  <data name="FaultProviderInvoked" xml:space="preserve">
+    <value>The Dispatcher invoked a FaultProvider of type '{0}' with an exception of type '{1}'.</value>
+  </data>
+  <data name="OperationFaulted" xml:space="preserve">
+    <value>The '{0}' method threw a FaultException when invoked by the OperationInvoker. The method call duration was '{1}' ms.</value>
+  </data>
+  <data name="GetServiceInstanceStart" xml:space="preserve">
+    <value>Service instance retrieval started.</value>
+  </data>
+  <data name="DispatchMessageBeforeAuthorization" xml:space="preserve">
+    <value>Start authorization for message dispatching</value>
+  </data>
+  <data name="SocketAcceptEnqueued" xml:space="preserve">
+    <value>Connection accept started.</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>The '{0}' method threw an unhandled exception when invoked by the OperationInvoker. The method call duration was '{1}' ms.</value>
+  </data>
+  <data name="StopSignpostEvent" xml:space="preserve">
+    <value>Activity boundary.</value>
+  </data>
+  <data name="ClientParameterInspectorAfterCallInvoked" xml:space="preserve">
+    <value>The Dispatcher invoked 'AfterCall' on a ClientParameterInspector of type '{0}'.</value>
+  </data>
+  <data name="PipeConnectionAcceptStart" xml:space="preserve">
+    <value>Pipe connection accept started on {0} .</value>
+  </data>
+  <data name="SocketAcceptClosed" xml:space="preserve">
+    <value>Socket accept closed.</value>
+  </data>
+  <data name="ReliableSessionChannelFaulted" xml:space="preserve">
+    <value>SessionId:{0} faulted.</value>
+  </data>
+  <data name="MaxReceivedMessageSizeExceeded" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ServiceHostOpenStop" xml:space="preserve">
+    <value>ServiceHost Open completed.</value>
+  </data>
+  <data name="TextMessageDecodingStart" xml:space="preserve">
+    <value>TextMessageEncoder started decoding the message.</value>
+  </data>
+  <data name="ClientChannelOpenStart" xml:space="preserve">
+    <value>ServiceChannel Open Start.</value>
+  </data>
+  <data name="ServiceChannelCallStop" xml:space="preserve">
+    <value>The Client completed executing Action '{0}' associated with the '{1}' contract. The message was sent to '{2}'.</value>
+  </data>
+  <data name="ListenerOpenStop" xml:space="preserve">
+    <value>Listener open completed.</value>
+  </data>
+  <data name="WebSocketAsyncWriteStart" xml:space="preserve">
+    <value>WebSocketId:{0} writing '{1}' bytes to '{2}'.</value>
+  </data>
+  <data name="StreamedMessageReadByEncoder" xml:space="preserve">
+    <value>A streamed message was read by the encoder.</value>
+  </data>
+  <data name="ParameterInspectorBeforeCallInvoked" xml:space="preserve">
+    <value>The Dispatcher invoked 'BeforeCall' on a ParameterInspector of type '{0}'.</value>
+  </data>
+  <data name="MessageSentByTransport" xml:space="preserve">
+    <value>The transport sent a message to '{0}'.</value>
+  </data>
+  <data name="WebSocketAsyncReadStart" xml:space="preserve">
+    <value>WebSocketId:{0} read start.</value>
+  </data>
+  <data name="MaxOutboundConnectionsPerEndpointExceeded" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="MessageLogInfo" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ClientParameterInspectorBeforeCallInvoked" xml:space="preserve">
+    <value>The Dispatcher invoked 'BeforeCall' on a ClientParameterInspector of type '{0}'.</value>
+  </data>
+  <data name="OutboundConnectionsPerEndpointRatio" xml:space="preserve">
+    <value>Outbound connections per endpoint ratio: {0}/{1}</value>
+  </data>
+  <data name="QueryCompositionExecuted" xml:space="preserve">
+    <value>Query composition using '{0}' was executed on the Request Uri: '{1}'.</value>
+  </data>
+  <data name="WebSocketConnectionRequestSendStart" xml:space="preserve">
+    <value>WebSocket connection request to '{0}' send start.</value>
+  </data>
+  <data name="HttpPipelineBeginProcessResponseStart" xml:space="preserve">
+    <value>Http message handler started processing the response asynchronously.</value>
+  </data>
+  <data name="ParameterInspectorAfterCallInvoked" xml:space="preserve">
+    <value>The Dispatcher invoked 'AfterCall' on a ParameterInspector of type '{0}'.</value>
+  </data>
+  <data name="ClientBaseChannelFactoryCacheHit" xml:space="preserve">
+    <value>Used matching channel factory found in cache.</value>
+  </data>
+  <data name="OperationInvoked" xml:space="preserve">
+    <value>An OperationInvoker invoked the '{0}' method. Caller information: '{1}'.</value>
+  </data>
+  <data name="WebSocketCloseStatusReceived" xml:space="preserve">
+    <value>WebSocketId:{0} connection close message received with status '{1}'.</value>
+  </data>
+  <data name="PendingAcceptsAtZero" xml:space="preserve">
+    <value>Zero pending accepts left</value>
+  </data>
+  <data name="ServiceSecurityNegotiationCompleted" xml:space="preserve">
+    <value>Service security negotiation completed.</value>
+  </data>
+  <data name="HttpPipelineProcessResponseStop" xml:space="preserve">
+    <value>Http message handler completed processing the response.</value>
+  </data>
+  <data name="WebSocketConnectionFailed" xml:space="preserve">
+    <value>WebSocket connection request failed: '{0}'</value>
+  </data>
+  <data name="ConcurrentCallsRatio" xml:space="preserve">
+    <value>Concurrent calls ratio: {0}/{1}</value>
+  </data>
+  <data name="WindowsStreamSecurityOnAcceptUpgrade" xml:space="preserve">
+    <value>Windows streaming security on accepting upgrade.</value>
+  </data>
+  <data name="MaxSessionSizeReached" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="WebSocketConnectionClosed" xml:space="preserve">
+    <value>WebSocketId:{0} connection closed.</value>
+  </data>
+  <data name="MaxSentMessageSizeExceeded" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="SocketReadStop" xml:space="preserve">
+    <value>SocketId:{0} read '{1}' bytes read from '{2}'.</value>
+  </data>
+  <data name="ReceiveContextCompleteFailed" xml:space="preserve">
+    <value>Failed to Complete {0}.</value>
+  </data>
+  <data name="PendingConnectionsRatio" xml:space="preserve">
+    <value>Pending connections ratio: {0}/{1}</value>
+  </data>
+  <data name="MessageThrottleExceeded" xml:space="preserve">
+    <value>The '{0}' throttle limit of '{1}' was hit.</value>
+  </data>
+  <data name="ClientReliableSessionReconnect" xml:space="preserve">
+    <value>SessionId:{0} reconnecting.</value>
+  </data>
+  <data name="ClientBaseCachedChannelFactoryCount" xml:space="preserve">
+    <value>Number of cached channel factories is: '{0}'.  At most '{1}' channel factories can be cached.</value>
+  </data>
+  <data name="HttpPipelineTimeoutException" xml:space="preserve">
+    <value>WebSocket connection timed out.</value>
+  </data>
+  <data name="WebSocketConnectionAcceptStart" xml:space="preserve">
+    <value>WebSocket connection accept start.</value>
+  </data>
+  <data name="ReceiveContextAbandonWithException" xml:space="preserve">
+    <value>{0} was Abandoned with exception {1}.</value>
+  </data>
+  <data name="ClientSendPreambleStart" xml:space="preserve">
+    <value>Client sending preamble start.</value>
+  </data>
+  <data name="IncomingMessageVerified" xml:space="preserve">
+    <value>Incoming message has been verified.</value>
+  </data>
+  <data name="WebSocketCloseOutputSent" xml:space="preserve">
+    <value>WebSocketId:{0} sending close output message to '{1}' with close status '{2}'.</value>
+  </data>
+  <data name="SecurityNegotiationProcessingFailure" xml:space="preserve">
+    <value>Security negotiation processing failed.</value>
+  </data>
+  <data name="HttpSendStop" xml:space="preserve">
+    <value>Http Send Request Stop.</value>
+  </data>
+  <data name="HttpResponseReceiveStart" xml:space="preserve">
+    <value>Http transport started receiving a message.</value>
+  </data>
+  <data name="ReceiveContextFaulted" xml:space="preserve">
+    <value>Receive Context faulted.</value>
+  </data>
+</root>

@@ -8,6 +8,13 @@
     mc:Ignorable="d"
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
+    <Page.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="ImageTemplate" x:DataType="local:GridThemeItem">
+                <TextBlock/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Page.Resources>
     <Grid>
         <StackPanel>
             <TextBlock x:FieldModifier="public" x:Name="header" FontFamily="Segoe UI Variable Display" FontWeight="Bold" TextWrapping="WrapWholeWords" FontSize="32" Margin="10,10,10,0">Settings<LineBreak/></TextBlock>
@@ -22,7 +29,28 @@
                     <StackPanel>
                         <RadioButton FontFamily="Segoe UI Variable Display" Tag="Light" Checked="LightChecked" Content="Light"/>
                         <RadioButton FontFamily="Segoe UI Variable Display" Tag="Dark" Checked="DarkChecked" Content="Dark"/>
-                        <RadioButton FontFamily="Segoe UI Variable Display" Tag="SysDef" Checked="DefaultChecked" Content="System default"/>
+                        <RadioButton FontFamily="Segoe UI Variable Display" Tag="SysDef" Checked="DefaultChecked" Content="System default" IsChecked="True"/>
+                    </StackPanel>
+                </muxc:Expander.Content>
+            </muxc:Expander>
+            <muxc:Expander CornerRadius="8" Margin="8" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
+                <muxc:Expander.Header>
+                    <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="0,10,10,10">
+                        <TextBlock FontFamily="Segoe UI Variable Display" FontSize="16">Custom themes</TextBlock>
+                        <TextBlock FontFamily="Segoe UI Variable Display" FontSize="12" Foreground="{ThemeResource SystemBaseMediumColor}">Use a custom theme for the app</TextBlock>
+                    </StackPanel>
+                </muxc:Expander.Header>
+                <muxc:Expander.Content>
+                    <StackPanel>
+                        <RadioButton FontFamily="Segoe UI Variable Display" Tag="Yellow" Checked="YellowChecked" Content="Yellow"/>
+                        <RadioButton FontFamily="Segoe UI Variable Display" Tag="Red" Checked="RedChecked" Content="Red"/>
+                        <RadioButton FontFamily="Segoe UI Variable Display" Tag="Green" Checked="GreenChecked" Content="Green"/>
+                        <RadioButton FontFamily="Segoe UI Variable Display" Tag="Blue" Checked="BlueChecked" Content="Blue"/>
+                        <RadioButton FontFamily="Segoe UI Variable Display" Tag="DcL" Checked="DcLChecked" Content="Discord light"/>
+                        <RadioButton FontFamily="Segoe UI Variable Display" Tag="DcD" Checked="DcDChecked" Content="Discord dark"/>
+                        <RadioButton FontFamily="Segoe UI Variable Display" Tag="WAL" Checked="WALChecked" Content="WhatsApp light"/>
+                        <RadioButton FontFamily="Segoe UI Variable Display" Tag="WAD" Checked="WADChecked" Content="WhatsApp dark"/>
+                        <RadioButton FontFamily="Segoe UI Variable Display" Tag="AMOLED" Checked="AmoledChecked" Content="AMOLED black"/>
                     </StackPanel>
                 </muxc:Expander.Content>
             </muxc:Expander>

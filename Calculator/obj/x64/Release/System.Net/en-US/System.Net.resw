@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Collab_NoEndPointInPeerEndPoint" xml:space="preserve">
+    <value>No EndPoint specified in PeerEndPoint.</value>
+  </data>
+  <data name="Collab_ReqStatusChangedRegFailed" xml:space="preserve">
+    <value>Peer collaboration request status change event register failed.</value>
+  </data>
+  <data name="Pnrp_PortOutOfRange" xml:space="preserve">
+    <value>Port must be between IPEndPoint.MinPort and IPEndPoint.MaxPort.</value>
+  </data>
+  <data name="Collab_GetObjectChangedDataFailed" xml:space="preserve">
+    <value>Peer collaboration get object changed event data failed.</value>
+  </data>
+  <data name="Pnrp_MaxRecordsParameterMustBeGreaterThanZero" xml:space="preserve">
+    <value>Max Records must be greater than 0.</value>
+  </data>
+  <data name="Collab_AppUnregFailed" xml:space="preserve">
+    <value>Peer collaboration unregister application failed.</value>
+  </data>
+  <data name="Collab_GetPresenceFailed" xml:space="preserve">
+    <value>Peer collaboration get presence information failed.</value>
+  </data>
+  <data name="PnrpPermission_TargetNotAPnrpPermission" xml:space="preserve">
+    <value>Target is not a PnrpPermission object.</value>
+  </data>
+  <data name="Pnrp_InvalidPeerName" xml:space="preserve">
+    <value>Invalid peer name.</value>
+  </data>
+  <data name="Collab_UnsubscribeLocalContactFail" xml:space="preserve">
+    <value>Cannot unsubscribe from local contact. It is always subscribed.</value>
+  </data>
+  <data name="Collab_AsyncInviteFailed" xml:space="preserve">
+    <value>Peer collaboration async invite failed.</value>
+  </data>
+  <data name="PnrpPermission_CantUnionWithNonPnrpPermission" xml:space="preserve">
+    <value>Union not valid with a non PnrpPermission object.</value>
+  </data>
+  <data name="Collab_SignInWithNone" xml:space="preserve">
+    <value>Cannot SignIn with None scope.</value>
+  </data>
+  <data name="Collab_CreateContactFailed" xml:space="preserve">
+    <value>Peer collaboration create contact failed.</value>
+  </data>
+  <data name="P2P_NotAvailable" xml:space="preserve">
+    <value>P2P is not available.</value>
+  </data>
+  <data name="Collab_PermissionIntersectError" xml:space="preserve">
+    <value>Cannot intersect with non peer collaboration permission objects.</value>
+  </data>
+  <data name="Collab_NoPeerNameInContact" xml:space="preserve">
+    <value>No PeerName found in PeerContact.</value>
+  </data>
+  <data name="Collab_AppRegFailed" xml:space="preserve">
+    <value>Peer collaboration register application failed.</value>
+  </data>
+  <data name="Collab_InviteFailed" xml:space="preserve">
+    <value>Peer collaboration send invite failed.</value>
+  </data>
+  <data name="Collab_RefreshDataFailed" xml:space="preserve">
+    <value>Peer collaboration refresh data failed.</value>
+  </data>
+  <data name="Pnrp_CouldNotCreateUnsecuredPeerName" xml:space="preserve">
+    <value>Could not create unsecured peer name.</value>
+  </data>
+  <data name="P2P_empty_osinstalltype" xml:space="preserve">
+    <value>The Registry value '{0}' was either empty or not a string type.</value>
+  </data>
+  <data name="Collab_SetLocalEndPointNameFailed" xml:space="preserve">
+    <value>Peer collaboration LocalEndPointName change failed.</value>
+  </data>
+  <data name="Pnrp_StartupFailed" xml:space="preserve">
+    <value>Pnrp could not be started.</value>
+  </data>
+  <data name="Collab_AsyncInviteException" xml:space="preserve">
+    <value>Exception occurred while async inviting an endpoint.</value>
+  </data>
+  <data name="Collab_SignOutFailed" xml:space="preserve">
+    <value>Peer collaboration SignOut failed.</value>
+  </data>
+  <data name="Pnrp_CantChangePeerNameAfterRegistration" xml:space="preserve">
+    <value>Peer Name can't be changed after registration.</value>
+  </data>
+  <data name="Collab_GetPresenceChangedDataFailed" xml:space="preserve">
+    <value>Peer collaboration get presence changed event data failed.</value>
+  </data>
+  <data name="NullUserToken" xml:space="preserve">
+    <value>Parameter userToken cannot be null.</value>
+  </data>
+  <data name="SynchronizingObject" xml:space="preserve">
+    <value>The object used to marshal the event handler calls issued by stand alone events.</value>
+  </data>
+  <data name="Collab_DuplicateRefreshAsync" xml:space="preserve">
+    <value>Another RefreshDataAsync operation already in progress.</value>
+  </data>
+  <data name="Collab_GetApplicationChangedDataFailed" xml:space="preserve">
+    <value>Peer collaboration get application event data failed.</value>
+  </data>
+  <data name="Pnrp_CommentCantBeNull" xml:space="preserve">
+    <value>Comment can't be null or empty.</value>
+  </data>
+  <data name="Pnrp_BlobOrEndpointListNeeded" xml:space="preserve">
+    <value>When auto endpoint selection is disabled, you must specify either a data blob or specify explicit list of endpoints to register.</value>
+  </data>
+  <data name="Collab_DeleteContactFailed" xml:space="preserve">
+    <value>Peer collaboration delete contact failed.</value>
+  </data>
+  <data name="Collab_GetObjectsFailed" xml:space="preserve">
+    <value>Peer collaboration get objects failed.</value>
+  </data>
+  <data name="Collab_GetPeerNearMeChangedDataFailed" xml:space="preserve">
+    <value>Peer collaboration get peer near me changed event data failed.</value>
+  </data>
+  <data name="Pnrp_CouldNotGetPeerHostNameFromPeerName" xml:space="preserve">
+    <value>Could not get peer host name from peer name.</value>
+  </data>
+  <data name="Collab_EndPointNotIPv6Error" xml:space="preserve">
+    <value>Peer Collaboration endpoints have to be IPv6.</value>
+  </data>
+  <data name="Pnrp_CouldNotGetPeerNameFromPeerHostName" xml:space="preserve">
+    <value>Could not get peer name from peer host name.</value>
+  </data>
+  <data name="Pnrp_PeerNameCantBeResolved" xml:space="preserve">
+    <value>Peer Name can't be resolved. No endpoints found.</value>
+  </data>
+  <data name="Collab_UnsubscribeFailed" xml:space="preserve">
+    <value>Peer collaboration unsubscribe failed.</value>
+  </data>
+  <data name="Collab_BadPermissionTarget" xml:space="preserve">
+    <value>Target is not a peer collaboration permission.</value>
+  </data>
+  <data name="Collab_DuplicateSubscribeAsync" xml:space="preserve">
+    <value>Another SubscribeAsync operation already in progress.</value>
+  </data>
+  <data name="Pnrp_ExceptionWhileResolvingAPeerName" xml:space="preserve">
+    <value>Exception occurred while resolving a PeerName.</value>
+  </data>
+  <data name="Collab_ObjectDataSizeFailed" xml:space="preserve">
+    <value>Peer Object data size cannot exceed 16 kilobytes.</value>
+  </data>
+  <data name="Collab_ObjectExists" xml:space="preserve">
+    <value>Object already exists.</value>
+  </data>
+  <data name="InvalidSecurityElem" xml:space="preserve">
+    <value>Invalid security element.</value>
+  </data>
+  <data name="Pnrp_CouldNotStartNameResolution" xml:space="preserve">
+    <value>Could not start name resolution.</value>
+  </data>
+  <data name="Pnrp_PeerNameCantBeNull" xml:space="preserve">
+    <value>Peer Name can't be null or empty.</value>
+  </data>
+  <data name="Collab_EndPointNotAPeerNearMe" xml:space="preserve">
+    <value>Given Endpoint is not an endpoint of any PeerNearMe.</value>
+  </data>
+  <data name="Collab_UpdateContactFailed" xml:space="preserve">
+    <value>Peer collaboration update contact failed.</value>
+  </data>
+  <data name="Pnrp_CouldNotEnumerateClouds" xml:space="preserve">
+    <value>Could not enumerate clouds.</value>
+  </data>
+  <data name="Collab_GetLocalObjectsFailed" xml:space="preserve">
+    <value>Peer collaboration get local objects failed.</value>
+  </data>
+  <data name="DuplicateUserToken" xml:space="preserve">
+    <value>The userToken must be unique. A duplicate userToken already exists for this operation.</value>
+  </data>
+  <data name="Collab_GetSubListChangedDataFailed" xml:space="preserve">
+    <value>Peer collaboration get subscription list changed event data failed.</value>
+  </data>
+  <data name="Collab_CredentialsError" xml:space="preserve">
+    <value>Credentials Error. Cannot open certificate store from credentials.</value>
+  </data>
+  <data name="Pnrp_CallRegisterBeforeUpdate" xml:space="preserve">
+    <value>No registration found. Please use Register method before calling the Update method.</value>
+  </data>
+  <data name="InvalidSecurityElemNoType" xml:space="preserve">
+    <value>Invalid security element - no type name.</value>
+  </data>
+  <data name="Pnrp_AtleastOneEvenHandlerNeeded" xml:space="preserve">
+    <value>No event handlers added for ResolveAsync. Please add a handler for ResolveCompleted before calling ResolveAsync.</value>
+  </data>
+  <data name="Collab_ObjectDeleteFailed" xml:space="preserve">
+    <value>Peer collaboration delete object failed.</value>
+  </data>
+  <data name="Pnrp_CloudNameCantBeNull" xml:space="preserve">
+    <value>Cloud name can't be null or empty.</value>
+  </data>
+  <data name="Collab_AddContactFailedNoXml" xml:space="preserve">
+    <value>Add contact failed. No XML data present. Create this contact again and retry.</value>
+  </data>
+  <data name="Pnrp_InvalidClassifier" xml:space="preserve">
+    <value>Invalid classifier.</value>
+  </data>
+  <data name="Pnrp_NoRegistrationFound" xml:space="preserve">
+    <value>No current registration found.</value>
+  </data>
+  <data name="Collab_NoEndpointFound" xml:space="preserve">
+    <value>Could not find a PeerEndPoint or Endpoint to use for operation.</value>
+  </data>
+  <data name="Collab_AppExists" xml:space="preserve">
+    <value>Application already registered.</value>
+  </data>
+  <data name="Collab_ContactToXmlFailed" xml:space="preserve">
+    <value>Peer collaboration contact to xml failed.</value>
+  </data>
+  <data name="Collab_ApplicationDataSizeFailed" xml:space="preserve">
+    <value>Peer Application data size cannot exceed 16 kilobytes.</value>
+  </data>
+  <data name="Collab_SubscribeFailed" xml:space="preserve">
+    <value>Peer collaboration subscribe failed.</value>
+  </data>
+  <data name="Pnrp_CouldNotCreateSecuredPeerName" xml:space="preserve">
+    <value>Could not create secured peer name.</value>
+  </data>
+  <data name="Collab_GetNameChangedDataFailed" xml:space="preserve">
+    <value>Peer collaboration get name changed event data failed.</value>
+  </data>
+  <data name="Collab_ContactNotFound" xml:space="preserve">
+    <value>Contact not found in contact manager.</value>
+  </data>
+  <data name="Collab_SubscribeLocalContactFailed" xml:space="preserve">
+    <value>Cannot set subscribe on local contact. Value is always Allowed.</value>
+  </data>
+  <data name="Collab_GetLocalAppsFailed" xml:space="preserve">
+    <value>Peer collaboration get local registered applications failed.</value>
+  </data>
+  <data name="Collab_ContactFromXmlFailed" xml:space="preserve">
+    <value>Peer collaboration contact from xml failed.</value>
+  </data>
+  <data name="Pnrp_UseUpdateInsteadOfRegister" xml:space="preserve">
+    <value>A previous registration is active. Use the Update method to update the registration.</value>
+  </data>
+  <data name="Collab_StartupFailed" xml:space="preserve">
+    <value>Peer collaboration startup failed.</value>
+  </data>
+  <data name="Collab_PresenceChangedRegFailed" xml:space="preserve">
+    <value>Peer collaboration presence change event register failed.</value>
+  </data>
+  <data name="Collab_AddContactFailed" xml:space="preserve">
+    <value>Peer collaboration add contact failed.</value>
+  </data>
+  <data name="Collab_AddToContactMgrFailed" xml:space="preserve">
+    <value>Add to Contact Manager failed.</value>
+  </data>
+  <data name="Pnrp_CouldNotCreateRelativePeerName" xml:space="preserve">
+    <value>Could not create relative peer name.</value>
+  </data>
+  <data name="Collab_ContactExists" xml:space="preserve">
+    <value>Contact already exists in contact manager.</value>
+  </data>
+  <data name="PnrpPermission_CantIntersectWithNonPnrpPermission" xml:space="preserve">
+    <value>Intersection not valid with a non PnrpPermission object.</value>
+  </data>
+  <data name="Collab_SubListChangedRegFailed" xml:space="preserve">
+    <value>Peer collaboration subscription list change event register failed.</value>
+  </data>
+  <data name="Pnrp_CouldNotResolvePeerName" xml:space="preserve">
+    <value>Could not resolve peer name.</value>
+  </data>
+  <data name="Collab_GetPeersNearMeFailed" xml:space="preserve">
+    <value>Peer collaboration get peers near me failed.</value>
+  </data>
+  <data name="Collab_SetLocalPresenceFailed" xml:space="preserve">
+    <value>Peer collaboration LocalPresenceInfo set failed.</value>
+  </data>
+  <data name="Pnrp_CouldNotGetDefaultIdentity" xml:space="preserve">
+    <value>Could not get the default identity.</value>
+  </data>
+  <data name="Pnrp_InvalidPeerHostName" xml:space="preserve">
+    <value>Invalid peer host name.</value>
+  </data>
+  <data name="Collab_ObjectSetFailed" xml:space="preserve">
+    <value>Peer collaboration set object failed.</value>
+  </data>
+  <data name="Collab_EmptyGuidError" xml:space="preserve">
+    <value>Cannot specify empty Guid.</value>
+  </data>
+  <data name="Collab_PermissionUnionError" xml:space="preserve">
+    <value>Cannot union with non peer collaboration permission objects.</value>
+  </data>
+  <data name="MemoryAllocFailed" xml:space="preserve">
+    <value>Memory allocation failed.</value>
+  </data>
+  <data name="Pnrp_CouldNotRegisterPeerName" xml:space="preserve">
+    <value>Could not register peer name.</value>
+  </data>
+  <data name="Collab_GetContactFailed" xml:space="preserve">
+    <value>Peer collaboration get contact failed.</value>
+  </data>
+  <data name="Collab_ApplicationChangedRegFailed" xml:space="preserve">
+    <value>Peer collaboration application change event register failed.</value>
+  </data>
+  <data name="InvalidSecurityElemNoClass" xml:space="preserve">
+    <value>Invalid security element - no class name.</value>
+  </data>
+  <data name="Collab_AppRegNoPathError" xml:space="preserve">
+    <value>Path in PeerApplication is required for registration.</value>
+  </data>
+  <data name="Collab_NoGuidForCurrApp" xml:space="preserve">
+    <value>No Guid found to send invite for. Current application may not be registered in Collaboration.</value>
+  </data>
+  <data name="Collab_GetContactsFailed" xml:space="preserve">
+    <value>Peer collaboration get contacts failed.</value>
+  </data>
+  <data name="Pnrp_DataCantBeNull" xml:space="preserve">
+    <value>Data can't be null or 0 bytes.</value>
+  </data>
+  <data name="Collab_ObjectChangedRegFailed" xml:space="preserve">
+    <value>Peer collaboration object change event register failed.</value>
+  </data>
+  <data name="Collab_SetPresenceOffline" xml:space="preserve">
+    <value>Local presence cannot be set to Offline. </value>
+  </data>
+  <data name="Collab_NameChangedRegFailed" xml:space="preserve">
+    <value>Peer collaboration name change event register failed.</value>
+  </data>
+  <data name="Collab_GetAppsFailed" xml:space="preserve">
+    <value>Peer collaboration get application failed.</value>
+  </data>
+  <data name="P2P_cant_determine_osinstalltype" xml:space="preserve">
+    <value>Can't determine OS installation type: Can't read key '{0}'. Exception message: {1}</value>
+  </data>
+  <data name="Collab_SignInFailed" xml:space="preserve">
+    <value>Peer collaboration SignIn failed.</value>
+  </data>
+  <data name="Collab_AddToContactMgrFailedUpdate" xml:space="preserve">
+    <value>Base contact from peer added but display name, nick name and email address not updated.</value>
+  </data>
+  <data name="Pnrp_DataLengthExceeded" xml:space="preserve">
+    <value>Data length can't be greater than {0} bytes.</value>
+  </data>
+  <data name="Pnrp_CommentMaxLengthExceeded" xml:space="preserve">
+    <value>Comment length can't be greater than {0} characters.</value>
+  </data>
+  <data name="Collab_PeerNearMeChangedRegFailed" xml:space="preserve">
+    <value>Peer collaboration peer near me change event register failed.</value>
+  </data>
+</root>

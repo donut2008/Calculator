@@ -132,6 +132,7 @@
     <Compile Include="buttons.xaml.cs">
       <DependentUpon>buttons.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GridThemeItem.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -142,6 +143,7 @@
     <Compile Include="temperature.xaml.cs">
       <DependentUpon>temperature.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ThemeHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
