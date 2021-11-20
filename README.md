@@ -2,13 +2,13 @@
 
 Calculator written in C# with WinUI 2.7 controls. Enjoy!
 
-Current stable build: 4.0_211111-1333
+Current stable build: 4.0 build 53 compiled on 20-Nov-21 11:51 AM IST
 
 Current beta build: 3.0_211106-1957
 
 ![How to get beta releases](https://github.com/donut2008/Calculator/blob/main/README.md#build-instructions)
 
-Current internal build: 5.0_211116-1633
+Current canary build: 5.0 build 54 compiled on 15-Nov-21 12:43 PM IST
 
 ## Build instructions
 
