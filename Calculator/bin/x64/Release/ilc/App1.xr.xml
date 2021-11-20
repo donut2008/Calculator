@@ -117,6 +117,7 @@
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Tag" />
       <RootProperty Name="Content" />
+      <RootProperty Name="IsChecked" />
       <RootEvent Name="Checked" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />

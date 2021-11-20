@@ -1,1 +1,1 @@
-H:\Calculator Releases\3.0-stable_211109-1951\App1_4.0.0.0_Test\App1_4.0.0.0_x86_x64.msixbundle
+C:\Users\hp\Documents\GitHub\Calculator\Calculator\AppPackages\App1_4.0.53.0_Test\App1_4.0.53.0_x86_x64.msixbundle

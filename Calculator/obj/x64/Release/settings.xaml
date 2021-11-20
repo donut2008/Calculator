@@ -22,7 +22,7 @@
                     <StackPanel>
                         <RadioButton x:ConnectionId='6' FontFamily="Segoe UI Variable Display" Tag="Light"                        Content="Light"/>
                         <RadioButton x:ConnectionId='7' FontFamily="Segoe UI Variable Display" Tag="Dark"                       Content="Dark"/>
-                        <RadioButton x:ConnectionId='8' FontFamily="Segoe UI Variable Display" Tag="SysDef"                          Content="System default"/>
+                        <RadioButton x:ConnectionId='8' FontFamily="Segoe UI Variable Display" Tag="SysDef"                          Content="System default" IsChecked="True"/>
                     </StackPanel>
                 </muxc:Expander.Content>
             </muxc:Expander>
@@ -30,7 +30,7 @@
                 <Grid>
                     <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="16,10,10,10">
                         <TextBlock x:ConnectionId='4' x:FieldModifier="public" x:Name="credits" FontFamily="Segoe UI Variable Display" FontSize="16">Calculator written in C# by donut2008</TextBlock>
-                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI Variable Display" FontSize="12">Version 4 stable build 211111-1333</TextBlock>
+                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI Variable Display" FontSize="12">Version 4 stable build 53, compiled on 20-Nov-21 11:51 AM IST</TextBlock>
                         <TextBlock FontFamily="Segoe UI Variable Display" FontSize="16" FontWeight="Bold">Icon credit goes to Microsoft, I am NOT the creator of the app icon.</TextBlock>
                     </StackPanel>
                     <HyperlinkButton x:ConnectionId='3' x:FieldModifier="public" x:Name="github" FontFamily="Segoe UI Variable Display" Margin="10,10,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator" Content="View this project on GitHub"/>

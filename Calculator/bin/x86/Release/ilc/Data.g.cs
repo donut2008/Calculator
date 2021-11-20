@@ -3,6 +3,7 @@ using Mcg.System;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -76,9 +77,9 @@ namespace __Interop
 	// STATISTICS
 	// 
 	// Interop Stub Data
-	//     + Total Stubs = 439
-	//     + Total Forward Stubs = 365
-	//         + Unshared Forward Stubs = 291
+	//     + Total Stubs = 441
+	//     + Total Forward Stubs = 367
+	//         + Unshared Forward Stubs = 293
 	//         + Shared Forward Stubs = 74
 	//         + Shared Forward Stubs Cache Hit = 930
 	//     + Total Reverse Stubs = 74
@@ -90,17 +91,17 @@ namespace __Interop
 	//     + WinRT interfaces : 338
 	//     + WinRT classes : 161
 	//     + WinRT delegates : 33
-	//     + WinRT class methods : 692
+	//     + WinRT class methods : 694
 	//     + dispatch classes : 245
 	//     + dispatch methods : 483
 	//     + stub classes : 315
-	//     + stub methods : 1271
+	//     + stub methods : 1273
 	//     + vtables : 120
 	//     + vtable methods : 215
 	// 
 	// Reducer Data
 	//     + discarded v-tables : 628
-	//     + discarded v-table methods : 1600
+	//     + discarded v-table methods : 1602
 	//     + discarded class methods : 0
 	//     + discarded dispatch class methods : 53
 	//     + discarded stub class methods : 0
