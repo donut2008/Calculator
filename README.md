@@ -2,13 +2,17 @@
 
 Calculator written in C# with WinUI 2.7 controls. Enjoy!
 
-Current stable build: 0.6.5_171021-1652
+Current stable build: 4.0_211111-1333
 
-Current beta build: 0.7.5_halloween
+Current beta build: 3.0_211106-1957
 
-Current internal build: halloween
+Current canary build: 5.0 build 55, compiled on 23-Nov-21 02:13 PM IST
 
 ## Build instructions
+
+- **[FOR BETA RELEASES ONLY]** Change the branch to "beta" from "main"
+
+![image](https://user-images.githubusercontent.com/76439683/141974315-74753a10-7b02-4aa7-a22c-e0c4a4690281.png)
 
 - Download the source code as ZIP
 
@@ -26,7 +30,9 @@ Current internal build: halloween
 
 - Change the branch to "Beta"
 - Download the source code
-- Build it using the build instructions
+- Browse to Calculator\AppPackages
+- Install the certificate to Local Machine\Trusted People
+- Install the msixbundle
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
