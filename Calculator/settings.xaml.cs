@@ -47,24 +47,6 @@ namespace App1
         public void DarkChecked(object sender, RoutedEventArgs e)
             => (Window.Current.Content as FrameworkElement).RequestedTheme = ElementTheme.Dark;
         public void DefaultChecked(object sender, RoutedEventArgs e)
-            => (Window.Current.Content as FrameworkElement).RequestedTheme = ElementTheme.Default; 
-        public void YellowChecked(object sender, RoutedEventArgs e)
-            => customThemeSelected();
-        public void RedChecked(object sender, RoutedEventArgs e)
-            => customThemeSelected();
-        public void GreenChecked(object sender, RoutedEventArgs e)
-            => customThemeSelected();
-        public void BlueChecked(object sender, RoutedEventArgs e)
-            => customThemeSelected();
-        public void DcLChecked(object sender, RoutedEventArgs e)
-            => customThemeSelected();
-        public void DcDChecked(object sender, RoutedEventArgs e)
-            => customThemeSelected();
-        public void WALChecked(object sender, RoutedEventArgs e)
-            => customThemeSelected();
-        public void WADChecked(object sender, RoutedEventArgs e)
-            => customThemeSelected();
-        public void AmoledChecked(object sender, RoutedEventArgs e)
-            => customThemeSelected();
+            => (Window.Current.Content as FrameworkElement).RequestedTheme = ElementTheme.Default;
     }
 }
