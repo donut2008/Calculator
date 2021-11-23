@@ -15,12 +15,12 @@
                 <Frame x:FieldModifier="public" x:Name="ContentFrame"/>
             </Grid>
             <muxc:NavigationView.MenuItems>
-                <muxc:NavigationViewItem FontFamily="Segoe UI Variable Display" Content="Standard" Tag="calc" IsSelected="True">
+                <muxc:NavigationViewItem FontFamily="Segoe UI" Content="Standard" Tag="calc" IsSelected="True">
                     <muxc:NavigationViewItem.Icon>
                         <SymbolIcon Symbol="Calculator"/>
                     </muxc:NavigationViewItem.Icon>
                 </muxc:NavigationViewItem>
-                <muxc:NavigationViewItem FontFamily="Segoe UI Variable Display" Content="Temperature" Tag="temp">
+                <muxc:NavigationViewItem FontFamily="Segoe UI" Content="Temperature" Tag="temp">
                     <muxc:NavigationViewItem.Icon>
                         <SymbolIcon Symbol="Street"/>
                     </muxc:NavigationViewItem.Icon>

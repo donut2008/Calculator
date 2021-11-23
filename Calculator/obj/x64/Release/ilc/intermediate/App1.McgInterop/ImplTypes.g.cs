@@ -35673,6 +35673,56 @@ namespace Windows.UI.Xaml
 		}
 	}
 
+	// Windows.UI.Xaml.IStyleFactory
+	public unsafe static class IStyleFactory__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.IStyleFactory'
+		public static partial class Stubs
+		{
+			// Signature, Windows.UI.Xaml.IStyleFactory.CreateInstance, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
+			public static global::System.IntPtr CreateInstance(
+						global::System.__ComObject __this, 
+						global::System.Type targetType)
+			{
+				// Setup
+				global::System.Type__Impl.UnsafeType unsafe_targetType = default(global::System.Type__Impl.UnsafeType);
+				global::System.IntPtr unsafe_value__retval;
+				global::System.IntPtr value__retval;
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					global::System.Runtime.InteropServices.HSTRING unsafe_targetType__HSTRING__Name;
+					int unsafe_targetType__int__Kind;
+					global::System.Runtime.InteropServices.McgMarshal.TypeToTypeName(
+										targetType, 
+										out unsafe_targetType__HSTRING__Name, 
+										out unsafe_targetType__int__Kind
+									);
+					unsafe_targetType.Name = unsafe_targetType__HSTRING__Name;
+					unsafe_targetType.Kind = (global::Windows.UI.Xaml.Interop.TypeKind)unsafe_targetType__int__Kind;
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.UI.Xaml.IStyleFactory).TypeHandle, 
+										6, 
+										unsafe_targetType, 
+										&(unsafe_value__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					value__retval = unsafe_value__retval;
+					// Return
+					return value__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.FreeHString(unsafe_targetType.Name.handle);
+				}
+			}
+		}
+	}
+
 	// Windows.UI.Xaml.IFrameworkElement
 	public unsafe static class IFrameworkElement__Impl
 	{
@@ -35774,6 +35824,28 @@ namespace Windows.UI.Xaml
 									__this, 
 									value, 
 									32
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+
+			public static global::Windows.UI.Xaml.Style get_Style(global::System.__ComObject __this)
+			{
+				global::Windows.UI.Xaml.Style __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.UI.Xaml.IFrameworkElement, global::Windows.UI.Xaml.Style>(
+									__this, 
+									38
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_Style(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.Style value)
+			{
+				global::__Interop.ForwardComStubs.Stub_6<global::Windows.UI.Xaml.IFrameworkElement, global::Windows.UI.Xaml.Style>(
+									__this, 
+									value, 
+									39
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}
@@ -36381,56 +36453,6 @@ namespace Windows.UI.Xaml
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 				return __ret;
-			}
-		}
-	}
-
-	// Windows.UI.Xaml.IStyleFactory
-	public unsafe static class IStyleFactory__Impl
-	{
-		// StubClass for 'Windows.UI.Xaml.IStyleFactory'
-		public static partial class Stubs
-		{
-			// Signature, Windows.UI.Xaml.IStyleFactory.CreateInstance, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x000419B0] System_IntPtr____w64 int, 
-			public static global::System.IntPtr CreateInstance(
-						global::System.__ComObject __this, 
-						global::System.Type targetType)
-			{
-				// Setup
-				global::System.Type__Impl.UnsafeType unsafe_targetType = default(global::System.Type__Impl.UnsafeType);
-				global::System.IntPtr unsafe_value__retval;
-				global::System.IntPtr value__retval;
-				int unsafe___hr;
-				try
-				{
-					// Marshalling
-					global::System.Runtime.InteropServices.HSTRING unsafe_targetType__HSTRING__Name;
-					int unsafe_targetType__int__Kind;
-					global::System.Runtime.InteropServices.McgMarshal.TypeToTypeName(
-										targetType, 
-										out unsafe_targetType__HSTRING__Name, 
-										out unsafe_targetType__int__Kind
-									);
-					unsafe_targetType.Name = unsafe_targetType__HSTRING__Name;
-					unsafe_targetType.Kind = (global::Windows.UI.Xaml.Interop.TypeKind)unsafe_targetType__int__Kind;
-					// Call to native method
-					unsafe___hr = global::__Interop.ComCallHelpers.Call(
-										__this, 
-										typeof(global::Windows.UI.Xaml.IStyleFactory).TypeHandle, 
-										6, 
-										unsafe_targetType, 
-										&(unsafe_value__retval)
-									);
-					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-					value__retval = unsafe_value__retval;
-					// Return
-					return value__retval;
-				}
-				finally
-				{
-					// Cleanup
-					global::System.Runtime.InteropServices.McgMarshal.FreeHString(unsafe_targetType.Name.handle);
-				}
 			}
 		}
 	}

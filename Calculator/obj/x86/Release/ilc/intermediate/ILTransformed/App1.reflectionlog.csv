@@ -2732,6 +2732,8 @@ Dynamic,Method,"Windows.UI.Xaml.VerticalAlignment Windows.UI.Xaml.FrameworkEleme
 Dynamic,Method,"System.Void Windows.UI.Xaml.FrameworkElement.put_VerticalAlignment(Windows.UI.Xaml.VerticalAlignment value)"
 Dynamic,Method,"Windows.UI.Xaml.Thickness Windows.UI.Xaml.FrameworkElement.Margin.get()"
 Dynamic,Method,"System.Void Windows.UI.Xaml.FrameworkElement.put_Margin(Windows.UI.Xaml.Thickness value)"
+Dynamic,Method,"Windows.UI.Xaml.Style Windows.UI.Xaml.FrameworkElement.Style.get()"
+Dynamic,Method,"System.Void Windows.UI.Xaml.FrameworkElement.put_Style(Windows.UI.Xaml.Style value)"
 Dynamic,Method,"System.Void Windows.UI.Xaml.FrameworkElement.put_RequestedTheme(Windows.UI.Xaml.ElementTheme value)"
 Dynamic,Method,"System.Void Windows.UI.Xaml.FrameworkElement.InvalidateViewport()"
 Dynamic,Method,"Windows.Foundation.Size Windows.UI.Xaml.FrameworkElement.MeasureOverride(Windows.Foundation.Size availableSize)"

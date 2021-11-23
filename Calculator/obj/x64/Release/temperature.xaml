@@ -10,19 +10,19 @@
     muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
     <Grid>
         <StackPanel>
-            <TextBlock FontFamily="Segoe UI Variable Display" FontWeight="Bold" FontSize="32" TextWrapping="WrapWholeWords" Margin="10,10,10,0">Temperature<LineBreak/></TextBlock>
+            <TextBlock FontFamily="Segoe UI Variable Display" Style="{ThemeResource TitleLargeTextBlockStyle}" TextWrapping="WrapWholeWords" Margin="10,10,10,0">Temperature<LineBreak/></TextBlock>
             <StackPanel Spacing="10" Margin="10,0,10,10">
-                <TextBlock FontFamily="Segoe UI Variable Display" FontSize="18">Enter the temperature to convert</TextBlock>
-                <TextBox x:ConnectionId='4'                                                                                         x:FieldModifier="public" x:Name="input" FontFamily="Segoe UI Variable Display" FontSize="16"/>
+                <TextBlock FontFamily="Segoe UI" FontSize="18">Enter the temperature to convert</TextBlock>
+                <TextBox x:ConnectionId='4'                                                                                         x:FieldModifier="public" x:Name="input" FontFamily="Segoe UI" FontSize="16"/>
             </StackPanel>
             <Grid Margin="10,10,10,0">
                 <StackPanel Spacing="10" Margin="0,0,10,10">
-                    <ComboBox x:ConnectionId='3' x:FieldModifier="public" x:Name="convselect" Header="Select conversion" FontFamily="Segoe UI Variable Display" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center"                                    />
+                    <ComboBox x:ConnectionId='3' x:FieldModifier="public" x:Name="convselect" Header="Select conversion" FontFamily="Segoe UI" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Center"                                    />
                 </StackPanel>
             </Grid>
             <StackPanel Spacing="10" Margin="10,10,10,10">
-                <TextBlock FontFamily="Segoe UI Variable Display" FontSize="18">Result</TextBlock>
-                <TextBlock x:ConnectionId='2' x:FieldModifier="public" x:Name="output" FontFamily="Segoe UI Variable Display" FontSize="16"></TextBlock>
+                <TextBlock FontFamily="Segoe UI" FontSize="18">Result</TextBlock>
+                <TextBlock x:ConnectionId='2' x:FieldModifier="public" x:Name="output" FontFamily="Segoe UI" FontSize="16"></TextBlock>
             </StackPanel>
         </StackPanel>
     </Grid>

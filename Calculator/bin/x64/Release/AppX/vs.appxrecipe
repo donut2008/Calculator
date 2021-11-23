@@ -19,311 +19,311 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>98575E2C1748683B8E8A2A0B6DACA6E51FE7C88197B90BD8334A2AA4B536F835</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>donut2008.Calculator_4.0.0.0_x64__k6z0qg9vd0mq8</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>449BA61C5B41927D19C1A91503E016D60BFC00DEF827C644BB30A91EBC720AA4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>donut2008.Calculator_4.0.53.0_x64__k6z0qg9vd0mq8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>donut2008.Calculator_k6z0qg9vd0mq8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>donut2008.Calculator</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=donut</RegisteredPackagePublisher>
-    <RegisteredVersion>4.0.0.0</RegisteredVersion>
+    <RegisteredVersion>4.0.53.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-20T06:21:35.265</Modified>
+      <Modified>2021-11-23T09:03:39.509</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.dll">
       <PackagePath>App1.dll</PackagePath>
-      <Modified>2021-11-20T06:21:35.118</Modified>
+      <Modified>2021-11-23T09:03:39.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2021-11-20T06:21:35.252</Modified>
+      <Modified>2021-11-23T09:03:39.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.pdb">
       <PackagePath>App1.pdb</PackagePath>
-      <Modified>2021-11-20T06:21:35.250</Modified>
+      <Modified>2021-11-23T09:03:39.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.333</Modified>
+      <Modified>2021-11-23T07:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.333</Modified>
+      <Modified>2021-11-23T07:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.338</Modified>
+      <Modified>2021-11-23T07:30:18.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.354</Modified>
+      <Modified>2021-11-23T07:30:18.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.355</Modified>
+      <Modified>2021-11-23T07:30:18.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.356</Modified>
+      <Modified>2021-11-23T07:30:18.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.356</Modified>
+      <Modified>2021-11-23T07:30:18.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.364</Modified>
+      <Modified>2021-11-23T07:30:18.065</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.369</Modified>
+      <Modified>2021-11-23T07:30:18.065</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.370</Modified>
+      <Modified>2021-11-23T07:30:18.065</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.370</Modified>
+      <Modified>2021-11-23T07:30:18.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.371</Modified>
+      <Modified>2021-11-23T07:30:18.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.372</Modified>
+      <Modified>2021-11-23T07:30:18.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.372</Modified>
+      <Modified>2021-11-23T07:30:18.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.372</Modified>
+      <Modified>2021-11-23T07:30:18.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.372</Modified>
+      <Modified>2021-11-23T07:30:18.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.372</Modified>
+      <Modified>2021-11-23T07:30:18.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.372</Modified>
+      <Modified>2021-11-23T07:30:18.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.374</Modified>
+      <Modified>2021-11-23T07:30:18.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.374</Modified>
+      <Modified>2021-11-23T07:30:18.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.375</Modified>
+      <Modified>2021-11-23T07:30:18.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.375</Modified>
+      <Modified>2021-11-23T07:30:18.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.376</Modified>
+      <Modified>2021-11-23T07:30:18.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.376</Modified>
+      <Modified>2021-11-23T07:30:18.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.376</Modified>
+      <Modified>2021-11-23T07:30:18.071</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.377</Modified>
+      <Modified>2021-11-23T07:30:18.071</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.377</Modified>
+      <Modified>2021-11-23T07:30:18.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.377</Modified>
+      <Modified>2021-11-23T07:30:18.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.377</Modified>
+      <Modified>2021-11-23T07:30:18.075</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.377</Modified>
+      <Modified>2021-11-23T07:30:18.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.377</Modified>
+      <Modified>2021-11-23T07:30:18.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.377</Modified>
+      <Modified>2021-11-23T07:30:18.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.388</Modified>
+      <Modified>2021-11-23T07:30:18.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.396</Modified>
+      <Modified>2021-11-23T07:30:18.078</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.396</Modified>
+      <Modified>2021-11-23T07:30:18.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.396</Modified>
+      <Modified>2021-11-23T07:30:18.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.396</Modified>
+      <Modified>2021-11-23T07:30:18.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.396</Modified>
+      <Modified>2021-11-23T07:30:18.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.399</Modified>
+      <Modified>2021-11-23T07:30:18.080</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.399</Modified>
+      <Modified>2021-11-23T07:30:18.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.408</Modified>
+      <Modified>2021-11-23T07:30:18.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.408</Modified>
+      <Modified>2021-11-23T07:30:18.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-19T16:27:35.408</Modified>
+      <Modified>2021-11-23T07:30:18.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -331,7 +331,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-11-20T06:21:21.229</Modified>
+      <Modified>2021-11-23T09:03:19.735</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>

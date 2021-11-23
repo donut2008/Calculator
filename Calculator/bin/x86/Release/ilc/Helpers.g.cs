@@ -895,7 +895,8 @@ namespace __Interop
 		internal static int StdCall__20(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					int arg0)
+					global::System.Type__Impl.UnsafeType arg0, 
+					void* arg1)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -904,13 +905,22 @@ namespace __Interop
 		internal static int StdCall__21(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.UI.Xaml.Thickness arg0)
+					int arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
 		internal static int StdCall__22(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::Windows.UI.Xaml.Thickness arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__23(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::Windows.Foundation.Size arg0, 
@@ -920,7 +930,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__23(
+		internal static int StdCall__24(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					global::System.Runtime.InteropServices.HSTRING arg0, 
@@ -931,7 +941,7 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__24(
+		internal static int StdCall__25(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					double arg0)
@@ -940,20 +950,10 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__25(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					global::Windows.UI.Xaml.CornerRadius arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
 		internal static int StdCall__26(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					void* arg0, 
-					sbyte arg1)
+					global::Windows.UI.Xaml.CornerRadius arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -963,7 +963,7 @@ namespace __Interop
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
-					int arg1)
+					sbyte arg1)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -972,7 +972,8 @@ namespace __Interop
 		internal static int StdCall__28(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.UI.Xaml.GridLength arg0)
+					void* arg0, 
+					int arg1)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -981,7 +982,7 @@ namespace __Interop
 		internal static int StdCall__29(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::Windows.UI.Text.FontWeight arg0)
+					global::Windows.UI.Xaml.GridLength arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
@@ -990,13 +991,22 @@ namespace __Interop
 		internal static int StdCall__30(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::System.Runtime.InteropServices.HSTRING arg0)
+					global::Windows.UI.Text.FontWeight arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
 		}
 
 		internal static int StdCall__31(
+					global::System.IntPtr pfn, 
+					void* pthis, 
+					global::System.Runtime.InteropServices.HSTRING arg0)
+		{
+			// This method is implemented elsewhere in the toolchain
+			return 0;
+		}
+
+		internal static int StdCall__32(
 					global::System.IntPtr pfn, 
 					void* pthis, 
 					void* arg0, 
@@ -1007,20 +1017,10 @@ namespace __Interop
 			return 0;
 		}
 
-		internal static int StdCall__32(
-					global::System.IntPtr pfn, 
-					void* pthis, 
-					sbyte arg0)
-		{
-			// This method is implemented elsewhere in the toolchain
-			return 0;
-		}
-
 		internal static int StdCall__33(
 					global::System.IntPtr pfn, 
 					void* pthis, 
-					global::System.Type__Impl.UnsafeType arg0, 
-					void* arg1)
+					sbyte arg0)
 		{
 			// This method is implemented elsewhere in the toolchain
 			return 0;
