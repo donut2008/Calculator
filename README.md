@@ -6,9 +6,7 @@ Current stable build: 4.0_211111-1333
 
 Current beta build: 3.0_211106-1957
 
-![How to get beta releases](https://github.com/donut2008/Calculator/blob/main/README.md#build-instructions)
-
-Current internal build: 5.0_211116-1633
+Current canary build: 5.0 build 55, compiled on 23-Nov-21 02:13 PM IST
 
 ## Build instructions
 
@@ -32,7 +30,9 @@ Current internal build: 5.0_211116-1633
 
 - Change the branch to "Beta"
 - Download the source code
-- Build it using the build instructions
+- Browse to Calculator\AppPackages
+- Install the certificate to Local Machine\Trusted People
+- Install the msixbundle
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
