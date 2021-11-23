@@ -20,7 +20,7 @@ using Windows.UI.Xaml.Navigation;
 namespace App1
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// NavigationView
     /// </summary>
     public sealed partial class MainPage : Page
     {
@@ -43,6 +43,9 @@ namespace App1
                 {
                     case "calc":
                         ContentFrame.Navigate(typeof(buttons), null);
+                        break;
+                    case "temp":
+                        ContentFrame.Navigate(typeof(temperature), null);
                         break;
                     default:
                         break;

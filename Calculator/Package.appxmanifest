@@ -9,7 +9,7 @@
   <Identity
     Name="donut2008.Calculator"
     Publisher="CN=donut"
-    Version="0.6.5.0" />
+    Version="4.1.3.0" />
 
   <mp:PhoneIdentity PhoneProductId="f1a8c5f7-fc79-444a-9bab-4a255a914f1b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
@@ -37,10 +37,11 @@
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="GUI calculator written in C# and developed by donut (https://github.com/donut2008)"
         BackgroundColor="transparent">
-        <uap:DefaultTile  ShortName="Calculator" Square71x71Logo="Assets\SmallTile.png" Wide310x150Logo="Assets\Wide310x150Logo.png">
+        <uap:DefaultTile  ShortName="Calculator" Square71x71Logo="Assets\SmallTile.png" Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo"/>
             <uap:ShowOn Tile="wide310x150Logo"/>
+            <uap:ShowOn Tile="square310x310Logo"/>
           </uap:ShowNameOnTiles>
         </uap:DefaultTile >
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

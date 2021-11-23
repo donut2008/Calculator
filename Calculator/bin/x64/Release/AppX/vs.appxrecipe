@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>AOC-PC</Machine>
-    <WindowsUser>anjis</WindowsUser>
+    <Machine>DESKTOP-ARVMU8U</Machine>
+    <WindowsUser>hp</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>f1a8c5f7-fc79-444a-9bab-4a255a914f1b</PackageIdentityName>
     <PackageIdentityPublisher>CN=donut</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\hp\Documents\GitHub\Calculator\Calculator\obj\x64\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,344 +18,369 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>4262BC40D67EA5AABDC6DB733E77B5FBC8A86039BA6BC73B19018E315DAD6733</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>donut2008.Calculator_0.6.5.0_x64__k6z0qg9vd0mq8</RegisteredPackageMoniker>
+    <LayoutDir>C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>3A52CA1959CF714465325EE9942B5D9D942A2A1900ED440A4F24FA66778C9BB4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>donut2008.Calculator_4.1.2.0_x64__k6z0qg9vd0mq8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>donut2008.Calculator_k6z0qg9vd0mq8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>donut2008.Calculator</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=donut</RegisteredPackagePublisher>
-    <RegisteredVersion>0.6.5.0</RegisteredVersion>
+    <RegisteredVersion>4.1.2.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-06T14:27:48.044</Modified>
+      <Modified>2021-11-23T16:04:02.027</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.dll">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.dll">
       <PackagePath>App1.dll</PackagePath>
-      <Modified>2021-11-06T14:27:47.869</Modified>
+      <Modified>2021-11-23T16:04:01.898</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.exe">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2021-11-06T14:27:48.031</Modified>
+      <Modified>2021-11-23T16:04:02.016</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.pdb">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.pdb">
       <PackagePath>App1.pdb</PackagePath>
-      <Modified>2021-11-06T14:27:48.030</Modified>
+      <Modified>2021-11-23T16:04:02.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:23.517</Modified>
+      <Modified>2021-11-23T16:03:17.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:23.553</Modified>
+      <Modified>2021-11-23T16:03:17.765</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:23.581</Modified>
+      <Modified>2021-11-23T16:03:17.779</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:23.593</Modified>
+      <Modified>2021-11-23T16:03:17.790</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:23.769</Modified>
+      <Modified>2021-11-23T16:03:17.807</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-11-23T16:03:16.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-11-23T16:03:16.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-11-23T16:03:16.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-11-23T16:03:16.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-11-23T16:03:16.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-11-05T13:01:24.121</Modified>
+      <Modified>2021-11-23T15:41:18.439</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.169</Modified>
+      <Modified>2021-11-23T16:03:16.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.197</Modified>
+      <Modified>2021-11-23T16:03:16.349</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.233</Modified>
+      <Modified>2021-11-23T16:03:16.371</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.289</Modified>
+      <Modified>2021-11-23T16:03:16.391</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.321</Modified>
+      <Modified>2021-11-23T16:03:16.421</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.357</Modified>
+      <Modified>2021-11-23T16:03:17.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.389</Modified>
+      <Modified>2021-11-23T16:03:17.379</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.406</Modified>
+      <Modified>2021-11-23T16:03:17.419</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.429</Modified>
+      <Modified>2021-11-23T16:03:17.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.497</Modified>
+      <Modified>2021-11-23T16:03:17.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.523</Modified>
+      <Modified>2021-11-23T16:03:16.440</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.553</Modified>
+      <Modified>2021-11-23T16:03:16.464</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.597</Modified>
+      <Modified>2021-11-23T16:03:16.483</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.633</Modified>
+      <Modified>2021-11-23T16:03:16.495</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.656</Modified>
+      <Modified>2021-11-23T16:03:16.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.666</Modified>
+      <Modified>2021-11-23T16:03:17.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.689</Modified>
+      <Modified>2021-11-23T16:03:17.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.721</Modified>
+      <Modified>2021-11-23T16:03:17.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.746</Modified>
+      <Modified>2021-11-23T16:03:17.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.756</Modified>
+      <Modified>2021-11-23T16:03:17.277</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.756</Modified>
+      <Modified>2021-11-23T16:03:17.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.757</Modified>
+      <Modified>2021-11-23T16:03:17.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.757</Modified>
+      <Modified>2021-11-23T16:03:17.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.757</Modified>
+      <Modified>2021-11-23T16:03:17.196</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.781</Modified>
+      <Modified>2021-11-23T16:03:17.006</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.806</Modified>
+      <Modified>2021-11-23T16:03:17.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.821</Modified>
+      <Modified>2021-11-23T16:03:17.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.836</Modified>
+      <Modified>2021-11-23T16:03:17.055</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.856</Modified>
+      <Modified>2021-11-23T16:03:17.067</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.857</Modified>
+      <Modified>2021-11-23T16:03:17.080</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.857</Modified>
+      <Modified>2021-11-23T16:03:17.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.886</Modified>
+      <Modified>2021-11-23T16:03:17.171</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.889</Modified>
+      <Modified>2021-11-23T16:03:17.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.889</Modified>
+      <Modified>2021-11-23T16:03:17.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.889</Modified>
+      <Modified>2021-11-23T16:03:17.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.917</Modified>
+      <Modified>2021-11-23T16:03:17.811</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:24.937</Modified>
+      <Modified>2021-11-23T16:03:17.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:25.013</Modified>
+      <Modified>2021-11-23T16:03:17.837</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:25.021</Modified>
+      <Modified>2021-11-23T16:03:17.846</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:25.037</Modified>
+      <Modified>2021-11-23T16:03:17.857</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:25.141</Modified>
+      <Modified>2021-11-23T16:03:16.565</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:25.185</Modified>
+      <Modified>2021-11-23T16:03:16.585</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:25.201</Modified>
+      <Modified>2021-11-23T16:03:16.615</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:25.209</Modified>
+      <Modified>2021-11-23T16:03:16.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-05T13:01:25.229</Modified>
+      <Modified>2021-11-23T16:03:16.706</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
       <Modified>2021-02-04T19:45:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\resources.pri">
+    <AppxPackagedFile Include="C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-11-06T14:27:33.204</Modified>
+      <Modified>2021-11-23T16:03:49.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2021-09-14T09:06:08.000</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
+    <ResolvedSDKReference Include="C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
       <Name>Microsoft.UI.Xaml.2.7</Name>
       <Version>7.2109.13004.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
+    <ResolvedSDKReference Include="C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx">
       <Name>Microsoft.UI.Xaml.2.7</Name>
       <Version>7.2109.13004.0</Version>
       <Architecture>Win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx">
+    <ResolvedSDKReference Include="C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx">
       <Name>Microsoft.UI.Xaml.2.7</Name>
       <Version>7.2109.13004.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx">
+    <ResolvedSDKReference Include="C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx">
       <Name>Microsoft.UI.Xaml.2.7</Name>
       <Version>7.2109.13004.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx">
+    <ResolvedSDKReference Include="C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx">
       <Name>Microsoft.UI.Xaml.2.7</Name>
       <Version>7.2109.13004.0</Version>
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.7, MinVersion = 7.2109.13004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
+      <AppxLocation>C:\Users\hp\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.7.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

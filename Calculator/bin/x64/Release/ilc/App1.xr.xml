@@ -43,9 +43,10 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="TextReadingOrder" />
+      <RootProperty Name="Style" />
       <RootProperty Name="TextWrapping" />
-      <RootProperty Name="FontWeight" />
       <RootProperty Name="Inlines" />
+      <RootProperty Name="FontWeight" />
       <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -71,6 +72,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="Microsoft.UI.Xaml.Controls.NavigationViewItem">
+      <RootProperty Name="FontFamily" />
       <RootProperty Name="Content" />
       <RootProperty Name="Tag" />
       <RootProperty Name="IsSelected" />
@@ -117,5 +119,20 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="App1.settings" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="Header" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontSize" />
+      <RootEvent Name="BeforeTextChanging" />
+      <RootEvent Name="TextChanging" />
+    </RootType>
+    <RootType FullName="App1.temperature" />
   </Roots.RootTypes>
 </Roots>
