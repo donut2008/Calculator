@@ -1,12 +1,8 @@
 # Calculator
 
+**Update as of 28th November 2021: <font color='red'>This project has been deprecated and it will no longer receive updates.</font>**
+
 Calculator written in C# with WinUI 2.7 controls. Enjoy!
-
-Current stable build: 4.0_211111-1333
-
-Current beta build: 3.0_211106-1957
-
-Current canary build: 5.0 build 55, compiled on 23-Nov-21 02:13 PM IST
 
 ## Build instructions
 
