@@ -2,12 +2,6 @@
 
 Calculator written in C# with WinUI 2.7 controls. Enjoy!
 
-Current stable build: 4.0_211111-1333
-
-Current beta build: 3.0_211106-1957
-
-Current canary build: 5.0 build 55, compiled on 23-Nov-21 02:13 PM IST
-
 ## Build instructions
 
 - **[FOR BETA RELEASES ONLY]** Change the branch to "beta" from "main"
@@ -18,7 +12,7 @@ Current canary build: 5.0 build 55, compiled on 23-Nov-21 02:13 PM IST
 
 ![image](https://user-images.githubusercontent.com/76439683/137626379-11fdc676-a341-467e-ad17-21d790b0d29a.png)
 
-- Make sure to install these workloads first
+- Make sure to install these workloads first after downloading the Visual Studio Installer (preferably 2019/2022)
 
 ![image](https://user-images.githubusercontent.com/76439683/137626437-0178c3bf-36cb-443b-b79e-f454a6b8f13a.png)
 
