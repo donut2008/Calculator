@@ -14,7 +14,7 @@ Calculator written in C# with WinUI 2.7 controls. Enjoy!
 
 ![image](https://user-images.githubusercontent.com/76439683/137626379-11fdc676-a341-467e-ad17-21d790b0d29a.png)
 
-- Make sure to install these workloads first
+- Make sure to install these workloads first after downloading the Visual Studio Installer (preferably 2019/2022)
 
 ![image](https://user-images.githubusercontent.com/76439683/137626437-0178c3bf-36cb-443b-b79e-f454a6b8f13a.png)
 
