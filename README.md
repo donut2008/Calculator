@@ -1,7 +1,5 @@
 # Calculator
 
-**Update as of 28th November 2021: <font color='red'>This project has been deprecated and it will no longer receive updates.</font>**
-
 Calculator written in C# with WinUI 2.7 controls. Enjoy!
 
 ## Build instructions
