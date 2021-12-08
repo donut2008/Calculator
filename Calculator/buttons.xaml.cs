@@ -28,11 +28,15 @@ namespace App1
         public char Operation;
         public bool FirstTime = true;
         public double var1, var2;
+        public static buttons Current;
+        public ListBox HistoryList1;
         public buttons()
         {
             this.InitializeComponent();
             this.NavigationCacheMode = NavigationCacheMode.Enabled;
             result.Text = "0";
+            Current = this;
+            HistoryList1 = HistoryList;
         }
         public int factorial(int x)
         {
@@ -50,6 +54,7 @@ namespace App1
 
                 case '/':
                     {
+                        HistoryList.Items.Add(PreviousValue + " + " + result.Text + "=" + (PreviousValue + double.Parse(result.Text)));
                         PreviousValue /= double.Parse(result.Text);
                         break;
                     }

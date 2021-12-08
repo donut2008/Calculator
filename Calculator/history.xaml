@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="App1.history"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
+    <Grid>
+        <Button x:Name="ClearHistory" x:FieldModifier="public" HorizontalAlignment="Right" Click="ClearHistory_Click">
+            <StackPanel Orientation="Horizontal">
+                <SymbolIcon Symbol="Delete"/>
+                <TextBlock>Clear history</TextBlock>
+            </StackPanel>
+        </Button>
+        <StackPanel>
+            <TextBlock FontFamily="Segoe UI Variable Display" Style="{ThemeResource TitleLargeTextBlockStyle}" TextWrapping="WrapWholeWords" FontSize="32" Margin="10,10,10,0">History<LineBreak/></TextBlock>
+            <Border CornerRadius="8" Margin="8" Background="{ThemeResource ExpanderHeaderBackground}" BorderThickness="{ThemeResource ExpanderHeaderBorderThickness}" BorderBrush="{ThemeResource ExpanderHeaderBorderBrush}" HorizontalAlignment="Stretch">
+                <Grid>
+                    <StackPanel>
+                        <ListView ItemsSource="{x:Bind buttons}" x:Name="HistoryList" x:FieldModifier="public" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ScrollViewer.HorizontalScrollMode="Disabled" ScrollViewer.VerticalScrollMode="Enabled" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Page>

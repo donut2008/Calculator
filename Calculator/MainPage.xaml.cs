@@ -47,6 +47,9 @@ namespace App1
                     case "temp":
                         ContentFrame.Navigate(typeof(temperature), null);
                         break;
+                    case "hist":
+                        ContentFrame.Navigate(typeof(history), null);
+                        break;
                     default:
                         break;
                 }
