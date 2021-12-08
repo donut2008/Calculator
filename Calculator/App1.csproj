@@ -18,7 +18,7 @@
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
     <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
-    <PackageCertificateThumbprint>D20AD95FFF626DC1FF1226F6EEFA1004C5784F65</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>F848312671BB6613B4B9ABA10EE4C8516D89C78E</PackageCertificateThumbprint>
     <PackageCertificateKeyFile />
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
@@ -132,7 +132,6 @@
     <Compile Include="buttons.xaml.cs">
       <DependentUpon>buttons.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GridThemeItem.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -143,7 +142,6 @@
     <Compile Include="temperature.xaml.cs">
       <DependentUpon>temperature.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ThemeHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">

@@ -14,7 +14,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Content" />
-      <RootProperty Name="Resources" />
     </RootType>
     <RootType FullName="Microsoft.UI.Xaml.Controls.BackdropMaterial">
       <RootMethod Name="GetApplyToRootOrPageBackground" />
@@ -87,9 +86,6 @@
       <RootProperty Name="Symbol" />
     </RootType>
     <RootType FullName="App1.MainPage" />
-    <RootType FullName="Windows.UI.Xaml.DataTemplate">
-      <RootProperty Name="Template" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Children" />
       <RootProperty Name="Spacing" />

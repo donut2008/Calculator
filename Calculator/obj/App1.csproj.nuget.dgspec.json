@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Documents\\GitHub\\Calculator\\Calculator\\App1.csproj": {}
+    "C:\\Users\\anjis\\Documents\\GitHub\\Calculator\\Calculator\\App1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Documents\\GitHub\\Calculator\\Calculator\\App1.csproj": {
+    "C:\\Users\\anjis\\Documents\\GitHub\\Calculator\\Calculator\\App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Documents\\GitHub\\Calculator\\Calculator\\App1.csproj",
+        "projectUniqueName": "C:\\Users\\anjis\\Documents\\GitHub\\Calculator\\Calculator\\App1.csproj",
         "projectName": "App1",
-        "projectPath": "C:\\Users\\hp\\Documents\\GitHub\\Calculator\\Calculator\\App1.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Documents\\GitHub\\Calculator\\Calculator\\obj\\",
+        "projectPath": "C:\\Users\\anjis\\Documents\\GitHub\\Calculator\\Calculator\\App1.csproj",
+        "packagesPath": "C:\\Users\\anjis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anjis\\Documents\\GitHub\\Calculator\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anjis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

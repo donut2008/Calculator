@@ -25,10 +25,6 @@ namespace App1
     /// </summary>
     public sealed partial class settings : Page
     {
-        public ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;
-        public ObservableCollection<GridThemeItem> gridItems = new ObservableCollection<GridThemeItem>();
-        private GridThemeItem CreateNewTheme(byte borderR, byte borderG, byte borderB, byte bgR, byte bgG, byte bgB)
-        { return new GridThemeItem(new SolidColorBrush(Color.FromArgb(255, borderR, borderG, borderB)), new SolidColorBrush(Color.FromArgb(255, bgR, bgG, bgB))); }
         public settings()
         {
             this.InitializeComponent();
