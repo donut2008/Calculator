@@ -43,6 +43,10 @@
               "target": "Package",
               "version": "[6.2.13, )"
             },
+            "Microsoft.Toolkit.Uwp.Notifications": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
             "Microsoft.UI.Xaml": {
               "target": "Package",
               "version": "[2.7.0, )"

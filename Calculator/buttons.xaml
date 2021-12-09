@@ -18,13 +18,13 @@
             <ColumnDefinition Width="54*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="54*"/>
-            <RowDefinition Height="54*"/>
-            <RowDefinition Height="54*"/>
-            <RowDefinition Height="54*"/>
-            <RowDefinition Height="54*"/>
-            <RowDefinition Height="54*"/>
-            <RowDefinition Height="54*"/>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="53*"/>
+            <RowDefinition Height="53*"/>
         </Grid.RowDefinitions>
         <TextBlock x:FieldModifier="public" x:Name="result" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6" Margin="4" Text="0" FontFamily="Segoe UI" FontSize="40" HorizontalAlignment="Stretch" TextAlignment="Right" TextReadingOrder="UseFlowDirection"/>
         <Button x:FieldModifier="public" x:Name="btn0" Grid.Row="6" Grid.Column="0" Margin="4" CornerRadius="8" Content="0" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="btn0_Click"/>

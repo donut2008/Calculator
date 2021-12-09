@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Toolkit.Uwp.Notifications;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -31,6 +32,15 @@ namespace App1
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            App.Current.UnhandledException += OnUnhandledException;
+        }
+        private void OnUnhandledException(object sender, Windows.UI.Xaml.UnhandledExceptionEventArgs unhandledExceptionEventArgs)
+        {
+            // Requires Microsoft.Toolkit.Uwp.Notifications NuGet package version 7.0 or greater
+            new ToastContentBuilder()
+                .AddText("Uh oh...the app crashed")
+                .AddText("Don't worry, it's not your fault! The developer wasn't prepared for this.")
+                .Show();
         }
 
         /// <summary>

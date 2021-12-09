@@ -9,6 +9,7 @@ sg.exe          : 2.2.30601.02 built by: PROJECTNREL
 Framework:
 clrcompression.dll                                    : 4.6.30316.01 @BuiltBy: dlab14-vs2017-6a00000B @Branch: dev/tommcdon/uwp6.2-clrcompression @SrcCode: https://github.com/dotnet/corefx/tree/0ff7768fac3f731acd96a46523d83cbf65690003
 Microsoft.CSharp.dll                                  : 4.6.30316.01
+Microsoft.Toolkit.Uwp.Notifications.dll               : 7.1.2.1
 Microsoft.VisualBasic.dll                             : 4.6.30316.01
 Microsoft.Win32.Primitives.dll                        : 4.6.30316.01
 mscorlib.dll                                          : 4.6.30316.01
