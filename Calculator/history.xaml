@@ -20,7 +20,7 @@
             <Border CornerRadius="8" Margin="8" Background="{ThemeResource ExpanderHeaderBackground}" BorderThickness="{ThemeResource ExpanderHeaderBorderThickness}" BorderBrush="{ThemeResource ExpanderHeaderBorderBrush}" HorizontalAlignment="Stretch">
                 <Grid>
                     <StackPanel>
-                        <ListView ItemsSource="{x:Bind buttons}" x:Name="HistoryList" x:FieldModifier="public" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ScrollViewer.HorizontalScrollMode="Disabled" ScrollViewer.VerticalScrollMode="Enabled" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+                        <ListView x:Name="HistoryList" x:FieldModifier="public" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ScrollViewer.HorizontalScrollMode="Disabled" ScrollViewer.VerticalScrollMode="Enabled" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
                     </StackPanel>
                 </Grid>
             </Border>
