@@ -27,7 +27,6 @@ namespace App1
         public MainPage()
         {
             this.InitializeComponent();
-            ContentFrame.Navigate(typeof(history), null);
             ContentFrame.Navigate(typeof(buttons), null);
         }
 
@@ -48,9 +47,6 @@ namespace App1
                         break;
                     case "temp":
                         ContentFrame.Navigate(typeof(temperature), null);
-                        break;
-                    case "hist":
-                        ContentFrame.Navigate(typeof(history), null);
                         break;
                     default:
                         break;

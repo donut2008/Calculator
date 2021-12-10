@@ -36,6 +36,7 @@
                     <HyperlinkButton x:FieldModifier="public" x:Name="github" FontFamily="Segoe UI" Margin="10,10,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator" Content="View this project on GitHub"/>
                 </Grid>
             </Border>
+            <Button Content="trigger notif" Click="Notify"/>
         </StackPanel>
     </Grid>
 </Page>

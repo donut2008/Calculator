@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Toolkit.Uwp.Notifications;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
@@ -44,5 +45,12 @@ namespace App1
             => (Window.Current.Content as FrameworkElement).RequestedTheme = ElementTheme.Dark;
         public void DefaultChecked(object sender, RoutedEventArgs e)
             => (Window.Current.Content as FrameworkElement).RequestedTheme = ElementTheme.Default;
+        public void Notify(object sender, RoutedEventArgs e)
+        {
+            new ToastContentBuilder()
+                .AddText("hi")
+                .AddText("hi")
+                .Show();
+        }
     }
 }

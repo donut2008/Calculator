@@ -20,22 +20,23 @@
                 </muxc:Expander.Header>
                 <muxc:Expander.Content>
                     <StackPanel>
-                        <RadioButton x:ConnectionId='6' FontFamily="Segoe UI" Tag="Light"                        Content="Light"/>
-                        <RadioButton x:ConnectionId='7' FontFamily="Segoe UI" Tag="Dark"                       Content="Dark"/>
-                        <RadioButton x:ConnectionId='8' FontFamily="Segoe UI" Tag="SysDef"                          Content="System default" IsChecked="True"/>
+                        <RadioButton x:ConnectionId='7' FontFamily="Segoe UI" Tag="Light"                        Content="Light"/>
+                        <RadioButton x:ConnectionId='8' FontFamily="Segoe UI" Tag="Dark"                       Content="Dark"/>
+                        <RadioButton x:ConnectionId='9' FontFamily="Segoe UI" Tag="SysDef"                          Content="System default" IsChecked="True"/>
                     </StackPanel>
                 </muxc:Expander.Content>
             </muxc:Expander>
             <Border CornerRadius="8" Margin="8" Background="{ThemeResource ExpanderHeaderBackground}" BorderThickness="{ThemeResource ExpanderHeaderBorderThickness}" BorderBrush="{ThemeResource ExpanderHeaderBorderBrush}" HorizontalAlignment="Stretch">
                 <Grid>
                     <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="16,10,10,10">
-                        <TextBlock x:ConnectionId='4' x:FieldModifier="public" x:Name="credits" FontFamily="Segoe UI" FontSize="16">Calculator written in C# by donut2008</TextBlock>
-                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI" FontSize="12">Version 5 canary build 57, compiled 08-Dec-21 07:06 PM IST</TextBlock>
+                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" x:Name="credits" FontFamily="Segoe UI" FontSize="16">Calculator written in C# by donut2008</TextBlock>
+                        <TextBlock x:ConnectionId='6' x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI" FontSize="12">Version 5 canary build 57, compiled 08-Dec-21 07:06 PM IST</TextBlock>
                         <TextBlock FontFamily="Segoe UI" FontSize="16" FontWeight="Bold">Icon credit goes to Microsoft, I am NOT the creator of the app icon.</TextBlock>
                     </StackPanel>
-                    <HyperlinkButton x:ConnectionId='3' x:FieldModifier="public" x:Name="github" FontFamily="Segoe UI" Margin="10,10,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator" Content="View this project on GitHub"/>
+                    <HyperlinkButton x:ConnectionId='4' x:FieldModifier="public" x:Name="github" FontFamily="Segoe UI" Margin="10,10,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator" Content="View this project on GitHub"/>
                 </Grid>
             </Border>
+            <Button x:ConnectionId='3' Content="trigger notif"               />
         </StackPanel>
     </Grid>
 </Page>

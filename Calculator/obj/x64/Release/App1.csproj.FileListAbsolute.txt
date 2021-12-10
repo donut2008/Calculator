@@ -2383,11 +2383,6 @@ C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\ilc\interm
 C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\ilc\intermediate\Resources\System.Runtime.WindowsRuntime.UI.Xaml.index.txt
 C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\ilc\intermediate\rhbindargs.App1.rsp
 C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\ilc\intermediate\System.Private.App1.Generated.dll
-C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\history.xbf
-C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\history.g.i.cs
-C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\history.g.cs
-C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\history.xaml
-C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\history.xbf
 C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\Microsoft.Toolkit.Uwp.Notifications.dll
 C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\Microsoft.Toolkit.Uwp.Notifications.pdb
 C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\Microsoft.Toolkit.Uwp.Notifications.pri.xml
