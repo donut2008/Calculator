@@ -1,0 +1,1 @@
+C:\Users\anjis\Documents\GitHub\Calculator\CalculatorWUI3\CalculatorWUI3.csproj;x86
