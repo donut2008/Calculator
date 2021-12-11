@@ -4,6 +4,6 @@
 /Lib:"C:\Users\anjis\.nuget\packages\runtime.win10-x64.microsoft.net.native.compiler\2.2.11-rel-30601-02\tools\x64\ilc\lib\Private"
 /WinMD:"C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\ilc\in\WinMetadata\Microsoft.UI.Xaml.winmd"
 /WinMD:"C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
-/VSTelemetrySessionSettings:"{\"IsOptedIn\":true,\"HostName\":\"Dev14\",\"AppInsightsInstrumentationKey\":\"f144292e-e3b2-4011-ac90-20e5c03fbce5\",\"AsimovInstrumentationKey\":\"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70\",\"AppId\":1001,\"UserId\":\"0c53ab7f-64fd-4893-a14c-27ac37bac565\",\"Id\":\"47ae0776-4beb-4b7e-8d5a-5669416d820e\",\"ProcessStartTime\":637746666901597103}"
+/VSTelemetrySessionSettings:"{\"IsOptedIn\":true,\"HostName\":\"Dev14\",\"AppInsightsInstrumentationKey\":\"f144292e-e3b2-4011-ac90-20e5c03fbce5\",\"AsimovInstrumentationKey\":\"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70\",\"AppId\":1001,\"UserId\":\"0c53ab7f-64fd-4893-a14c-27ac37bac565\",\"Id\":\"e16695b2-0410-4380-a128-659ed04d450a\",\"ProcessStartTime\":637748350087628079}"
 /RdXmlPath:"C:\Users\anjis\.nuget\packages\microsoft.net.native.compiler\2.2.11-rel-30601-02\tools\LibraryXML"
 /RunOnlyPreDR
