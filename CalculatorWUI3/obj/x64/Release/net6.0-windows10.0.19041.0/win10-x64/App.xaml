@@ -9,7 +9,6 @@
                 <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
                 <!-- Other merged dictionaries here -->
             </ResourceDictionary.MergedDictionaries>
-            <AcrylicBrush x:Key="AcrylicOpacity" TintOpacity="0.8"/>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

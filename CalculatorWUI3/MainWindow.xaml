@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid>
-        <NavigationView x:Name="navigator" Grid.RowSpan="7" Grid.Column="0" PaneDisplayMode="LeftCompact" SelectionChanged="navigator_SelectionChanged" IsBackButtonVisible="Collapsed" IsBackEnabled="False" Background="{StaticResource AcrylicOpacity}">
+        <NavigationView x:Name="navigator" Grid.RowSpan="7" Grid.Column="0" PaneDisplayMode="LeftCompact" SelectionChanged="navigator_SelectionChanged" IsBackButtonVisible="Collapsed" IsBackEnabled="False">
             <Grid>
                 <Frame x:FieldModifier="public" x:Name="ContentFrame"/>
             </Grid>

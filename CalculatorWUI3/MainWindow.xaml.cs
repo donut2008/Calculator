@@ -26,8 +26,9 @@ namespace CalculatorWUI3
         public MainWindow()
         {
             this.InitializeComponent();
+            Title = "Calculator";
         }
-        private void navigator_SelectionChanged(Microsoft.UI.Xaml.Controls.NavigationView sender, Microsoft.UI.Xaml.Controls.NavigationViewSelectionChangedEventArgs args)
+        private void navigator_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
             var selectedItem = (NavigationViewItem)args.SelectedItem;
             if (args.IsSettingsSelected)
