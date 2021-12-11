@@ -1,6 +1,0 @@
-MainPackage=C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\App1_4.0.59.0_x64.msix
-SymbolPackage=C:\Users\hp\Documents\GitHub\Calculator\Calculator\obj\x64\Release\Symbols\App1_4.0.59.0_x64.appxsym
-ResourcePack=C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\App1_4.0.59.0_scale-100.msix
-ResourcePack=C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\App1_4.0.59.0_scale-125.msix
-ResourcePack=C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\App1_4.0.59.0_scale-150.msix
-ResourcePack=C:\Users\hp\Documents\GitHub\Calculator\Calculator\bin\x64\Release\App1_4.0.59.0_scale-400.msix
