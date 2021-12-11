@@ -224,7 +224,7 @@ namespace CalculatorWUI3.CalculatorWUI3_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[35];
+            _typeNameTable = new string[38];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -258,10 +258,13 @@ namespace CalculatorWUI3.CalculatorWUI3_XamlTypeInfo
             _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.IconElement";
             _typeNameTable[31] = "CalculatorWUI3.MainWindow";
             _typeNameTable[32] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[33] = "CalculatorWUI3.settings";
-            _typeNameTable[34] = "CalculatorWUI3.temperature";
+            _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.Expander";
+            _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.ExpandDirection";
+            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings";
+            _typeNameTable[36] = "CalculatorWUI3.settings";
+            _typeNameTable[37] = "CalculatorWUI3.temperature";
 
-            _typeTable = new global::System.Type[35];
+            _typeTable = new global::System.Type[38];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -295,8 +298,11 @@ namespace CalculatorWUI3.CalculatorWUI3_XamlTypeInfo
             _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
             _typeTable[31] = typeof(global::CalculatorWUI3.MainWindow);
             _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[33] = typeof(global::CalculatorWUI3.settings);
-            _typeTable[34] = typeof(global::CalculatorWUI3.temperature);
+            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.Expander);
+            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.ExpandDirection);
+            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings);
+            _typeTable[36] = typeof(global::CalculatorWUI3.settings);
+            _typeTable[37] = typeof(global::CalculatorWUI3.temperature);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -337,8 +343,9 @@ namespace CalculatorWUI3.CalculatorWUI3_XamlTypeInfo
         private object Activate_26_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
         private object Activate_28_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
         private object Activate_31_MainWindow() { return new global::CalculatorWUI3.MainWindow(); }
-        private object Activate_33_settings() { return new global::CalculatorWUI3.settings(); }
-        private object Activate_34_temperature() { return new global::CalculatorWUI3.temperature(); }
+        private object Activate_33_Expander() { return new global::Microsoft.UI.Xaml.Controls.Expander(); }
+        private object Activate_36_settings() { return new global::CalculatorWUI3.settings(); }
+        private object Activate_37_temperature() { return new global::CalculatorWUI3.temperature(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -587,16 +594,41 @@ namespace CalculatorWUI3.CalculatorWUI3_XamlTypeInfo
                 xamlType = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 33:   //  CalculatorWUI3.settings
+            case 33:   //  Microsoft.UI.Xaml.Controls.Expander
+                userType = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
+                userType.Activator = Activate_33_Expander;
+                userType.AddMemberName("Header");
+                userType.AddMemberName("ExpandDirection");
+                userType.AddMemberName("HeaderTemplate");
+                userType.AddMemberName("HeaderTemplateSelector");
+                userType.AddMemberName("IsExpanded");
+                userType.AddMemberName("TemplateSettings");
+                xamlType = userType;
+                break;
+
+            case 34:   //  Microsoft.UI.Xaml.Controls.ExpandDirection
+                userType = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Down", global::Microsoft.UI.Xaml.Controls.ExpandDirection.Down);
+                userType.AddEnumValue("Up", global::Microsoft.UI.Xaml.Controls.ExpandDirection.Up);
+                xamlType = userType;
+                break;
+
+            case 35:   //  Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings
+                userType = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 36:   //  CalculatorWUI3.settings
                 userType = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_33_settings;
+                userType.Activator = Activate_36_settings;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 34:   //  CalculatorWUI3.temperature
+            case 37:   //  CalculatorWUI3.temperature
                 userType = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_34_temperature;
+                userType.Activator = Activate_37_temperature;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -1094,6 +1126,61 @@ namespace CalculatorWUI3.CalculatorWUI3_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationViewItem)instance;
             that.SelectsOnInvoked = (global::System.Boolean)Value;
         }
+        private object get_47_Expander_Header(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.Header;
+        }
+        private void set_47_Expander_Header(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.Header = (global::System.Object)Value;
+        }
+        private object get_48_Expander_ExpandDirection(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.ExpandDirection;
+        }
+        private void set_48_Expander_ExpandDirection(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.ExpandDirection = (global::Microsoft.UI.Xaml.Controls.ExpandDirection)Value;
+        }
+        private object get_49_Expander_HeaderTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.HeaderTemplate;
+        }
+        private void set_49_Expander_HeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_50_Expander_HeaderTemplateSelector(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.HeaderTemplateSelector;
+        }
+        private void set_50_Expander_HeaderTemplateSelector(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.HeaderTemplateSelector = (global::Microsoft.UI.Xaml.Controls.DataTemplateSelector)Value;
+        }
+        private object get_51_Expander_IsExpanded(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.IsExpanded;
+        }
+        private void set_51_Expander_IsExpanded(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            that.IsExpanded = (global::System.Boolean)Value;
+        }
+        private object get_52_Expander_TemplateSettings(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.Expander)instance;
+            return that.TemplateSettings;
+        }
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -1430,6 +1517,47 @@ namespace CalculatorWUI3.CalculatorWUI3_XamlTypeInfo
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_46_NavigationViewItem_SelectsOnInvoked;
                 xamlMember.Setter = set_46_NavigationViewItem_SelectsOnInvoked;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.Header":
+                userType = (global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlMember(this, "Header", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_47_Expander_Header;
+                xamlMember.Setter = set_47_Expander_Header;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.ExpandDirection":
+                userType = (global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlMember(this, "ExpandDirection", "Microsoft.UI.Xaml.Controls.ExpandDirection");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_48_Expander_ExpandDirection;
+                xamlMember.Setter = set_48_Expander_ExpandDirection;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.HeaderTemplate":
+                userType = (global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_49_Expander_HeaderTemplate;
+                xamlMember.Setter = set_49_Expander_HeaderTemplate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.HeaderTemplateSelector":
+                userType = (global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlMember(this, "HeaderTemplateSelector", "Microsoft.UI.Xaml.Controls.DataTemplateSelector");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_50_Expander_HeaderTemplateSelector;
+                xamlMember.Setter = set_50_Expander_HeaderTemplateSelector;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.IsExpanded":
+                userType = (global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_51_Expander_IsExpanded;
+                xamlMember.Setter = set_51_Expander_IsExpanded;
+                break;
+            case "Microsoft.UI.Xaml.Controls.Expander.TemplateSettings":
+                userType = (global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Expander");
+                xamlMember = new global::CalculatorWUI3.CalculatorWUI3_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.ExpanderTemplateSettings");
+                xamlMember.Getter = get_52_Expander_TemplateSettings;
+                xamlMember.SetIsReadOnly();
                 break;
             }
             return xamlMember;

@@ -7,7 +7,60 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid>
-        <TextBlock Style="{StaticResource DisplayTextBlockStyle}">hi this is wip pls ignore :)</TextBlock>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="54*"/>
+            <ColumnDefinition Width="54*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="54*"/>
+            <RowDefinition Height="54*"/>
+            <RowDefinition Height="54*"/>
+            <RowDefinition Height="54*"/>
+            <RowDefinition Height="54*"/>
+            <RowDefinition Height="54*"/>
+            <RowDefinition Height="54*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:ConnectionId='2' x:FieldModifier="public" x:Name="result" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6" Margin="4" Text="0" FontFamily="Segoe UI" FontSize="40" HorizontalAlignment="Stretch" TextAlignment="Right" TextReadingOrder="UseFlowDirection"/>
+        <Button x:ConnectionId='3' x:FieldModifier="public" x:Name="btn0" Grid.Row="6" Grid.Column="0" Margin="4" CornerRadius="8" Content="0" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                   />
+        <Button x:ConnectionId='4' x:FieldModifier="public" x:Name="btn1" Grid.Row="5" Grid.Column="0" Margin="4" CornerRadius="8" Content="1" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                   />
+        <Button x:ConnectionId='5' x:FieldModifier="public" x:Name="btn2" Grid.Row="5" Grid.Column="1" Margin="4" CornerRadius="8" Content="2" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                   />
+        <Button x:ConnectionId='6' x:FieldModifier="public" x:Name="btn3" Grid.Row="5" Grid.Column="2" Margin="4" CornerRadius="8" Content="3" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                   />
+        <Button x:ConnectionId='7' x:FieldModifier="public" x:Name="btn4" Grid.Row="4" Grid.Column="0" Margin="4" CornerRadius="8" Content="4" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                   />
+        <Button x:ConnectionId='8' x:FieldModifier="public" x:Name="btn5" Grid.Row="4" Grid.Column="1" Margin="4" CornerRadius="8" Content="5" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                   />
+        <Button x:ConnectionId='9' x:FieldModifier="public" x:Name="btn6" Grid.Row="4" Grid.Column="2" Margin="4" CornerRadius="8" Content="6" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                   />
+        <Button x:ConnectionId='10' x:FieldModifier="public" x:Name="btn7" Grid.Row="3" Grid.Column="0" Margin="4" CornerRadius="8" Content="7" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                   />
+        <Button x:ConnectionId='11' x:FieldModifier="public" x:Name="btn8" Grid.Row="3" Grid.Column="1" Margin="4" CornerRadius="8" Content="8" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                   />
+        <Button x:ConnectionId='12' x:FieldModifier="public" x:Name="btn9" Grid.Row="3" Grid.Column="2" Margin="4" CornerRadius="8" Content="9" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                   />
+        <Button x:ConnectionId='13' x:FieldModifier="public" x:Name="btnDiv" Grid.Row="2" Grid.Column="3" Margin="4" CornerRadius="8" Content="÷" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                     />
+        <Button x:ConnectionId='14' x:FieldModifier="public" x:Name="btnMul" Grid.Row="3" Grid.Column="3" Margin="4" CornerRadius="8" Content="×" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                     />
+        <Button x:ConnectionId='15' x:FieldModifier="public" x:Name="btnSub" Grid.Row="4" Grid.Column="3" Margin="4" CornerRadius="8" Content="-" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                     />
+        <Button x:ConnectionId='16' x:FieldModifier="public" x:Name="btnAdd" Grid.Row="5" Grid.Column="3" Margin="4" CornerRadius="8" Content="+" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                     />
+        <Button x:ConnectionId='17' x:FieldModifier="public" x:Name="btnEq" Grid.Row="6" Grid.Column="5" Margin="4" CornerRadius="8" Content="=" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="{ThemeResource SystemAccentColor}"                    />
+        <Button x:ConnectionId='18' x:FieldModifier="public" x:Name="btnBackspace" Grid.Row="1" Grid.Column="3" Margin="4" CornerRadius="8" Content="⌫" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                           />
+        <Button x:ConnectionId='19' x:FieldModifier="public" x:Name="btnDec" Grid.Row="6" Grid.Column="2" Margin="4" CornerRadius="8" Content="." FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                     />
+        <Button x:ConnectionId='20' x:FieldModifier="public" x:Name="btnSq" Grid.Row="1" Grid.Column="0" Margin="4" CornerRadius="8" Content="x²" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                    />
+        <Button x:ConnectionId='21' x:FieldModifier="public" x:Name="btnCb" Grid.Row="1" Grid.Column="1" Margin="4" CornerRadius="8" Content="x³" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                    />
+        <Button x:ConnectionId='22' x:FieldModifier="public" x:Name="btnCbrt" Grid.Row="2" Grid.Column="1" Margin="4" CornerRadius="8" Content="∛" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                      />
+        <Button x:ConnectionId='23' x:FieldModifier="public" x:Name="btnSqrt" Grid.Row="2" Grid.Column="0" Margin="4" CornerRadius="8" Content="√" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                      />
+        <Button x:ConnectionId='24' x:FieldModifier="public" x:Name="btnClearEntry" Grid.Row="1" Grid.Column="2" Margin="4" CornerRadius="8" Content="CE" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                            />
+        <Button x:ConnectionId='25' x:FieldModifier="public" x:Name="btnClear" Grid.Row="2" Grid.Column="2" Margin="4" CornerRadius="8" Content="C" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                       />
+        <Button x:ConnectionId='26' x:FieldModifier="public" x:Name="btnPlusMinus" Grid.Row="6" Grid.Column="1" Margin="4" CornerRadius="8" Content="±" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                           />
+        <Button x:ConnectionId='27' x:FieldModifier="public" x:Name="btnLog" Grid.Row="1" Grid.Column="4" Margin="4" CornerRadius="8" Content="log" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                     />
+        <Button x:ConnectionId='28' x:FieldModifier="public" x:Name="btnLN" Grid.Row="2" Grid.Column="4" Margin="4" CornerRadius="8" Content="ln" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                    />
+        <Button x:ConnectionId='29' x:FieldModifier="public" x:Name="btnSin" Grid.Row="3" Grid.Column="4" Margin="4" CornerRadius="8" Content="sin" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                     />
+        <Button x:ConnectionId='30' x:FieldModifier="public" x:Name="btnCos" Grid.Row="4" Grid.Column="4" Margin="4" CornerRadius="8" Content="cos" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                     />
+        <Button x:ConnectionId='31' x:FieldModifier="public" x:Name="btnTan" Grid.Row="5" Grid.Column="4" Margin="4" CornerRadius="8" Content="tan" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                     />
+        <Button x:ConnectionId='32' x:FieldModifier="public" x:Name="btnSinInv" Grid.Row="3" Grid.Column="5" Margin="4" CornerRadius="8" Content="sin-1" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                        />
+        <Button x:ConnectionId='33' x:FieldModifier="public" x:Name="btnCosInv" Grid.Row="4" Grid.Column="5" Margin="4" CornerRadius="8" Content="cos-1" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                        />
+        <Button x:ConnectionId='34' x:FieldModifier="public" x:Name="btnTanInv" Grid.Row="5" Grid.Column="5" Margin="4" CornerRadius="8" Content="tan-1" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                        />
+        <Button x:ConnectionId='35' x:FieldModifier="public" x:Name="btnFact" Grid.Row="6" Grid.Column="3" Margin="4" CornerRadius="8" Content="n!" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                      />
+        <Button x:ConnectionId='36' x:FieldModifier="public" x:Name="btnNPR" Grid.Row="1" Grid.Column="5" Margin="4" CornerRadius="8" Content="nPr" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                     />
+        <Button x:ConnectionId='37' x:FieldModifier="public" x:Name="btnNCR" Grid.Row="2" Grid.Column="5" Margin="4" CornerRadius="8" Content="nCr" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                     />
+        <Button x:ConnectionId='38' x:FieldModifier="public" x:Name="btn1X" Grid.Row="6" Grid.Column="4" Margin="4" CornerRadius="8" Content="1/X" FontFamily="Segoe UI" FontSize="36" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                    />
     </Grid>
 </Page>
 
