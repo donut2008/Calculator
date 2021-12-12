@@ -9,6 +9,9 @@
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
     <Grid>
+        <Grid.BackgroundTransition>
+            <BrushTransition />
+        </Grid.BackgroundTransition>
         <StackPanel>
             <TextBlock x:ConnectionId='2' x:FieldModifier="public" x:Name="header" FontFamily="Segoe UI Variable Display" Style="{ThemeResource TitleLargeTextBlockStyle}" TextWrapping="WrapWholeWords" FontSize="32" Margin="10,10,10,0">Settings<LineBreak/></TextBlock>
             <muxc:Expander CornerRadius="8" Margin="8" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
@@ -30,7 +33,7 @@
                 <Grid>
                     <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="16,10,10,10">
                         <TextBlock x:ConnectionId='4' x:FieldModifier="public" x:Name="credits" FontFamily="Segoe UI" FontSize="16">Calculator written in C# by donut2008</TextBlock>
-                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI" FontSize="12">Version 5 canary build 68, compiled 12-Dec-21 06:28 PM IST</TextBlock>
+                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI" FontSize="12">Version 5 canary build 69, compiled 12-Dec-21 01:02 PM UTC</TextBlock>
                         <TextBlock FontFamily="Segoe UI" FontSize="16" FontWeight="Bold">Icon credit goes to Microsoft, I am NOT the creator of the app icon.</TextBlock>
                     </StackPanel>
                     <HyperlinkButton x:ConnectionId='3' x:FieldModifier="public" x:Name="github" FontFamily="Segoe UI" Margin="10,10,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator" Content="View this project on GitHub"/>

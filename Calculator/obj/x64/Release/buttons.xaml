@@ -9,6 +9,9 @@
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
     <Grid>
+        <Grid.BackgroundTransition>
+            <BrushTransition />
+        </Grid.BackgroundTransition>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="54*"/>
             <ColumnDefinition Width="54*"/>

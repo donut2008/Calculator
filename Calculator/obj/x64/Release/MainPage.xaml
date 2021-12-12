@@ -9,6 +9,9 @@
     muxc:BackdropMaterial.ApplyToRootOrPageBackground="True"
     x:Class="App1.MainPage">
     <Grid>
+        <Grid.BackgroundTransition>
+            <BrushTransition />
+        </Grid.BackgroundTransition>
         <muxc:NavigationView x:ConnectionId='2' x:Name="navigator" Grid.RowSpan="7" Grid.Column="0" PaneDisplayMode="LeftCompact"                                               IsBackButtonVisible="Collapsed" IsBackEnabled="False">
             <Grid>
                 <Frame x:ConnectionId='3' x:FieldModifier="public" x:Name="ContentFrame">

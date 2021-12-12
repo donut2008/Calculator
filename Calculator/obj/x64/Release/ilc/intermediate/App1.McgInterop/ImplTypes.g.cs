@@ -44198,6 +44198,36 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
+	// Windows.UI.Xaml.Controls.IPanel2
+	public unsafe static class IPanel2__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IPanel2'
+		public static partial class Stubs
+		{
+			public static global::Windows.UI.Xaml.BrushTransition get_BackgroundTransition(global::System.__ComObject __this)
+			{
+				global::Windows.UI.Xaml.BrushTransition __ret = global::__Interop.ForwardComStubs.Stub_2<global::Windows.UI.Xaml.Controls.IPanel2, global::Windows.UI.Xaml.BrushTransition>(
+									__this, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void put_BackgroundTransition(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.BrushTransition value)
+			{
+				global::__Interop.ForwardComStubs.Stub_6<global::Windows.UI.Xaml.Controls.IPanel2, global::Windows.UI.Xaml.BrushTransition>(
+									__this, 
+									value, 
+									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+	}
+
 	// Windows.UI.Xaml.Controls.IGridFactory
 	public unsafe static class IGridFactory__Impl
 	{

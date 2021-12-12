@@ -9366,6 +9366,17 @@ namespace Windows.UI.Xaml
 		}
 	}
 
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IBrushTransition))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class BrushTransition : global::System.__ComObject, global::Windows.UI.Xaml.IBrushTransition
+	{
+		public BrushTransition(global::System.IntPtr dummy)
+		{
+		}
+	}
+
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IFrameworkTemplate))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -10327,6 +10338,12 @@ namespace Windows.UI.Xaml
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IDependencyPropertyChangedEventArgs
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IBrushTransition
 	{
 	}
 
@@ -12509,10 +12526,11 @@ namespace Windows.UI.Xaml.Controls
 	}
 
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IPanel))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IPanel2))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe class Panel : global::Windows.UI.Xaml.FrameworkElement, global::Windows.UI.Xaml.Controls.IPanel
+	public unsafe class Panel : global::Windows.UI.Xaml.FrameworkElement, global::Windows.UI.Xaml.Controls.IPanel, global::Windows.UI.Xaml.Controls.IPanel2
 	{
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Children")]
 		public virtual global::Windows.UI.Xaml.Controls.UIElementCollection get_Children()
@@ -12520,6 +12538,24 @@ namespace Windows.UI.Xaml.Controls
 			global::Windows.UI.Xaml.Controls.UIElementCollection __retVal = global::Windows.UI.Xaml.Controls.IPanel__Impl.Stubs.get_Children(this);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BackgroundTransition")]
+		public virtual global::Windows.UI.Xaml.BrushTransition get_BackgroundTransition()
+		{
+			global::Windows.UI.Xaml.BrushTransition __retVal = global::Windows.UI.Xaml.Controls.IPanel2__Impl.Stubs.get_BackgroundTransition(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BackgroundTransition")]
+		public virtual void put_BackgroundTransition(global::Windows.UI.Xaml.BrushTransition value)
+		{
+			global::Windows.UI.Xaml.Controls.IPanel2__Impl.Stubs.put_BackgroundTransition(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 		}
 
 		public Panel(global::System.IntPtr dummy) : 
@@ -16441,6 +16477,17 @@ namespace Windows.UI.Xaml.Controls
 	{
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "Children")]
 		global::Windows.UI.Xaml.Controls.UIElementCollection get_Children();
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IPanel2
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "BackgroundTransition")]
+		global::Windows.UI.Xaml.BrushTransition get_BackgroundTransition();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "BackgroundTransition")]
+		void put_BackgroundTransition(global::Windows.UI.Xaml.BrushTransition value);
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
