@@ -41840,6 +41840,70 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
+	// Windows.UI.Xaml.Controls.IFrame2
+	public unsafe static class IFrame2__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Controls.IFrame2'
+		public static partial class Stubs
+		{
+			// Signature, Windows.UI.Xaml.Controls.IFrame2.Navigate, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, [fwd] [in] [EETypeRva:0x0004137C] object____mcg_IInspectable, [fwd] [in] [EETypeRva:0x000437F4] Windows_UI_Xaml_Media_Animation_NavigationTransitionInfo__Windows_UI_Xaml_Media_Animation__NavigationTransitionInfo *, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040784] bool__bool, 
+			public static bool Navigate(
+						global::System.__ComObject __this, 
+						global::System.Type sourcePageType, 
+						object parameter, 
+						global::Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo infoOverride)
+			{
+				// Setup
+				global::System.Type__Impl.UnsafeType unsafe_sourcePageType = default(global::System.Type__Impl.UnsafeType);
+				void* unsafe_parameter = default(void*);
+				void* unsafe_infoOverride = default(void*);
+				bool result__retval;
+				sbyte unsafe_result__retval;
+				int unsafe___hr;
+				try
+				{
+					// Marshalling
+					global::System.Runtime.InteropServices.HSTRING unsafe_sourcePageType__HSTRING__Name;
+					int unsafe_sourcePageType__int__Kind;
+					global::System.Runtime.InteropServices.McgMarshal.TypeToTypeName(
+										sourcePageType, 
+										out unsafe_sourcePageType__HSTRING__Name, 
+										out unsafe_sourcePageType__int__Kind
+									);
+					unsafe_sourcePageType.Name = unsafe_sourcePageType__HSTRING__Name;
+					unsafe_sourcePageType.Kind = (global::Windows.UI.Xaml.Interop.TypeKind)unsafe_sourcePageType__int__Kind;
+					unsafe_parameter = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToIInspectable(parameter);
+					unsafe_infoOverride = (void*)global::System.Runtime.InteropServices.McgMarshal.ObjectToComInterface(
+										infoOverride, 
+										typeof(global::Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo).TypeHandle
+									);
+					// Call to native method
+					unsafe___hr = global::__Interop.ComCallHelpers.Call(
+										__this, 
+										typeof(global::Windows.UI.Xaml.Controls.IFrame2).TypeHandle, 
+										8, 
+										unsafe_sourcePageType, 
+										unsafe_parameter, 
+										unsafe_infoOverride, 
+										&(unsafe_result__retval)
+									);
+					global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+					result__retval = unsafe_result__retval != 0;
+					// Return
+					return result__retval;
+				}
+				finally
+				{
+					// Cleanup
+					global::System.Runtime.InteropServices.McgMarshal.FreeHString(unsafe_sourcePageType.Name.handle);
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_parameter)));
+					global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_infoOverride)));
+					global::System.GC.KeepAlive(infoOverride);
+				}
+			}
+		}
+	}
+
 	// Windows.UI.Xaml.Controls.IContentDialogFactory
 	public unsafe static class IContentDialogFactory__Impl
 	{
@@ -45987,6 +46051,59 @@ namespace Windows.UI.Xaml.Media
 									propertyName, 
 									animationPropertyInfo, 
 									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+	}
+}
+
+namespace Windows.UI.Xaml.Media.Animation
+{
+	// Windows.UI.Xaml.Media.Animation.INavigationTransitionInfoOverrides
+	public unsafe static class INavigationTransitionInfoOverrides__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Media.Animation.INavigationTransitionInfoOverrides'
+		public static partial class Stubs
+		{
+			public static string GetNavigationStateCore(global::System.__ComObject __this)
+			{
+				string __ret = global::__Interop.ForwardComStubs.Stub_1<global::Windows.UI.Xaml.Media.Animation.INavigationTransitionInfoOverrides>(
+									__this, 
+									6
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				return __ret;
+			}
+
+			public static void SetNavigationStateCore(
+						global::System.__ComObject __this, 
+						string navigationState)
+			{
+				global::__Interop.ForwardComStubs.Stub_39<global::Windows.UI.Xaml.Media.Animation.INavigationTransitionInfoOverrides>(
+									__this, 
+									navigationState, 
+									7
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			}
+		}
+	}
+
+	// Windows.UI.Xaml.Media.Animation.ISlideNavigationTransitionInfo2
+	public unsafe static class ISlideNavigationTransitionInfo2__Impl
+	{
+		// StubClass for 'Windows.UI.Xaml.Media.Animation.ISlideNavigationTransitionInfo2'
+		public static partial class Stubs
+		{
+			public static void put_Effect(
+						global::System.__ComObject __this, 
+						global::Windows.UI.Xaml.Media.Animation.SlideNavigationTransitionEffect value)
+			{
+				global::__Interop.ForwardComStubs.Stub_24<global::Windows.UI.Xaml.Media.Animation.ISlideNavigationTransitionInfo2>(
+									__this, 
+									((int)value), 
+									7
 								);
 				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			}

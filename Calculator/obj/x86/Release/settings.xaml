@@ -30,7 +30,7 @@
                 <Grid Margin="4,0,8,0">
                 <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="10,10,10,10">
                         <TextBlock x:ConnectionId='4' x:FieldModifier="public" x:Name="credits" FontFamily="Segoe UI" FontSize="16">Calculator written in C# by donut2008</TextBlock>
-                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI" FontSize="12">Version 4 beta build 3, compiled on 23-Nov-21 09:23 PM IST</TextBlock>
+                        <TextBlock x:ConnectionId='5' x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI" FontSize="12">Version 4 beta build 17, compiled on 12-Dec-21 01:37 PM UTC</TextBlock>
                         <TextBlock FontFamily="Segoe UI" FontSize="16" FontWeight="Bold">Icon credit goes to Microsoft, I am NOT the creator of the app icon.</TextBlock>
                     </StackPanel>
                 <HyperlinkButton x:ConnectionId='3' x:FieldModifier="public" x:Name="github" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator">
