@@ -13648,6 +13648,24 @@ namespace Windows.UI.Xaml.Controls
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 		}
 
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ContentTransitions")]
+		public virtual global::Windows.UI.Xaml.Media.Animation.TransitionCollection get_ContentTransitions()
+		{
+			global::Windows.UI.Xaml.Media.Animation.TransitionCollection __retVal = global::Windows.UI.Xaml.Controls.IContentControl__Impl.Stubs.get_ContentTransitions(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ContentTransitions")]
+		public virtual void put_ContentTransitions(global::Windows.UI.Xaml.Media.Animation.TransitionCollection value)
+		{
+			global::Windows.UI.Xaml.Controls.IContentControl__Impl.Stubs.put_ContentTransitions(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
 		void global::Windows.UI.Xaml.Controls.IContentControlOverrides.OnContentChanged(
 					object oldContent, 
 					object newContent)
@@ -14588,6 +14606,184 @@ namespace Windows.UI.Xaml.Controls
 		}
 
 		public AutoSuggestBoxQuerySubmittedEventArgs(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IFrame))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IFrame2))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class Frame : global::Windows.UI.Xaml.Controls.ContentControl, global::Windows.UI.Xaml.Controls.IFrame, global::Windows.UI.Xaml.Controls.IFrame2
+	{
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public Frame() : 
+				base(default(global::System.IntPtr))
+		{
+			global::System.IntPtr retval;
+			retval = __Factory_Windows_UI_Xaml_Controls__IFrameFactory_CreateInstance("Windows.UI.Xaml.Controls.Frame");
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref retval);
+			this.__AttachAndRelease(retval);
+		}
+
+		global::System.IntPtr __Factory_Windows_UI_Xaml_Controls__IFrameFactory_CreateInstance(string typeName)
+		{
+			global::System.IntPtr innerInspectable;
+			global::System.IntPtr outerInspectable = default(global::System.IntPtr);
+			if (global::System.Runtime.InteropServices.McgMarshal.IsOfType(
+								this, 
+								typeof(global::Windows.UI.Xaml.Controls.Frame).TypeHandle
+							))
+			{
+				global::System.IntPtr __pRetVal_NoAggregation;
+				__pRetVal_NoAggregation = global::Windows.UI.Xaml.Controls.IFrameFactory__Impl.Stubs.CreateInstance(
+									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.Controls.IFrameFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(innerInspectable);
+				global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal_NoAggregation);
+				return __pRetVal_NoAggregation;
+			}
+			else
+			{
+				outerInspectable = global::System.Runtime.InteropServices.McgMarshal.GetOuterIInspectableForManagedObject(this);
+				global::System.IntPtr __pRetVal_WithAggregation;
+				__pRetVal_WithAggregation = global::Windows.UI.Xaml.Controls.IFrameFactory__Impl.Stubs.CreateInstance(
+									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
+														typeName, 
+														typeof(global::Windows.UI.Xaml.Controls.IFrameFactory).TypeHandle
+													), 
+									outerInspectable, 
+									out innerInspectable
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(outerInspectable);
+				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(__pRetVal_WithAggregation);
+				return innerInspectable;
+			}
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Navigated")]
+		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Navigated(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler handler)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.add_Navigated(
+								this, 
+								handler
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Navigated")]
+		public virtual void remove_Navigated(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+		{
+			global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.remove_Navigated(
+								this, 
+								token
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Navigating")]
+		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Navigating(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler handler)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.add_Navigating(
+								this, 
+								handler
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Navigating")]
+		public virtual void remove_Navigating(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+		{
+			global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.remove_Navigating(
+								this, 
+								token
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "NavigationFailed")]
+		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_NavigationFailed(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler handler)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.add_NavigationFailed(
+								this, 
+								handler
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "NavigationFailed")]
+		public virtual void remove_NavigationFailed(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+		{
+			global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.remove_NavigationFailed(
+								this, 
+								token
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "NavigationStopped")]
+		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_NavigationStopped(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler handler)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.add_NavigationStopped(
+								this, 
+								handler
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "NavigationStopped")]
+		public virtual void remove_NavigationStopped(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
+		{
+			global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.remove_NavigationStopped(
+								this, 
+								token
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		public virtual bool Navigate(
+					global::System.Type sourcePageType, 
+					object parameter)
+		{
+			bool __retVal = global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.Navigate(
+								this, 
+								sourcePageType, 
+								parameter
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		public virtual bool Navigate(
+					global::System.Type sourcePageType, 
+					object parameter, 
+					global::Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo infoOverride)
+		{
+			bool __retVal = global::Windows.UI.Xaml.Controls.IFrame2__Impl.Stubs.Navigate(
+								this, 
+								sourcePageType, 
+								parameter, 
+								infoOverride
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		public Frame(global::System.IntPtr dummy) : 
 				base(dummy)
 		{
 		}
@@ -15736,168 +15932,6 @@ namespace Windows.UI.Xaml.Controls
 		}
 	}
 
-	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IFrame))]
-	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe class Frame : global::Windows.UI.Xaml.Controls.ContentControl, global::Windows.UI.Xaml.Controls.IFrame
-	{
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		public Frame() : 
-				base(default(global::System.IntPtr))
-		{
-			global::System.IntPtr retval;
-			retval = __Factory_Windows_UI_Xaml_Controls__IFrameFactory_CreateInstance("Windows.UI.Xaml.Controls.Frame");
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref retval);
-			this.__AttachAndRelease(retval);
-		}
-
-		global::System.IntPtr __Factory_Windows_UI_Xaml_Controls__IFrameFactory_CreateInstance(string typeName)
-		{
-			global::System.IntPtr innerInspectable;
-			global::System.IntPtr outerInspectable = default(global::System.IntPtr);
-			if (global::System.Runtime.InteropServices.McgMarshal.IsOfType(
-								this, 
-								typeof(global::Windows.UI.Xaml.Controls.Frame).TypeHandle
-							))
-			{
-				global::System.IntPtr __pRetVal_NoAggregation;
-				__pRetVal_NoAggregation = global::Windows.UI.Xaml.Controls.IFrameFactory__Impl.Stubs.CreateInstance(
-									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
-														typeName, 
-														typeof(global::Windows.UI.Xaml.Controls.IFrameFactory).TypeHandle
-													), 
-									outerInspectable, 
-									out innerInspectable
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(innerInspectable);
-				global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref __pRetVal_NoAggregation);
-				return __pRetVal_NoAggregation;
-			}
-			else
-			{
-				outerInspectable = global::System.Runtime.InteropServices.McgMarshal.GetOuterIInspectableForManagedObject(this);
-				global::System.IntPtr __pRetVal_WithAggregation;
-				__pRetVal_WithAggregation = global::Windows.UI.Xaml.Controls.IFrameFactory__Impl.Stubs.CreateInstance(
-									global::System.Runtime.InteropServices.McgMarshal.GetActivationFactory(
-														typeName, 
-														typeof(global::Windows.UI.Xaml.Controls.IFrameFactory).TypeHandle
-													), 
-									outerInspectable, 
-									out innerInspectable
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(outerInspectable);
-				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(__pRetVal_WithAggregation);
-				return innerInspectable;
-			}
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Navigated")]
-		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Navigated(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler handler)
-		{
-			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.add_Navigated(
-								this, 
-								handler
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			return __retVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Navigated")]
-		public virtual void remove_Navigated(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
-		{
-			global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.remove_Navigated(
-								this, 
-								token
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Navigating")]
-		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Navigating(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler handler)
-		{
-			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.add_Navigating(
-								this, 
-								handler
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			return __retVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Navigating")]
-		public virtual void remove_Navigating(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
-		{
-			global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.remove_Navigating(
-								this, 
-								token
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "NavigationFailed")]
-		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_NavigationFailed(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler handler)
-		{
-			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.add_NavigationFailed(
-								this, 
-								handler
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			return __retVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "NavigationFailed")]
-		public virtual void remove_NavigationFailed(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
-		{
-			global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.remove_NavigationFailed(
-								this, 
-								token
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "NavigationStopped")]
-		public virtual global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_NavigationStopped(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler handler)
-		{
-			global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken __retVal = global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.add_NavigationStopped(
-								this, 
-								handler
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			return __retVal;
-		}
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "NavigationStopped")]
-		public virtual void remove_NavigationStopped(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token)
-		{
-			global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.remove_NavigationStopped(
-								this, 
-								token
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-		}
-
-		public virtual bool Navigate(
-					global::System.Type sourcePageType, 
-					object parameter)
-		{
-			bool __retVal = global::Windows.UI.Xaml.Controls.IFrame__Impl.Stubs.Navigate(
-								this, 
-								sourcePageType, 
-								parameter
-							);
-			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-			return __retVal;
-		}
-
-		public Frame(global::System.IntPtr dummy) : 
-				base(dummy)
-		{
-		}
-	}
-
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IContentDialog))]
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Controls.IContentDialog2))]
 	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
@@ -16571,6 +16605,12 @@ namespace Windows.UI.Xaml.Controls
 
 		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Content")]
 		void put_Content(object value);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertyGet, "ContentTransitions")]
+		global::Windows.UI.Xaml.Media.Animation.TransitionCollection get_ContentTransitions();
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "ContentTransitions")]
+		void put_ContentTransitions(global::Windows.UI.Xaml.Media.Animation.TransitionCollection value);
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -16824,6 +16864,58 @@ namespace Windows.UI.Xaml.Controls
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IAutoSuggestBoxQuerySubmittedEventArgs
 	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IFrameFactory
+	{
+		global::System.IntPtr CreateInstance(
+					global::System.IntPtr baseInterface, 
+					out global::System.IntPtr innerInterface);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IFrame
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Navigated")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Navigated(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler handler);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Navigated")]
+		void remove_Navigated(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Navigating")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Navigating(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler handler);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Navigating")]
+		void remove_Navigating(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "NavigationFailed")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_NavigationFailed(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler handler);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "NavigationFailed")]
+		void remove_NavigationFailed(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "NavigationStopped")]
+		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_NavigationStopped(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler handler);
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "NavigationStopped")]
+		void remove_NavigationStopped(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
+
+		bool Navigate(
+					global::System.Type sourcePageType, 
+					object parameter);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IFrame2
+	{
+		bool Navigate(
+					global::System.Type sourcePageType, 
+					object parameter, 
+					global::Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo infoOverride);
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -17213,48 +17305,6 @@ namespace Windows.UI.Xaml.Controls
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface ITextBoxSelectionChangingEventArgs
 	{
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IFrameFactory
-	{
-		global::System.IntPtr CreateInstance(
-					global::System.IntPtr baseInterface, 
-					out global::System.IntPtr innerInterface);
-	}
-
-	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
-	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
-	public unsafe interface IFrame
-	{
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Navigated")]
-		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Navigated(global::Windows.UI.Xaml.Navigation.NavigatedEventHandler handler);
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Navigated")]
-		void remove_Navigated(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "Navigating")]
-		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_Navigating(global::Windows.UI.Xaml.Navigation.NavigatingCancelEventHandler handler);
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "Navigating")]
-		void remove_Navigating(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "NavigationFailed")]
-		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_NavigationFailed(global::Windows.UI.Xaml.Navigation.NavigationFailedEventHandler handler);
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "NavigationFailed")]
-		void remove_NavigationFailed(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventAdd, "NavigationStopped")]
-		global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken add_NavigationStopped(global::Windows.UI.Xaml.Navigation.NavigationStoppedEventHandler handler);
-
-		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.EventRemove, "NavigationStopped")]
-		void remove_NavigationStopped(global::System.Runtime.InteropServices.WindowsRuntime.EventRegistrationToken token);
-
-		bool Navigate(
-					global::System.Type sourcePageType, 
-					object parameter);
 	}
 
 	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
@@ -19050,6 +19100,292 @@ namespace Windows.UI.Xaml.Media
 	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
 	public unsafe interface IFontFamily
 	{
+	}
+}
+
+namespace Windows.UI.Xaml.Media.Animation
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.Transition>))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.Media.Animation.Transition>))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Media.Animation.Transition>))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class TransitionCollection : global::System.__ComObject, global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.Transition>, global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.Media.Animation.Transition>, global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Media.Animation.Transition>
+	{
+		int global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.Media.Animation.Transition>.Count
+		{
+			get
+			{
+				return global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.Count(((global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.Transition>)this));
+			}
+		}
+
+		bool global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.Media.Animation.Transition>.IsReadOnly
+		{
+			get
+			{
+				return global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.IsReadOnly(((global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.Transition>)this));
+			}
+		}
+
+		void global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.Media.Animation.Transition>.Add(global::Windows.UI.Xaml.Media.Animation.Transition item)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.Add(
+								this, 
+								item
+							);
+		}
+
+		void global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.Media.Animation.Transition>.Clear()
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.Clear(((global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.Transition>)this));
+		}
+
+		bool global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.Media.Animation.Transition>.Contains(global::Windows.UI.Xaml.Media.Animation.Transition item)
+		{
+			return global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.Contains(
+								this, 
+								item
+							);
+		}
+
+		void global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.Media.Animation.Transition>.CopyTo(
+					global::Windows.UI.Xaml.Media.Animation.Transition[] array, 
+					int arrayindex)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.CopyTo(
+								this, 
+								array, 
+								arrayindex
+							);
+		}
+
+		bool global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.Media.Animation.Transition>.Remove(global::Windows.UI.Xaml.Media.Animation.Transition item)
+		{
+			return global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.Remove(
+								this, 
+								item
+							);
+		}
+
+		global::Windows.UI.Xaml.Media.Animation.Transition global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.Transition>.this[int index]
+		{
+			get
+			{
+				return global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.Indexer_Get(
+									((global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.Transition>)this), 
+									index
+								);
+			}
+			set
+			{
+				global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.Indexer_Set(
+									this, 
+									index, 
+									value
+								);
+			}
+		}
+
+		int global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.Transition>.IndexOf(global::Windows.UI.Xaml.Media.Animation.Transition item)
+		{
+			return global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.IndexOf(
+								this, 
+								item
+							);
+		}
+
+		void global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.Transition>.Insert(
+					int index, 
+					global::Windows.UI.Xaml.Media.Animation.Transition item)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.Insert(
+								this, 
+								index, 
+								item
+							);
+		}
+
+		void global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.Transition>.RemoveAt(int index)
+		{
+			global::System.Runtime.InteropServices.WindowsRuntime.IVectorSharedReferenceTypesRCWAdapter.RemoveAt(
+								((global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.Transition>)this), 
+								index
+							);
+		}
+
+		global::System.Collections.Generic.IEnumerator<global::Windows.UI.Xaml.Media.Animation.Transition> global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Media.Animation.Transition>.GetEnumerator()
+		{
+			global::System.RuntimeTypeHandle dummySharedDynamicAdapter = typeof(global::System.Runtime.InteropServices.WindowsRuntime.IIterableSharedReferenceTypesDynamicAdapter<global::Windows.UI.Xaml.Media.Animation.Transition>).TypeHandle;
+			return (global::System.Collections.Generic.IEnumerator<global::Windows.UI.Xaml.Media.Animation.Transition>)global::__Interop.McgHelpers.GetGenericEnumerator(
+								this, 
+								typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Media.Animation.Transition>).TypeHandle
+							);
+		}
+
+		global::System.Collections.IEnumerator global::System.Collections.IEnumerable.GetEnumerator()
+		{
+			return global::__Interop.McgHelpers.GetNonGenericEnumerator(
+								this, 
+								typeof(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Media.Animation.Transition>).TypeHandle
+							);
+		}
+
+		public TransitionCollection(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.Animation.ITransition))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class Transition : global::Windows.UI.Xaml.DependencyObject, global::Windows.UI.Xaml.Media.Animation.ITransition
+	{
+		public Transition(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.Animation.INavigationTransitionInfo))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.Animation.INavigationTransitionInfoOverrides))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe class NavigationTransitionInfo : global::Windows.UI.Xaml.DependencyObject, global::Windows.UI.Xaml.Media.Animation.INavigationTransitionInfo, global::Windows.UI.Xaml.Media.Animation.INavigationTransitionInfoOverrides
+	{
+		string global::Windows.UI.Xaml.Media.Animation.INavigationTransitionInfoOverrides.GetNavigationStateCore()
+		{
+			string __retVal_1 = this.GetNavigationStateCore();
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal_1;
+		}
+
+		protected virtual string GetNavigationStateCore()
+		{
+			string __retVal = global::Windows.UI.Xaml.Media.Animation.INavigationTransitionInfoOverrides__Impl.Stubs.GetNavigationStateCore(this);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			return __retVal;
+		}
+
+		void global::Windows.UI.Xaml.Media.Animation.INavigationTransitionInfoOverrides.SetNavigationStateCore(string navigationState)
+		{
+			this.SetNavigationStateCore(navigationState);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		protected virtual void SetNavigationStateCore(string navigationState)
+		{
+			global::Windows.UI.Xaml.Media.Animation.INavigationTransitionInfoOverrides__Impl.Stubs.SetNavigationStateCore(
+								this, 
+								navigationState
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		public NavigationTransitionInfo(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.Animation.INavigationThemeTransition))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class NavigationThemeTransition : global::Windows.UI.Xaml.Media.Animation.Transition, global::Windows.UI.Xaml.Media.Animation.INavigationThemeTransition
+	{
+		public NavigationThemeTransition(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.Animation.ISlideNavigationTransitionInfo))]
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.Media.Animation.ISlideNavigationTransitionInfo2))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class SlideNavigationTransitionInfo : global::Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo, global::Windows.UI.Xaml.Media.Animation.ISlideNavigationTransitionInfo, global::Windows.UI.Xaml.Media.Animation.ISlideNavigationTransitionInfo2
+	{
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		public SlideNavigationTransitionInfo() : 
+				base(default(global::System.IntPtr))
+		{
+			global::System.IntPtr retval;
+			retval = global::System.Runtime.InteropServices.McgMarshal.ActivateInstance("Windows.UI.Xaml.Media.Animation.SlideNavigationTransitionInfo");
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::__Interop.McgHelpers.GetIUnknownForFactoryReturn(ref retval);
+			this.__AttachAndRelease(retval);
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Effect")]
+		public void put_Effect(global::Windows.UI.Xaml.Media.Animation.SlideNavigationTransitionEffect value)
+		{
+			global::Windows.UI.Xaml.Media.Animation.ISlideNavigationTransitionInfo2__Impl.Stubs.put_Effect(
+								this, 
+								value
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+		}
+
+		public SlideNavigationTransitionInfo(global::System.IntPtr dummy) : 
+				base(dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ITransition
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface INavigationTransitionInfo
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface INavigationTransitionInfoOverrides
+	{
+		string GetNavigationStateCore();
+
+		void SetNavigationStateCore(string navigationState);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface INavigationThemeTransition
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISlideNavigationTransitionInfo
+	{
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface ISlideNavigationTransitionInfo2
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Effect")]
+		void put_Effect(global::Windows.UI.Xaml.Media.Animation.SlideNavigationTransitionEffect value);
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum SlideNavigationTransitionEffect
+	{
+		FromBottom = 0,
+		FromLeft = 1,
+		FromRight = 2,
 	}
 }
 

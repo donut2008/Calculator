@@ -35,7 +35,7 @@ namespace App1
             var selectedItem = (Microsoft.UI.Xaml.Controls.NavigationViewItem)args.SelectedItem;
             if (args.IsSettingsSelected)
             {
-                ContentFrame.Navigate(typeof(settings), null);
+                ContentFrame.Navigate(typeof(settings), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
             }
             else
             {
@@ -43,10 +43,10 @@ namespace App1
                 switch (selectedItemTag)
                 {
                     case "calc":
-                        ContentFrame.Navigate(typeof(buttons), null);
+                        ContentFrame.Navigate(typeof(buttons), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
                         break;
                     case "temp":
-                        ContentFrame.Navigate(typeof(temperature), null);
+                        ContentFrame.Navigate(typeof(temperature), null, new SlideNavigationTransitionInfo() { Effect = SlideNavigationTransitionEffect.FromRight });
                         break;
                     default:
                         break;

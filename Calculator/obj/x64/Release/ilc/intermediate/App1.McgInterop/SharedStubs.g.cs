@@ -952,12 +952,45 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__42(
+			int __result = global::__Interop.Intrinsics.StdCall__36(
 								__pTarget, 
 								__pThis, 
 								arg0, 
 								arg1, 
 								arg2
+							);
+			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+			global::System.GC.KeepAlive(__this);
+			if (__result < 0)
+				global::System.Runtime.InteropServices.McgMarshal.ThrowOnExternalCallFailed(
+									__result, 
+									__typeHnd
+								);
+			return __result;
+		}
+
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static int Call(
+					global::System.__ComObject __this, 
+					global::System.RuntimeTypeHandle __typeHnd, 
+					int __targetIndex, 
+					global::System.Type__Impl.UnsafeType arg0, 
+					void* arg1, 
+					void* arg2, 
+					void* arg3)
+		{
+			void* __pThis = ((void*)global::System.Runtime.InteropServices.McgMarshal.GetInterface(
+								__this, 
+								__typeHnd
+							));
+			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
+			int __result = global::__Interop.Intrinsics.StdCall__37(
+								__pTarget, 
+								__pThis, 
+								arg0, 
+								arg1, 
+								arg2, 
+								arg3
 							);
 			global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
 			global::System.GC.KeepAlive(__this);
@@ -983,7 +1016,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__43(
+			int __result = global::__Interop.Intrinsics.StdCall__44(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1012,7 +1045,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__44(
+			int __result = global::__Interop.Intrinsics.StdCall__45(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -1042,7 +1075,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__45(
+			int __result = global::__Interop.Intrinsics.StdCall__46(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1074,7 +1107,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__46(
+			int __result = global::__Interop.Intrinsics.StdCall__47(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1105,7 +1138,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__47(
+			int __result = global::__Interop.Intrinsics.StdCall__48(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1135,7 +1168,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__48(
+			int __result = global::__Interop.Intrinsics.StdCall__49(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1166,7 +1199,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__49(
+			int __result = global::__Interop.Intrinsics.StdCall__50(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1198,7 +1231,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__50(
+			int __result = global::__Interop.Intrinsics.StdCall__51(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1230,7 +1263,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__52(
+			int __result = global::__Interop.Intrinsics.StdCall__53(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1260,7 +1293,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__56(
+			int __result = global::__Interop.Intrinsics.StdCall__57(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -1288,7 +1321,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__57(
+			int __result = global::__Interop.Intrinsics.StdCall__58(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1319,7 +1352,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__61(
+			int __result = global::__Interop.Intrinsics.StdCall__62(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1350,7 +1383,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__64(
+			int __result = global::__Interop.Intrinsics.StdCall__65(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1383,7 +1416,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__67(
+			int __result = global::__Interop.Intrinsics.StdCall__68(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1419,7 +1452,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__68(
+			int __result = global::__Interop.Intrinsics.StdCall__69(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1452,7 +1485,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__69(
+			int __result = global::__Interop.Intrinsics.StdCall__70(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1482,7 +1515,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__70(
+			int __result = global::__Interop.Intrinsics.StdCall__71(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1512,7 +1545,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__71(
+			int __result = global::__Interop.Intrinsics.StdCall__72(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1543,7 +1576,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__72(
+			int __result = global::__Interop.Intrinsics.StdCall__73(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1625,7 +1658,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__73(
+			int __result = global::__Interop.Intrinsics.StdCall__74(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1662,7 +1695,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__74(
+			int __result = global::__Interop.Intrinsics.StdCall__75(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1694,7 +1727,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__75(
+			int __result = global::__Interop.Intrinsics.StdCall__76(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -1723,7 +1756,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__76(
+			int __result = global::__Interop.Intrinsics.StdCall__77(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1755,7 +1788,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__77(
+			int __result = global::__Interop.Intrinsics.StdCall__78(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1787,7 +1820,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__78(
+			int __result = global::__Interop.Intrinsics.StdCall__79(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1822,7 +1855,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__79(
+			int __result = global::__Interop.Intrinsics.StdCall__80(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1859,7 +1892,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__80(
+			int __result = global::__Interop.Intrinsics.StdCall__81(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1894,7 +1927,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__81(
+			int __result = global::__Interop.Intrinsics.StdCall__82(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1927,7 +1960,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__82(
+			int __result = global::__Interop.Intrinsics.StdCall__83(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -1956,7 +1989,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			global::__Interop.Intrinsics.StdCall__83(
+			global::__Interop.Intrinsics.StdCall__84(
 								__pTarget, 
 								__pThis, 
 								arg0
@@ -1982,7 +2015,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__84(
+			int __result = global::__Interop.Intrinsics.StdCall__85(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -2017,7 +2050,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__85(
+			int __result = global::__Interop.Intrinsics.StdCall__86(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -2071,7 +2104,7 @@ namespace __Interop
 								__typeHnd
 							));
 			global::System.IntPtr __pTarget = (*(((global::System.IntPtr**)__pThis)))[__targetIndex];
-			int __result = global::__Interop.Intrinsics.StdCall__86(
+			int __result = global::__Interop.Intrinsics.StdCall__87(
 								__pTarget, 
 								__pThis, 
 								arg0, 
@@ -3664,9 +3697,45 @@ namespace __Interop
 			return value__retval;
 		}
 
+		// Signature, Windows.UI.Xaml.Navigation.INavigationFailedEventArgs.get_SourcePageType, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, 
+		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
+		internal static global::System.Type Stub_51<TThis>(
+					global::System.__ComObject __this, 
+					int __targetIndex)
+		{
+			// Setup
+			global::System.Type__Impl.UnsafeType unsafe_value__retval = default(global::System.Type__Impl.UnsafeType);
+			global::System.Type value__retval = default(global::System.Type);
+			int unsafe___hr;
+			try
+			{
+				// Marshalling
+				unsafe_value__retval = default(global::System.Type__Impl.UnsafeType);
+				// Call to native method
+				unsafe___hr = global::__Interop.ComCallHelpers.Call(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									&(unsafe_value__retval)
+								);
+				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
+				value__retval = global::System.Runtime.InteropServices.McgMarshal.TypeNameToType(
+									unsafe_value__retval.Name, 
+									((int)unsafe_value__retval.Kind)
+								);
+				// Return
+				return value__retval;
+			}
+			finally
+			{
+				// Cleanup
+				global::System.Runtime.InteropServices.McgMarshal.FreeHString(unsafe_value__retval.Name.handle);
+			}
+		}
+
 		// Signature, Microsoft.UI.Xaml.Controls.IExpander.get_ExpandDirection, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00042D60] Microsoft_UI_Xaml_Controls_ExpandDirection__Microsoft_UI_Xaml_Controls__ExpandDirection, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::Microsoft.UI.Xaml.Controls.ExpandDirection Stub_51<TThis>(
+		internal static global::Microsoft.UI.Xaml.Controls.ExpandDirection Stub_52<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3690,7 +3759,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IHyperlinkButton.get_NavigateUri, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00041760] System_Uri__Windows_Foundation__Uri, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Uri Stub_52<TThis>(
+		internal static global::System.Uri Stub_53<TThis>(
 					global::System.__ComObject __this, 
 					int __targetIndex)
 		{
@@ -3726,7 +3795,7 @@ namespace __Interop
 
 		// Signature, Windows.UI.Xaml.Controls.IHyperlinkButton.put_NavigateUri, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [in] [EETypeRva:0x00041760] System_Uri__Windows_Foundation__Uri, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static void Stub_53<TThis>(
+		internal static void Stub_54<TThis>(
 					global::System.__ComObject __this, 
 					global::System.Uri value, 
 					int __targetIndex)
@@ -3755,42 +3824,6 @@ namespace __Interop
 			{
 				// Cleanup
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_value)));
-			}
-		}
-
-		// Signature, Windows.UI.Xaml.Markup.IXamlType.get_UnderlyingType, [fwd] [return] [EETypeRva:0x00042030] void__int, [fwd] [out] [retval] [nativebyref] [EETypeRva:0x00040F38] System_Type__Windows_UI_Xaml_Interop__TypeName, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		internal static global::System.Type Stub_54<TThis>(
-					global::System.__ComObject __this, 
-					int __targetIndex)
-		{
-			// Setup
-			global::System.Type__Impl.UnsafeType unsafe_value__retval = default(global::System.Type__Impl.UnsafeType);
-			global::System.Type value__retval = default(global::System.Type);
-			int unsafe___hr;
-			try
-			{
-				// Marshalling
-				unsafe_value__retval = default(global::System.Type__Impl.UnsafeType);
-				// Call to native method
-				unsafe___hr = global::__Interop.ComCallHelpers.Call(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									&(unsafe_value__retval)
-								);
-				global::System.Diagnostics.DebugAnnotations.PreviousCallContainsDebuggerStepInCode();
-				value__retval = global::System.Runtime.InteropServices.McgMarshal.TypeNameToType(
-									unsafe_value__retval.Name, 
-									((int)unsafe_value__retval.Kind)
-								);
-				// Return
-				return value__retval;
-			}
-			finally
-			{
-				// Cleanup
-				global::System.Runtime.InteropServices.McgMarshal.FreeHString(unsafe_value__retval.Name.handle);
 			}
 		}
 
@@ -4895,7 +4928,7 @@ namespace __Interop
 				// Marshalling
 				fullName = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafe_fullName);
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__36<TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__38<TResult>(
 									__this, 
 									__methodPtr, 
 									fullName
@@ -4937,7 +4970,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__37<TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__39<TResult>(
 									__this, 
 									__methodPtr
 								);
@@ -4976,7 +5009,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				value__retval = global::__Interop.Intrinsics.HasThisCall__38(
+				value__retval = global::__Interop.Intrinsics.HasThisCall__40(
 									__this, 
 									__methodPtr
 								);
@@ -5011,7 +5044,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				value__retval = global::__Interop.Intrinsics.HasThisCall__39(
+				value__retval = global::__Interop.Intrinsics.HasThisCall__41(
 									__this, 
 									__methodPtr
 								);
@@ -5061,7 +5094,7 @@ namespace __Interop
 				instance = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_instance));
 				value = global::System.Runtime.InteropServices.McgMarshal.IInspectableToObject(((global::System.IntPtr)unsafe_value));
 				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__40(
+				global::__Interop.Intrinsics.HasThisCall__42(
 									__this, 
 									__methodPtr, 
 									instance, 
@@ -5088,7 +5121,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__41(
+				global::__Interop.Intrinsics.HasThisCall__43(
 									__this, 
 									__methodPtr
 								);
@@ -5122,7 +5155,7 @@ namespace __Interop
 				// Marshalling
 				desiredName = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafe_desiredName);
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__51<TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__52<TResult>(
 									__this, 
 									__methodPtr, 
 									desiredName, 
@@ -5171,7 +5204,7 @@ namespace __Interop
 									typeof(TArg0).TypeHandle
 								);
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__53<TArg0, TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__54<TArg0, TResult>(
 									__this, 
 									__methodPtr, 
 									TArg0__arg
@@ -5222,7 +5255,7 @@ namespace __Interop
 								);
 				desiredNewName = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafe_desiredNewName);
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__54<TArg0, TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__55<TArg0, TResult>(
 									__this, 
 									__methodPtr, 
 									TArg0__arg, 
@@ -5275,7 +5308,7 @@ namespace __Interop
 								);
 				desiredNewName = global::System.Runtime.InteropServices.McgMarshal.HStringToString(unsafe_desiredNewName);
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__55<TArg0, TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__56<TArg0, TResult>(
 									__this, 
 									__methodPtr, 
 									TArg0__arg, 
@@ -5317,7 +5350,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				value__retval = global::__Interop.Intrinsics.HasThisCall__58(
+				value__retval = global::__Interop.Intrinsics.HasThisCall__59(
 									__this, 
 									__methodPtr
 								);
@@ -5348,7 +5381,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__59(
+				global::__Interop.Intrinsics.HasThisCall__60(
 									__this, 
 									__methodPtr, 
 									unsafe_value
@@ -5380,7 +5413,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				TResult__retval = global::__Interop.Intrinsics.HasThisCall__60<TResult>(
+				TResult__retval = global::__Interop.Intrinsics.HasThisCall__61<TResult>(
 									__this, 
 									__methodPtr, 
 									unsafe_position
@@ -5420,7 +5453,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				value__retval = global::__Interop.Intrinsics.HasThisCall__62(
+				value__retval = global::__Interop.Intrinsics.HasThisCall__63(
 									__this, 
 									__methodPtr
 								);
@@ -5451,7 +5484,7 @@ namespace __Interop
 			{
 				// Marshalling
 				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__63(
+				global::__Interop.Intrinsics.HasThisCall__64(
 									__this, 
 									__methodPtr, 
 									unsafe_value
@@ -5485,7 +5518,7 @@ namespace __Interop
 									typeof(TArg0).TypeHandle
 								);
 				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__65<TArg0>(
+				global::__Interop.Intrinsics.HasThisCall__66<TArg0>(
 									__this, 
 									__methodPtr, 
 									TArg0__arg, 
@@ -5520,7 +5553,7 @@ namespace __Interop
 									typeof(TArg0).TypeHandle
 								);
 				// Call to managed method
-				global::__Interop.Intrinsics.HasThisCall__66<TArg0>(
+				global::__Interop.Intrinsics.HasThisCall__67<TArg0>(
 									__this, 
 									__methodPtr, 
 									TArg0__arg, 

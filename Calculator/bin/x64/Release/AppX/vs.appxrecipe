@@ -30,21 +30,21 @@
     <AppXManifest Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-12-11T17:49:53.296</Modified>
+      <Modified>2021-12-12T12:59:23.880</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.dll">
       <PackagePath>App1.dll</PackagePath>
-      <Modified>2021-12-11T17:49:53.075</Modified>
+      <Modified>2021-12-12T12:59:23.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.exe">
       <PackagePath>App1.exe</PackagePath>
-      <Modified>2021-12-11T17:49:53.284</Modified>
+      <Modified>2021-12-12T12:59:23.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\App1.pdb">
       <PackagePath>App1.pdb</PackagePath>
-      <Modified>2021-12-11T17:49:53.283</Modified>
+      <Modified>2021-12-12T12:59:23.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
@@ -331,7 +331,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x64\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-12-11T17:49:30.922</Modified>
+      <Modified>2021-12-12T12:59:00.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anjis\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>

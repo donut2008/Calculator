@@ -30,7 +30,7 @@
                 <Grid>
                     <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="16,10,10,10">
                         <TextBlock x:FieldModifier="public" x:Name="credits" FontFamily="Segoe UI" FontSize="16">Calculator written in C# by donut2008</TextBlock>
-                        <TextBlock x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI" FontSize="12">Version 5 canary build 57, compiled 08-Dec-21 07:06 PM IST</TextBlock>
+                        <TextBlock x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI" FontSize="12">Version 5 canary build 68, compiled 12-Dec-21 06:28 PM IST</TextBlock>
                         <TextBlock FontFamily="Segoe UI" FontSize="16" FontWeight="Bold">Icon credit goes to Microsoft, I am NOT the creator of the app icon.</TextBlock>
                     </StackPanel>
                     <HyperlinkButton x:FieldModifier="public" x:Name="github" FontFamily="Segoe UI" Margin="10,10,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator" Content="View this project on GitHub"/>

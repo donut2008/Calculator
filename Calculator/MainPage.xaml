@@ -11,7 +11,13 @@
     <Grid>
         <muxc:NavigationView x:Name="navigator" Grid.RowSpan="7" Grid.Column="0" PaneDisplayMode="LeftCompact" SelectionChanged="navigator_SelectionChanged" IsBackButtonVisible="Collapsed" IsBackEnabled="False">
             <Grid>
-                <Frame x:FieldModifier="public" x:Name="ContentFrame"/>
+                <Frame x:FieldModifier="public" x:Name="ContentFrame">
+                    <Frame.ContentTransitions>
+                        <TransitionCollection>
+                            <NavigationThemeTransition  />
+                        </TransitionCollection>
+                    </Frame.ContentTransitions>
+                </Frame>
             </Grid>
             <muxc:NavigationView.MenuItems>
                 <muxc:NavigationViewItem FontFamily="Segoe UI" Content="Standard" Tag="calc" IsSelected="True">
@@ -22,11 +28,6 @@
                 <muxc:NavigationViewItem FontFamily="Segoe UI" Content="Temperature" Tag="temp">
                     <muxc:NavigationViewItem.Icon>
                         <SymbolIcon Symbol="Street"/>
-                    </muxc:NavigationViewItem.Icon>
-                </muxc:NavigationViewItem>
-                <muxc:NavigationViewItem FontFamily="Segoe UI" Content="History" Tag="hist">
-                    <muxc:NavigationViewItem.Icon>
-                        <SymbolIcon Symbol="Clock"/>
                     </muxc:NavigationViewItem.Icon>
                 </muxc:NavigationViewItem>
             </muxc:NavigationView.MenuItems>
