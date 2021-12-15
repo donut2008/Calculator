@@ -1,2 +1,0 @@
-MainPackage=C:\Users\anjis\Documents\GitHub\Calculator\Calculator\bin\x86\Release\App1_4.1.15.0_x86.msix
-SymbolPackage=C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x86\Release\Symbols\App1_4.1.15.0_x86.appxsym
