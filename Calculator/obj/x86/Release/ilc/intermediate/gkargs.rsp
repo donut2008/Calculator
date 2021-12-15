@@ -1,8 +1,0 @@
-﻿"C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x86\Release\ilc\in\App1.exe"
-/Lib:"C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x86\Release\ilc\in"
-/Lib:"C:\Users\anjis\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.11-rel-30601-02\tools\x86\ilc\lib\Private"
-/WinMD:"C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x86\Release\ilc\in\WinMetadata\Microsoft.UI.Xaml.winmd"
-/WinMD:"C:\Users\anjis\Documents\GitHub\Calculator\Calculator\obj\x86\Release\ilc\in\WinMetadata\Windows.winmd"
-/VSTelemetrySessionSettings:"{\"IsOptedIn\":true,\"HostName\":\"Dev14\",\"AppInsightsInstrumentationKey\":\"f144292e-e3b2-4011-ac90-20e5c03fbce5\",\"AsimovInstrumentationKey\":\"AIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70\",\"AppId\":1001,\"UserId\":\"0c53ab7f-64fd-4893-a14c-27ac37bac565\",\"Id\":\"fe172b79-310b-43a9-afdc-5b5ab10aabc8\",\"ProcessStartTime\":637745684450598900}"
-/RdXmlPath:"C:\Users\anjis\.nuget\packages\microsoft.net.native.compiler\2.2.11-rel-30601-02\tools\LibraryXML"
-/RunOnlyPreDR
