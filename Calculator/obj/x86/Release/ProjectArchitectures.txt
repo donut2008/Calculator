@@ -1,1 +1,0 @@
-C:\Users\anjis\Documents\GitHub\Calculator\Calculator\App1.csproj;x86
