@@ -285,7 +285,7 @@ namespace App1
                 status = false;
                 FirstTime = false;
             }
-            result.Text = "0";
+            result.Text += "+";
         }
 
         public void btn4_Click(object sender, RoutedEventArgs e)
@@ -336,7 +336,7 @@ namespace App1
                 status = false;
                 FirstTime = false;
             }
-            result.Text = "0";
+            result.Text += "-";
         }
 
         public void btn7_Click(object sender, RoutedEventArgs e)
@@ -387,7 +387,7 @@ namespace App1
                 status = false;
                 FirstTime = false;
             }
-            result.Text = "0";
+            result.Text += "×";
         }
 
         public void btnSqrt_Click(object sender, RoutedEventArgs e)
@@ -425,7 +425,7 @@ namespace App1
                 status = false;
                 FirstTime = false;
             }
-            result.Text = "0";
+            result.Text += "÷";
         }
 
         public void btnSq_Click(object sender, RoutedEventArgs e)
@@ -567,6 +567,14 @@ namespace App1
             status = false;
             FirstTime = true;
             Operation = '\0';
+        }
+        private void HistoryViewState(object sender, RoutedEventArgs e)
+        {
+            HistorySplitView.IsPaneOpen = !HistorySplitView.IsPaneOpen;
+        }
+        private void HistoryCleared(object sender, RoutedEventArgs e)
+        {
+            HistoryListView.Items.Clear();
         }
     }
 }
