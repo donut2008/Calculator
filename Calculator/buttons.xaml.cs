@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.UI.Xaml.Controls;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,6 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using muxc = Microsoft.UI.Xaml.Controls;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -51,28 +53,33 @@ namespace App1
 
                 case '/':
                     {
+                        HistoryListView.Items.Add(PreviousValue + " / " + result.Text + "=" + (PreviousValue / double.Parse(result.Text)));
                         PreviousValue /= double.Parse(result.Text);
                         break;
                     }
 
                 case '*':
                     {
+                        HistoryListView.Items.Add(PreviousValue + " * " + result.Text + "=" + (PreviousValue * double.Parse(result.Text)));
                         PreviousValue *= double.Parse(result.Text);
                         break;
                     }
                 case '+':
                     {
+                        HistoryListView.Items.Add(PreviousValue + " + " + result.Text + "=" + (PreviousValue + double.Parse(result.Text)));
                         PreviousValue += double.Parse(result.Text);
                         break;
                     }
                 case '-':
                     {
+                        HistoryListView.Items.Add(PreviousValue + " - " + result.Text + "=" + (PreviousValue - double.Parse(result.Text)));
                         PreviousValue -= double.Parse(result.Text);
                         break;
                     }
                 case '2':
                     {
                         double square = Math.Pow(double.Parse(result.Text), 2);
+                        HistoryListView.Items.Add("square(" + result.Text + ") = " + square);
                         PreviousValue = square;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -81,6 +88,7 @@ namespace App1
                 case '3':
                     {
                         double cube = Math.Pow(double.Parse(result.Text), 3);
+                        HistoryListView.Items.Add("cube(" + result.Text + ") = " + cube);
                         PreviousValue = cube;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -89,6 +97,7 @@ namespace App1
                 case 'q':
                     {
                         double sqrt = Math.Sqrt(double.Parse(result.Text));
+                        HistoryListView.Items.Add("sqrt(" + result.Text + ") = " + sqrt);
                         PreviousValue = sqrt;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -97,6 +106,7 @@ namespace App1
                 case 'b':
                     {
                         double cbrt = Math.Pow(double.Parse(result.Text), 1.0 / 3.0);
+                        HistoryListView.Items.Add("cbrt(" + result.Text + ") = " + cbrt);
                         PreviousValue = cbrt;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -105,6 +115,7 @@ namespace App1
                 case 'l':
                     {
                         double log10 = Math.Log10(double.Parse(result.Text));
+                        HistoryListView.Items.Add("Log(" + result.Text + ") = " + log10);
                         PreviousValue = log10;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -113,6 +124,7 @@ namespace App1
                 case 'n':
                     {
                         double LN = Math.Log(double.Parse(result.Text));
+                        HistoryListView.Items.Add("LN(" + result.Text + ") = " + LN);
                         PreviousValue = LN;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -121,6 +133,7 @@ namespace App1
                 case 'S':
                     {
                         double Sin = Math.Sin(double.Parse(result.Text));
+                        HistoryListView.Items.Add("Sin(" + result.Text + ") = " + Sin);
                         PreviousValue = Sin;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -129,6 +142,7 @@ namespace App1
                 case 'C':
                     {
                         double Cos = Math.Cos(double.Parse(result.Text));
+                        HistoryListView.Items.Add("Cos(" + result.Text + ") = " + Cos);
                         PreviousValue = Cos;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -137,6 +151,7 @@ namespace App1
                 case 'T':
                     {
                         double Tan = Math.Tan(double.Parse(result.Text));
+                        HistoryListView.Items.Add("Tan(" + result.Text + ") = " + Tan);
                         PreviousValue = Tan;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -145,6 +160,7 @@ namespace App1
                 case 's':
                     {
                         double SinInv = Math.Asin(double.Parse(result.Text));
+                        HistoryListView.Items.Add("sin-1(" + result.Text + ") = " + SinInv);
                         PreviousValue = SinInv;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -153,6 +169,7 @@ namespace App1
                 case 'c':
                     {
                         double CosInv = Math.Acos(double.Parse(result.Text));
+                        HistoryListView.Items.Add("cos-1(" + result.Text + ") = " + CosInv);
                         PreviousValue = CosInv;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -161,6 +178,7 @@ namespace App1
                 case 't':
                     {
                         double TanInv = Math.Acos(double.Parse(result.Text));
+                        HistoryListView.Items.Add("tan-1(" + result.Text + ") = " + TanInv);
                         PreviousValue = TanInv;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -171,6 +189,7 @@ namespace App1
                         int var1, var2;
                         var1 = factorial(Convert.ToInt32(PreviousValue));
                         var2 = factorial(Convert.ToInt32(PreviousValue) - Convert.ToInt32(result.Text));
+                        HistoryListView.Items.Add(PreviousValue + "P" + result.Text + " = " + Convert.ToString(var1 / var2));
                         PreviousValue = double.Parse(Convert.ToString(var1 / var2));
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -182,6 +201,7 @@ namespace App1
                         var1 = factorial(Convert.ToInt32(PreviousValue));
                         var2 = factorial(Convert.ToInt32(PreviousValue) - Convert.ToInt32(result.Text));
                         var3 = factorial(Convert.ToInt32(result.Text));
+                        HistoryListView.Items.Add(PreviousValue + "C" + result.Text + " = " + Convert.ToString(var1 / (var3 * var2)));
                         PreviousValue = double.Parse(Convert.ToString(var1 / (var3 * var2)));
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -190,6 +210,7 @@ namespace App1
                 case 'o':
                     {
                         double inverse = 1.0 / double.Parse(result.Text);
+                        HistoryListView.Items.Add("1/(" + result.Text + ") = " + inverse);
                         PreviousValue = inverse;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -202,6 +223,7 @@ namespace App1
                         {
                             Fact = Fact * i;
                         }
+                        HistoryListView.Items.Add(result.Text + "! = " + Fact);
                         PreviousValue = Fact;
                         result.Text = PreviousValue.ToString();
                         status = false;
@@ -571,6 +593,20 @@ namespace App1
         private void HistoryViewState(object sender, RoutedEventArgs e)
         {
             HistorySplitView.IsPaneOpen = !HistorySplitView.IsPaneOpen;
+            if (HistorySplitView.IsPaneOpen == true)
+            {
+                OpenClosePane.Symbol = Symbol.Back;
+                ToolTip close = new ToolTip();
+                close.Content = "Close history";
+                ToolTipService.SetToolTip(SplitViewStatus, close);
+            }
+            else
+            {
+                OpenClosePane.Symbol = Symbol.Forward;
+                ToolTip open = new ToolTip();
+                open.Content = "Show history";
+                ToolTipService.SetToolTip(SplitViewStatus, open);
+            }
         }
         private void HistoryCleared(object sender, RoutedEventArgs e)
         {
