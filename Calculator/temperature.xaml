@@ -9,6 +9,9 @@
     xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
     <Grid>
+        <Grid.BackgroundTransition>
+            <BrushTransition />
+        </Grid.BackgroundTransition>
         <StackPanel>
             <TextBlock FontFamily="Segoe UI Variable Display" Style="{ThemeResource TitleLargeTextBlockStyle}" TextWrapping="WrapWholeWords" Margin="10,10,10,0">Temperature<LineBreak/></TextBlock>
             <StackPanel Spacing="10" Margin="10,0,10,10">
