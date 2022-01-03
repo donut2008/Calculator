@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="CalculatorCanary.settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CalculatorCanary"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    muxc:BackdropMaterial.ApplyToRootOrPageBackground="True">
+    <Grid>
+        <Grid.BackgroundTransition>
+            <BrushTransition />
+        </Grid.BackgroundTransition>
+        <StackPanel>
+            <TextBlock x:FieldModifier="public" x:Name="header" FontFamily="Segoe UI Variable Display" Style="{ThemeResource TitleLargeTextBlockStyle}" TextWrapping="WrapWholeWords" FontSize="32" Margin="10,10,10,0">Settings<LineBreak/></TextBlock>
+            <muxc:Expander CornerRadius="8" Margin="8" HorizontalAlignment="Stretch" HorizontalContentAlignment="Left">
+                <muxc:Expander.Header>
+                    <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="0,10,10,10">
+                        <TextBlock x:FieldModifier="public" FontFamily="Segoe UI" FontSize="16">App theme</TextBlock>
+                        <TextBlock x:FieldModifier="public" FontFamily="Segoe UI" Foreground="{ThemeResource SystemBaseMediumColor}" FontSize="12">Select theme to display</TextBlock>
+                    </StackPanel>
+                </muxc:Expander.Header>
+                <muxc:Expander.Content>
+                    <StackPanel>
+                        <RadioButton FontFamily="Segoe UI" Tag="Light" Checked="LightChecked" Content="Light"/>
+                        <RadioButton FontFamily="Segoe UI" Tag="Dark" Checked="DarkChecked" Content="Dark"/>
+                        <RadioButton FontFamily="Segoe UI" Tag="SysDef" Checked="DefaultChecked" Content="System default"/>
+                    </StackPanel>
+                </muxc:Expander.Content>
+            </muxc:Expander>
+            <Border CornerRadius="8" Margin="8" Background="{ThemeResource ExpanderHeaderBackground}" BorderThickness="{ThemeResource ExpanderHeaderBorderThickness}" BorderBrush="{ThemeResource ExpanderHeaderBorderBrush}" HorizontalAlignment="Stretch">
+                <Grid>
+                    <StackPanel Spacing="10" VerticalAlignment="Top" HorizontalAlignment="Stretch" Margin="16,10,10,10">
+                        <TextBlock x:FieldModifier="public" x:Name="credits" FontFamily="Segoe UI" FontSize="16">Calculator written in C# by donut2008</TextBlock>
+                        <TextBlock x:FieldModifier="public" x:Name="version" FontFamily="Segoe UI" FontSize="12">Version 6 canary build 102</TextBlock>
+                        <TextBlock FontFamily="Segoe UI" FontSize="16" FontWeight="Bold">Icon credit goes to Microsoft, I am NOT the creator of the app icon.</TextBlock>
+                    </StackPanel>
+                    <HyperlinkButton x:FieldModifier="public" x:Name="github" FontFamily="Segoe UI" Margin="10,10,10,10" VerticalAlignment="Center" HorizontalAlignment="Right" NavigateUri="https://github.com/donut2008/Calculator" Content="View this project on GitHub"/>
+                </Grid>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Page>
